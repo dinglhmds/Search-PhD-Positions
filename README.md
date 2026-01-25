@@ -1,57 +1,57 @@
 # Search-PhD-Positions
 
-这是一个自动化博士申请系统的Python应用，专为帮助博士申请者寻找和联系潜在导师而设计。系统通过AI技术自动搜索、解析大学导师信息，并生成个性化的联系邮件。
+This is a Python application for an automated PhD application system, specifically designed to help PhD applicants find and contact potential supervisors. The system leverages AI technologies to automatically search for and parse faculty information from university websites, and generates personalized outreach emails.
 
-## 功能特性
+## Features
 
-- **自动化导师搜索**: 使用AI驱动的搜索引擎自动查找大学导师页面
-- **信息提取**: 从网页提取导师的姓名、职称、研究领域、邮箱和主页链接
-- **大学标准化**: 使用YAML配置或AI模型标准化大学名称和域名
-- **个性化邮件生成**: 基于申请人背景生成个性化的联系邮件
-- **Web界面**: 直观的Web界面用于浏览和管理目标导师
-- **用户档案管理**: 保存和管理申请人个人档案信息
+- **Automated Supervisor Search**: Uses an AI-powered search engine to automatically locate university faculty webpages  
+- **Information Extraction**: Extracts supervisor names, titles, research areas, email addresses, and homepage links from web pages  
+- **University Standardization**: Standardizes university names and domains using YAML configuration or AI models  
+- **Personalized Email Generation**: Generates tailored outreach emails based on the applicant's background  
+- **Web Interface**: Provides an intuitive web interface for browsing and managing target supervisors  
+- **User Profile Management**: Saves and manages applicant profile information  
 
-## 技术架构
+## Technical Architecture
 
-系统采用模块化代理架构：
-- **SearchAgent**: 使用SerpApi进行Google搜索
-- **PlannerAgent**: 大学名称标准化
-- **CrawlerAgent**: 异步网页爬取
-- **ParserAgent**: AI驱动的内容解析
-- **EmailAgent**: 智能邮件生成
-- **FastAPI**: Web框架和API接口
+The system adopts a modular agent-based architecture:  
+- **SearchAgent**: Performs Google searches using SerpApi  
+- **PlannerAgent**: Standardizes university names  
+- **CrawlerAgent**: Asynchronously crawls web pages  
+- **ParserAgent**: Parses content using AI  
+- **EmailAgent**: Generates intelligent emails  
+- **FastAPI**: Serves as the web framework and API interface  
 
-## 环境配置
+## Environment Setup
 
-### 1. 克隆项目
+### 1. Clone the repository
 
 ```bash
 git clone <repository-url>
 cd PhD-App
 ```
 
-### 2. 创建虚拟环境
+### 2. Create a virtual environment
 
 ```bash
-# 创建虚拟环境
+# Create virtual environment
 python -m venv venv
 
-# 激活虚拟环境
+# Activate virtual environment
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
 ```
 
-### 3. 安装依赖
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. 配置环境变量
+### 4. Configure environment variables
 
-创建 `.env` 文件并添加以下配置：
+Create a `.env` file and add the following configurations:
 
 ```env
 SEARCH_API_KEY=your_serpapi_key_here
@@ -59,51 +59,51 @@ LLM_API_KEY=your_siliconflow_api_key_here
 RUNS_DIR=./runs
 ```
 
-### 5. API服务配置
+### 5. API service setup
 
-- **SerpApi**: 获取Google搜索API密钥，用于搜索导师页面
-- **SiliconFlow**: 获取AI模型API密钥，用于解析和生成内容
+- **SerpApi**: Obtain a Google Search API key for searching faculty pages  
+- **SiliconFlow**: Obtain an AI model API key for parsing and content generation  
 
-### 6. 启动应用
+### 6. Launch the application
 
 ```bash
 python main.py
 ```
 
-应用将运行在 `http://127.0.0.1:8000`
+The application will run at `http://127.0.0.1:8000`
 
-## 使用方法
+## Usage Instructions
 
-1. 在主页输入大学名称（如"Stanford", "MIT", "UCB"等）
-2. 系统会自动搜索、爬取、解析并展示该大学的导师信息
-3. 浏览导师列表，点击查看详细信息或收藏
-4. 在"个人档案"页面填写申请人信息
-5. 点击导师信息旁的"写信"按钮生成个性化邮件
+1. Enter a university name on the homepage (e.g., "Stanford", "MIT", "UCB", etc.)  
+2. The system will automatically search, crawl, parse, and display faculty information from that university  
+3. Browse the faculty list and click to view details or bookmark profiles  
+4. Fill in your personal information on the "Profile" page  
+5. Click the "Write Email" button next to a faculty member's information to generate a personalized email  
 
-## 文件结构
+## Project Structure
 
 ```
 PhD-App/
-├── main.py              # 主应用文件
-├── requirements.txt     # 依赖包列表
-├── .env                 # 环境变量配置
+├── main.py              # Main application file
+├── requirements.txt     # Dependency list
+├── .env                 # Environment variable configuration
 ├── configs/
-│   └── universities.yaml # 大学名称映射配置
-├── runs/               # 运行结果存储目录
+│   └── universities.yaml # University name mapping configuration
+├── runs/               # Directory for storing run results
 ├── src/
-│   └── agents/         # AI代理模块
-│       ├── search_agent.py    # 搜索代理
-│       ├── planner_agent.py   # 规划代理
-│       ├── crawler_agent.py   # 爬取代理
-│       ├── parser_agent.py    # 解析代理
-│       └── email_agent.py     # 邮件代理
-├── static/             # 静态资源
-└── venv/               # 虚拟环境
+│   └── agents/         # AI agent modules
+│       ├── search_agent.py    # Search agent
+│       ├── planner_agent.py   # Planner agent
+│       ├── crawler_agent.py   # Crawler agent
+│       ├── parser_agent.py    # Parser agent
+│       └── email_agent.py     # Email agent
+├── static/             # Static assets
+└── venv/               # Virtual environment
 ```
 
-## 注意事项
+## Notes
 
-- 需要有效的SerpApi密钥用于Google搜索
-- 需要有效的SiliconFlow API密钥用于AI服务
-- 遵守目标网站的robots.txt和使用条款
-- 搜索和爬取操作可能需要几分钟时间，具体取决于网站响应速度
+- A valid SerpApi key is required for Google searches  
+- A valid SiliconFlow API key is required for AI services  
+- Comply with the target websites' robots.txt and terms of use  
+- Search and crawling operations may take several minutes, depending on website response times
