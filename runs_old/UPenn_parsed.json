@@ -1,0 +1,219 @@
+{
+  "faculty": [
+    {
+      "name": "Daniel E. Koditschek",
+      "title": "Director of PERCH; Alfred Fitler Moore Professor of Electrical and Systems Engineering; Professor of Computer and Information Science and Mechanical Engineering and Applied Mechanics",
+      "research_areas": [
+        "dynamical systems theory",
+        "machine design",
+        "construction of machines",
+        "empirical testing of machines",
+        "juggling machines",
+        "running machines",
+        "climbing machines",
+        "physical interaction with environment",
+        "useful work performance"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=49"
+    },
+    {
+      "name": "Alejandro Ribeiro",
+      "title": "Associate Professor of Electrical and Systems Engineering",
+      "research_areas": [
+        "networks",
+        "wireless networks",
+        "communications networks",
+        "theory of networks",
+        "modeling networks",
+        "development of wireless networks"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=77"
+    },
+    {
+      "name": "Saswati Sarkar",
+      "title": "Professor of Electrical and Systems Engineering",
+      "research_areas": [
+        "wireless communication",
+        "computing units with limited resources",
+        "bandwidth constraints",
+        "memory constraints",
+        "battery power constraints"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=82"
+    },
+    {
+      "name": "Jonathan M. Smith",
+      "title": "Olga and Alberico Pompa Professor of Computer and Information Science",
+      "research_areas": [
+        "computer networking",
+        "computer security"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=90"
+    },
+    {
+      "name": "Lyle H. Ungar",
+      "title": "Professor of Computer and Information Science",
+      "research_areas": [
+        "machine learning",
+        "text mining",
+        "genomics",
+        "bioinformatics",
+        "information extraction"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=97"
+    },
+    {
+      "name": "Santosh S. Venkatesh",
+      "title": "Professor of Electrical and Systems Engineering",
+      "research_areas": [
+        "probabilistic methods",
+        "information theory",
+        "communication theory",
+        "security"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=99"
+    },
+    {
+      "name": "Andreas Haeberlen",
+      "title": "Associate Professor of Computer and Information Science",
+      "research_areas": [
+        "distributed systems",
+        "networking",
+        "security",
+        "large-scale distributed systems",
+        "cloud computing",
+        "Internet's interdomain routing system"
+      ],
+      "email": "未提供",
+      "link": "http://www.cis.upenn.edu/~ahae"
+    },
+    {
+      "name": "Zachary Ives",
+      "title": "Professor of Computer and Information Science; Associate Dean of Master's and Professional Programs, School of Engineering and Applied Science",
+      "research_areas": [
+        "information management",
+        "Web search",
+        "databases",
+        "sensor data integration",
+        "big data",
+        "data sharing",
+        "heterogeneous data modeling"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=39"
+    },
+    {
+      "name": "Sampath K. Kannan",
+      "title": "Henry Salvatori Professor and Chair of Computer and Information Science",
+      "research_areas": [
+        "algorithms",
+        "massive data set algorithms",
+        "computational complexity",
+        "efficient computation"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=44"
+    },
+    {
+      "name": "Michael Kearns",
+      "title": "Professor and National Center Chair, Computer and Information Science",
+      "research_areas": [
+        "machine learning",
+        "algorithmic game theory",
+        "computational finance"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=46"
+    },
+    {
+      "name": "Victor Preciado",
+      "title": "Raj and Neera Singh Assistant Professor of Electrical and Systems Engineering",
+      "research_areas": [
+        "modeling of dynamical processes",
+        "optimization of complex networks",
+        "strategic interactions",
+        "social networks",
+        "multi-agent systems",
+        "electrical networks",
+        "biological networks"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=179"
+    },
+    {
+      "name": "Aaron Roth",
+      "title": "Class of 1940 Bicentennial Term Associate Professor of Computer and Information Science",
+      "research_areas": [
+        "algorithm design",
+        "data privacy",
+        "game theory",
+        "self-interested data",
+        "self-interested computation"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=177"
+    },
+    {
+      "name": "Rakesh Vohra",
+      "title": "George A. Weiss and Lydia Bravo Weiss University Professor; Professor Electrical and Systems Engineering",
+      "research_areas": [
+        "mechanism design",
+        "resource allocation",
+        "dispersed information",
+        "private information"
+      ],
+      "email": "未提供",
+      "link": "https://www.seas.upenn.edu/directory/profile.php?ID=192"
+    },
+    {
+      "name": "Francis X. Diebold",
+      "title": "Paul F. and Warren S. Miller Professor of Economics; Professor of Statistics and Finance; Co-director, Wharton Financial Institutions Center",
+      "research_areas": [
+        "time-series modeling",
+        "predictive modeling",
+        "financial markets",
+        "macroeconomy"
+      ],
+      "email": "未提供",
+      "link": "http://www.ssc.upenn.edu/~fdiebold/"
+    },
+    {
+      "name": "Kartik Hosanagar",
+      "title": "Professor of Technology and Digital Business at The Wharton School",
+      "research_areas": [
+        "digital economy",
+        "Internet media",
+        "Internet marketing",
+        "e-commerce"
+      ],
+      "email": "未提供",
+      "link": "http://opim.wharton.upenn.edu/~kartikh/"
+    },
+    {
+      "name": "Sanjeev Khanna",
+      "title": "Henry Salvatori Professor of Computer and Information Science",
+      "research_areas": [
+        "theoretical computer science",
+        "computational complexity",
+        "NP-hard problems",
+        "fast computation",
+        "near-optimal solutions"
+      ],
+      "email": "未提供",
+      "link": "http://www.seas.upenn.edu/directory/profile.php?ID=48"
+    },
+    {
+      "name": "George Mailath",
+      "title": "Walter H Annenberg Professor in Social Sciences; Professor of Economics",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "http://www.ssc.upenn.edu/~gmailath/"
+    }
+  ]
+}

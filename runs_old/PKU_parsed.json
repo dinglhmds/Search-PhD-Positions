@@ -1,0 +1,126 @@
+{
+  "faculty": [
+    {
+      "name": "Chen, Wei",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Database",
+        "data mining"
+      ],
+      "email": "pekingchenwei@pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1971.htm"
+    },
+    {
+      "name": "Chen, Xiang",
+      "title": "Tenure-Track Associated Professor",
+      "research_areas": [
+        "Mobile and Distributed Computing Systems",
+        "High Performance Intelligence Computing"
+      ],
+      "email": "xiang.chen@pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/2865.htm"
+    },
+    {
+      "name": "Chen, Xiangqun",
+      "title": "Professor",
+      "research_areas": [
+        "Operating systems",
+        "software engineering"
+      ],
+      "email": "cherry@sei.pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1964.htm"
+    },
+    {
+      "name": "Bian, Kaigui",
+      "title": "Associate Professor with Tenure",
+      "research_areas": [
+        "Wireless networking",
+        "mobile computing"
+      ],
+      "email": "bkg![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1209/1959.htm"
+    },
+    {
+      "name": "Cao, Yongzhi",
+      "title": "Professor",
+      "research_areas": [
+        "Formal methods",
+        "reasoning about uncertainty"
+      ],
+      "email": "caoyz![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1962.htm"
+    },
+    {
+      "name": "Chang, Baobao",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Computational linguistics",
+        "natural language processing"
+      ],
+      "email": "chbb![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1966.htm"
+    },
+    {
+      "name": "Chen, Bin",
+      "title": "Professor",
+      "research_areas": [
+        "Virtual reality",
+        "Virtual geographic environments"
+      ],
+      "email": "gischen![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/3168.htm"
+    },
+    {
+      "name": "Cheng, Kuan",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computational Models and Complexity",
+        "Pseudorandomness and Coding",
+        "Machine Learning",
+        "Networks"
+      ],
+      "email": "ckkcdh![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1970.htm"
+    },
+    {
+      "name": "Chen, Guozhang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "computational principles of the brain"
+      ],
+      "email": "guozhang.chen![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/2904.htm"
+    },
+    {
+      "name": "Cheng, Xu",
+      "title": "Professor",
+      "research_areas": [
+        "Microprocessor design",
+        "HW/SW Co-Design"
+      ],
+      "email": "chengxu![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)mprc.pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1969.htm"
+    },
+    {
+      "name": "Chen, Hongjie",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Software modeling",
+        "software engineering supporting environment",
+        "service-oriented computing"
+      ],
+      "email": "chen.hj![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1965.htm"
+    },
+    {
+      "name": "Chen, Lijun",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Database",
+        "data mining"
+      ],
+      "email": "ljchen![](https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png)pku.edu.cn",
+      "link": "https://cs.pku.edu.cn/info/1210/1968.htm"
+    }
+  ]
+}

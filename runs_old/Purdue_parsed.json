@@ -1,0 +1,1204 @@
+{
+  "faculty": [
+    {
+      "name": "George B. Adams, III",
+      "title": "Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Vamsi Addanki",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vaneet Aggarwal",
+      "title": "Professor (Courtesy: Industrial Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Daniel G. Aliaga",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Konstantinos Ameranis",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gaurav Chopra",
+      "title": "Associate Professor (Courtesy: Chemistry)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sabrina Tarin Chowdhury",
+      "title": "Computer Science Lecturer, Indianapolis",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sayeed Shafayet Chowdhury",
+      "title": "Visiting Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Federico O. Cifuentes-Urtubey",
+      "title": "Visiting Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher W. Clifton",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Information Security and Assurance",
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Douglas E. Comer",
+      "title": "Distinguished Professor",
+      "research_areas": [
+        "Networking and Operating Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jessica Mackey Conner-Strunk",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Marta A. Crowe",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "William N Crum",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Benjamin J. Delaware",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Edward J. Delp",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering, Biomedical Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Tamal Krishna Dey",
+      "title": "Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Eman Samy Diyab",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Petros S. Drineas",
+      "title": "Professor and Department Head of Computer Science",
+      "research_areas": [
+        "Computational Science and Engineering",
+        "Bioinformatics and Computational Biology",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "H. E. Dunsmore",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ahmed K. Elmagarmid",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sonia Fahmy",
+      "title": "Professor and Associate Department Head",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Pedro Fonseca",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Greg N. Frederickson",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christina Garman",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Information Security and Assurance"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Walter Gautschi",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "David Gleich",
+      "title": "Professor",
+      "research_areas": [
+        "Computational Science and Engineering",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aarushi Goel",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Dan Goldwasser",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ananth Grama",
+      "title": "Samuel D. Conte Distinguished Professor of Computer Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Raymond A. Yeh",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ming Yin",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Wei Zhan",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ruizhe Zhang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ruqi Zhang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tianyi Zhang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering",
+        "Human-Computer Interaction",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Weiruo Zhang",
+      "title": "Assistant Professor of Biology and Computer Science",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Xiangyu Zhang",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "research_areas": [
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yongle Zhang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jiang Yu Zheng",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ning Zhou",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Vassilis Zikas",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Distributed Systems",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Zhiyuan Li",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Chunwei Liu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Xiaojin Liu",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yung-Hsiang Lu",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Bradley J. Lucier",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computational Science and Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert E. Lynch",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Hemanta K. Maji",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Anuran Makur",
+      "title": "Assistant Professor of Computer Science and ECE",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aditya P. Mathur",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher K. May",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Xupeng Miao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Computer Architecture",
+        "Databases and Data Mining",
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lucas A. Moser",
+      "title": "Computer Science Senior Lecturer, Indianapolis",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Snehasis Mukhopadhyay",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jennifer Neville",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sotirios Nousias",
+      "title": "Kevin C and Suzanne L Kahn New Frontiers Assistant Professor of Computer Science",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Rohan R. Paleja",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kihong Park",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Chunyi Peng",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Robotics and Computer Vision",
+        "Networking and Operating Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuxiang Peng",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Programming Languages and Compilers",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Voicu S. Popescu",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alex Pothen",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "John M. Steele",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Wojciech Szpankowski",
+      "title": "Saul Rosen Distinguished Professor of Computer Science",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lin Tan",
+      "title": "Mary J. Elmore New Frontiers Professor of Computer Science",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mohammadkazem Taram",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dave (Jing) Tian",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Xavier Tricoche",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Computational Science and Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Gavriil Tsechpenakis",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mihran Tuceryan",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jeffrey A. Turkstra",
+      "title": "Associate Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Satish V Ukkusuri",
+      "title": "Professor (Courtesy: Civil and Construction Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Paul Valiant",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "T. N. Vijaykumar",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Samuel S. Wagstaff, Jr.",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Information Security and Assurance"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jianguo Wang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mark Ward",
+      "title": "Professor (Courtesy: Statistics)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Patrick J. Wolfe",
+      "title": "Provost",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jason Wu",
+      "title": "Assistant Professor (effective 1/5/2026)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jianlin Xia",
+      "title": "Professor (Courtesy: Mathematics)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Hanshen Xiao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction",
+        "Distributed Systems",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dongyan Xu",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Qiuyue Xue",
+      "title": "Assistant Professor (effective 1/5/2026)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yexiang Xue",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Snehal Antani",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Walid G. Aref",
+      "title": "Professor",
+      "research_areas": [
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mikhail Atallah",
+      "title": "Distinguished Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Saurabh Bagchi",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Elias Bareinboim",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Saugata Basu",
+      "title": "Professor of Mathematics and Computer Science",
+      "research_areas": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andres Bejarano",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Bedrich Benes",
+      "title": "Professor and Associate Department Head",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Hisham R. Benotman",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Aniket Bera",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tony Bergstrom",
+      "title": "Associate Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Elisa Bertino",
+      "title": "Samuel D. Conte Distinguished Professor of Computer Science",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bharat Bhargava",
+      "title": "Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Databases and Data Mining",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Antonio Bianchi",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Software Engineering",
+        "Networking and Operating Systems",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jeremiah M. Blocki",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael H. Borkowski",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Simina Branzei",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Brian Bullins",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Joseph Campbell",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Z. Berkay Celik",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sunil Prabhakar",
+      "title": "Professor and Vice Provost for Faculty Affairs",
+      "research_areas": [
+        "Computational Science and Engineering",
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alexandros Psomas",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kent Quanrud",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ahmed Qureshi",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sanjay G. Rao",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Vinayak A P Rao",
+      "title": "Associate Professor (Courtesy: Statistics)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Carrie Melinda Rector",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Vernon J. Rego",
+      "title": "Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bruno Ribeiro",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "John Robinson",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gustavo Adolfo Junipero Rodriguez-rivera",
+      "title": "Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Tiark Rompf",
+      "title": "Kevin C. and Susanne L. Kahn New Frontiers Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining",
+        "Software Engineering",
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elisha Sacks",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Computational Science and Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ahmed Sameh",
+      "title": "Samuel D. Conte Professor Emeritus",
+      "research_areas": [
+        "Computational Science and Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Eric Samperton",
+      "title": "Assistant Professor of Quantum Information Science",
+      "research_areas": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Philip A. Sands",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Abulhair Saparov",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computational Science and Engineering",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sarah H Sellke",
+      "title": "Associate Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Muhammad Shahbaz",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Computer Architecture",
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mary Anne Smart",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eugene H. Spafford",
+      "title": "Distinguished Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Elena Grigorescu",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Theory of Computing",
+        "Algorithms",
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Susanne E. Hambrusch",
+      "title": "Professor Emerita",
+      "research_areas": [
+        "Databases and Data Mining",
+        "Theory of Computing",
+        "Algorithms",
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Steve Hanneke",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Theory of Computing",
+        "Algorithms",
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew P. Hoblitzell",
+      "title": "Limited Term Lecturer, Indianapolis",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jean Honorio",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elias N. Houstis",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Y. Charlie Hu",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Abdullah Imran",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [
+        "Information Security and Assurance"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tunazzina Islam",
+      "title": "Visiting Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Suresh Jagannathan",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "research_areas": [
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sooyeon Jeong",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Changhee Jung",
+      "title": "Samuel D. Conte Associate Professor of Computer Science",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Computer Architecture",
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sabre Kais",
+      "title": "Distinguished Professor (Courtesy: Chemistry)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Aniket Kate",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Distributed Systems"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Majid Kazemian",
+      "title": "Associate Professor of Biochemistry and Computer Science",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Rajiv Khanna",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aaditya Kharel",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Daisuke Kihara",
+      "title": "Professor of Biology and Computer Science",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Zachary Kingston",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Murat Kocaoglu",
+      "title": "Assistant Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Milind Kulkarni",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ninghui Li",
+      "title": "Samuel D. Conte Professor of Computer Science and Associate Department Head",
+      "research_areas": [
+        "Information Security and Assurance",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Databases and Data Mining"
+      ],
+      "email": "未提供"
+    }
+  ]
+}

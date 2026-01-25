@@ -1,0 +1,713 @@
+{
+  "faculty": [
+    {
+      "name": "Parastoo Abtahi",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Robotics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ryan Adams",
+      "title": "Professor",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Arash Adel",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Robotics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amir Ali Ahmadi",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christine Allen-Blanchette",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Maria Apostolaki",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Systems & Networking",
+        "Security & Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Appel",
+      "title": "Eugene Higgins Professor of Computer Science, Emeritus",
+      "research_areas": [
+        "Programming Languages & Compilers",
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sanjeev Arora",
+      "title": "Charles C. Fitzmorris Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "John Storey",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Tarjan",
+      "title": "James S. McDonnell Distinguished University Professor",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Olga Troyanskaya",
+      "title": "Maduraperuma/Khot Professor of Computer Science",
+      "research_areas": [
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dan Trueman",
+      "title": "Associated Faculty",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Vanderbei",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Janet Vertesi",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Pramod Viswanath",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Systems & Networking",
+        "Economics & Computation"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Walker",
+      "title": "Professor, Director of Undergraduate Studies",
+      "research_areas": [
+        "Programming Languages & Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mengdi Wang",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kevin Wayne",
+      "title": "Phillip Y. Goldman '86 University Lecturer, Director of Minor Program",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Matthew Weinberg",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Theory",
+        "Economics & Computation",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Wentzlaff",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Yao",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Huacheng Yu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ellen Zhong",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David August",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Languages & Compilers",
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Suma Bhat",
+      "title": "Research Scholar",
+      "research_areas": [
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mark Braverman",
+      "title": "Professor",
+      "research_areas": [
+        "Theory",
+        "Economics & Computation"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bernard Chazelle",
+      "title": "Eugene Higgins Professor",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Danqi Chen",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Douglas Clark",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Perry Cook",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Marcel Dall'Agnol",
+      "title": "Lecturer",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tri Dao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Victoria Dean",
+      "title": "Lecturer",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jia Deng",
+      "title": "Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Vision & Graphics",
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Adji Bousso Dieng",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Computational Biology",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jialin Ding",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Systems & Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Dobkin",
+      "title": "Phillip Y. Goldman '86 Professor, Emeritus",
+      "research_areas": [
+        "Vision & Graphics",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Dondero",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Zeev Dvir",
+      "title": "Professor",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Benjamin Eysenbach",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jianqing Fan",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christiane Fellbaum",
+      "title": "Lecturer with rank of Professor",
+      "research_areas": [
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Edward Felten",
+      "title": "Robert E. Kahn Professor of Computer Science and Public Affairs, Emeritus",
+      "research_areas": [
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jaime Fernández Fisac",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Machine Learning",
+        "Robotics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Radhika Nagpal",
+      "title": "Norman R. Augustine ’57 *59 Professor in Engineering",
+      "research_areas": [
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Karthik Narasimhan",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Arvind Narayanan",
+      "title": "Professor",
+      "research_areas": [
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kevin Negy",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ravi Netravali",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Systems & Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Pedro Paredes",
+      "title": "Lecturer",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Larry Peterson",
+      "title": "Robert E. Kahn Professor, Emeritus and Senior Research Scholar",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Iasonas Petras",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuri Pritykin",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vikram Ramaswamy",
+      "title": "Lecturer",
+      "research_areas": [
+        "Machine Learning",
+        "Vision & Graphics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ben Raphael",
+      "title": "Graduate Class of 1991 Professor of Computer Science",
+      "research_areas": [
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ran Raz",
+      "title": "Professor",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jennifer Rexford",
+      "title": "Gordon Y.S. Wu Professor of Engineering",
+      "research_areas": [
+        "Systems & Networking",
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Szymon Rusinkiewicz",
+      "title": "David M. Siegel ’83 Professor of Computer Science, Department Chair",
+      "research_areas": [
+        "Vision & Graphics",
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Olga Russakovsky",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Vision & Graphics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Sedgewick",
+      "title": "William O. Baker *39 Professor in Computer Science, Emeritus",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sebastian Seung",
+      "title": "Professor of Computer Science and Princeton Neurosciences Institute",
+      "research_areas": [
+        "Machine Learning",
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Paul Seymour",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jaswinder Pal Singh",
+      "title": "Professor of Computer Science, Technology, and Societal Change",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mona Singh",
+      "title": "Wang Family Professor in Computer Science",
+      "research_areas": [
+        "Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kenneth Steiglitz",
+      "title": "Eugene Higgins Professor, Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Bartolomeo Stellato",
+      "title": "Associated Faculty",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Adam Finkelstein",
+      "title": "Phillip Y. Goldman ’86 Professor in Computer Science",
+      "research_areas": [
+        "Vision & Graphics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Fish",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ruth Fong",
+      "title": "Lecturer",
+      "research_areas": [
+        "Machine Learning",
+        "Vision & Graphics",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Freedman",
+      "title": "Robert E. Kahn Professor of Computer Science",
+      "research_areas": [
+        "Systems & Networking",
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Thomas Funkhouser",
+      "title": "David M. Siegel Professor of Computer Science, Emeritus",
+      "research_areas": [
+        "Machine Learning",
+        "Vision & Graphics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Donna Gabai",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yasaman Ghasempour",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Systems & Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sneha Goenka",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Computational Biology",
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tom Griffiths",
+      "title": "Henry R. Luce Professor of Information Technology, Consciousness and Culture",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aarti Gupta",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Languages & Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elad Hazan",
+      "title": "Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Maryam Hedayati",
+      "title": "Lecturer",
+      "research_areas": [
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Felix Heide",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Vision & Graphics",
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Peter Henderson",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Economics & Computation",
+        "Natural Language Processing",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Manoel Horta Ribeiro",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Law & Public Policy",
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kyle Jamieson",
+      "title": "Professor, Director of Graduate Studies",
+      "research_areas": [
+        "Systems & Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Shantenu Jha",
+      "title": "Visiting Research Scholar",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Chi Jin",
+      "title": "Associated Faculty",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan Kaplan",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Brian Kernighan",
+      "title": "William O. Baker *39 Professor in Computer Science",
+      "research_areas": [
+        "Programming Languages & Compilers",
+        "Security & Privacy",
+        "Law & Public Policy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Zachary Kincaid",
+      "title": "Associate Professor, Director of Graduate Studies-Admissions",
+      "research_areas": [
+        "Programming Languages & Compilers"
+      ],
+      "email": "未提供"
+    }
+  ]
+}

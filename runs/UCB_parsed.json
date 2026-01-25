@@ -1,0 +1,1352 @@
+{
+  "faculty": [
+    {
+      "name": "Pieter Abbeel",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "pabbeel@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html"
+    },
+    {
+      "name": "Ahmed Alaa",
+      "title": "Below The Line Assistant Professor",
+      "research_areas": [],
+      "email": "amalaa@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/amalaa.html"
+    },
+    {
+      "name": "Krste Asanović",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Integrated Circuits (INC)",
+        "Operating Systems & Networking (OSNT)",
+        "Design, Modeling and Analysis (DMA)"
+      ],
+      "email": "krste@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/asanovic.html"
+    },
+    {
+      "name": "Babak Ayazifar",
+      "title": "Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)",
+        "Signal Processing (SP)"
+      ],
+      "email": "ayazifar@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ayazifar.html"
+    },
+    {
+      "name": "Ruzena Bajcsy",
+      "title": "Professor Emerita",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Biosystems & Computational Biology (BIO)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Graphics (GR)",
+        "Human-Computer Interaction (HCI)",
+        "Security (SEC)"
+      ],
+      "email": "bajcsy@seas.upenn.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html"
+    },
+    {
+      "name": "Serina Chang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "serinac@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/serinac.html"
+    },
+    {
+      "name": "Sarah Chasins",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Programming Systems (PS)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/schasins.html"
+    },
+    {
+      "name": "Jennifer Chayes",
+      "title": "Professor, Dean",
+      "research_areas": [
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Theory (THY)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "jchayes@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jchayes.html"
+    },
+    {
+      "name": "Irene Chen",
+      "title": "Below The Line Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "iychen@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/iychen.html"
+    },
+    {
+      "name": "Lijie Chen",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "lijiechen@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/lijiechen.html"
+    },
+    {
+      "name": "Alvin Cheung",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Database Management Systems (DBMS)",
+        "Programming Systems (PS)"
+      ],
+      "email": "akcheung@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/akcheung.html"
+    },
+    {
+      "name": "Phillip Colella",
+      "title": "Professor in Residence Emeritus",
+      "research_areas": [],
+      "email": "pcolella@lbl.gov",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/colella.html"
+    },
+    {
+      "name": "Natacha Crooks",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Database Management Systems (DBMS)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "ncrooks@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ncrooks.html"
+    },
+    {
+      "name": "David E. Culler",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Power and Energy (ENE)",
+        "Operating Systems & Networking (OSNT)",
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Programming Systems (PS)",
+        "Security (SEC)"
+      ],
+      "email": "culler@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/culler.html"
+    },
+    {
+      "name": "Trevor Darrell",
+      "title": "Professor in Residence",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "trevor@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/darrell.html"
+    },
+    {
+      "name": "Susan L. Graham",
+      "title": "Professor Emerita",
+      "research_areas": [
+        "Graphics (GR)",
+        "Human-Computer Interaction (HCI)",
+        "Programming Systems (PS)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "graham@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/graham-s.html"
+    },
+    {
+      "name": "Venkatesan Guruswami",
+      "title": "Professor",
+      "research_areas": [
+        "Theory (THY)",
+        "Information, Data, Network, and Communication Sciences (IDNCS)"
+      ],
+      "email": "venkatg@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/venkatg.html"
+    },
+    {
+      "name": "Nika Haghtalab",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Theory (THY)"
+      ],
+      "email": "nika@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nika.html"
+    },
+    {
+      "name": "Björn Hartmann",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Human-Computer Interaction (HCI)",
+        "Artificial Intelligence (AI)",
+        "Programming Systems (PS)",
+        "Graphics (GR)"
+      ],
+      "email": "bjoern@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hartmann.html"
+    },
+    {
+      "name": "Brian Harvey",
+      "title": "Teaching Professor Emeritus",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "bh@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/harvey.html"
+    },
+    {
+      "name": "Marti Hearst",
+      "title": "Professor",
+      "research_areas": [
+        "Human-Computer Interaction (HCI)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "hearst@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hearst.html"
+    },
+    {
+      "name": "Joseph M. Hellerstein",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Database Management Systems (DBMS)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hellerstein.html"
+    },
+    {
+      "name": "Paul N. Hilfinger",
+      "title": "Professor of Teaching Emeritus",
+      "research_areas": [
+        "Programming Systems (PS)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "hilfingr@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hilfinger.html"
+    },
+    {
+      "name": "Joshua Hug",
+      "title": "Associate Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "hug@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/joshhug.html"
+    },
+    {
+      "name": "Christopher Hunn",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "cthunn@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/cthunn.html"
+    },
+    {
+      "name": "Nilah Ioannidis",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "nilah@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nilah.html"
+    },
+    {
+      "name": "Rishabh Iyer",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Computer Architecture & Engineering (ARC)",
+        "Programming Systems (PS)"
+      ],
+      "email": "rishabh.iyer@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/rishabhiyer.html"
+    },
+    {
+      "name": "Jiantao Jiao",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Theory (THY)",
+        "Signal Processing (SP)",
+        "Operating Systems & Networking (OSNT)",
+        "Database Management Systems (DBMS)",
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Security (SEC)",
+        "Power and Energy (ENE)",
+        "Programming Systems (PS)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jiantao.html"
+    },
+    {
+      "name": "Michael Jordan",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Biosystems & Computational Biology (BIO)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Signal Processing (SP)",
+        "Theory (THY)"
+      ],
+      "email": "jordan@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html"
+    },
+    {
+      "name": "Anthony D. Joseph",
+      "title": "Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Security (SEC)"
+      ],
+      "email": "adj@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/joseph.html"
+    },
+    {
+      "name": "William M. Kahan",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "wkahan@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/kahan.html"
+    },
+    {
+      "name": "Angjoo Kanazawa",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Graphics (GR)"
+      ],
+      "email": "kanazawa@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/kanazawa.html"
+    },
+    {
+      "name": "Domenico Ferrari",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ferrari.html"
+    },
+    {
+      "name": "Christopher Fletcher",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)"
+      ],
+      "email": "cwfletcher@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/cwfletcher.html"
+    },
+    {
+      "name": "Armando Fox",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Systems (PS)",
+        "Education (EDUC)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "fox@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/fox.html"
+    },
+    {
+      "name": "Jack Gallant",
+      "title": "Below the Line, Professor",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "gallant@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/gallant.html"
+    },
+    {
+      "name": "Dan Garcia",
+      "title": "Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "ddgarcia@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/garcia.html"
+    },
+    {
+      "name": "Sanjam Garg",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Theory (THY)",
+        "Security (SEC)"
+      ],
+      "email": "sanjamg@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sanjam.html"
+    },
+    {
+      "name": "Ali Ghodsi",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Database Management Systems (DBMS)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "aligh@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/aligh.html"
+    },
+    {
+      "name": "Ken Goldberg",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "goldberg@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/goldberg.html"
+    },
+    {
+      "name": "Shafi Goldwasser",
+      "title": "Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/goldwasser.html"
+    },
+    {
+      "name": "Joseph Gonzalez",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Database Management Systems (DBMS)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "jegonzal@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jegonzal.html"
+    },
+    {
+      "name": "Peyrin Kao",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "peyrin@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/peyrin.html"
+    },
+    {
+      "name": "Richard M. Karp",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Operating Systems & Networking (OSNT)",
+        "Theory (THY)"
+      ],
+      "email": "karp@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/karp.html"
+    },
+    {
+      "name": "Randy H. Katz",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "randy@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/katz.html"
+    },
+    {
+      "name": "Kurt Keutzer",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Computer Architecture & Engineering (ARC)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "keutzer@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/keutzer.html"
+    },
+    {
+      "name": "Daniel Klein",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "klein@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html"
+    },
+    {
+      "name": "Aditi Krishnapriyan",
+      "title": "Below The Line Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "aditik1@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/aditik.html"
+    },
+    {
+      "name": "John D. Kubiatowicz",
+      "title": "Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Security (SEC)"
+      ],
+      "email": "kubitron@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/kubiatowicz.html"
+    },
+    {
+      "name": "Edward A. Lee",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Programming Systems (PS)",
+        "Signal Processing (SP)",
+        "Computer Architecture & Engineering (ARC)",
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Design, Modeling and Analysis (DMA)"
+      ],
+      "email": "eal@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/lee.html"
+    },
+    {
+      "name": "Jason Lee",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Theory (THY)"
+      ],
+      "email": "jasondlee@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jasondlee.html"
+    },
+    {
+      "name": "James Demmel",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "demmel@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/demmel.html"
+    },
+    {
+      "name": "John DeNero",
+      "title": "Associate Teaching Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Education (EDUC)"
+      ],
+      "email": "denero@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/denero.html"
+    },
+    {
+      "name": "Anca Dragan",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/anca.html"
+    },
+    {
+      "name": "Prabal Dutta",
+      "title": "Professor",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Power and Energy (ENE)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "prabal@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/prabal.html"
+    },
+    {
+      "name": "Alexei (Alyosha) Efros",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Graphics (GR)"
+      ],
+      "email": "efros@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/efros.html"
+    },
+    {
+      "name": "Laurent El Ghaoui",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "elghaoui@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/elghaoui.html"
+    },
+    {
+      "name": "Hany Farid",
+      "title": "Professor",
+      "research_areas": [
+        "Graphics (GR)"
+      ],
+      "email": "hfarid@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hfarid.html"
+    },
+    {
+      "name": "Richard J. Fateman",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "fateman@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/fateman.html"
+    },
+    {
+      "name": "Jerome A. Feldman",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Biosystems & Computational Biology (BIO)",
+        "Security (SEC)"
+      ],
+      "email": "jfeldman@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/feldman.html"
+    },
+    {
+      "name": "Michael Ball",
+      "title": "Lecturer",
+      "research_areas": [
+        "Education (EDUC)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "ball@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/mball.html"
+    },
+    {
+      "name": "David Bamman",
+      "title": "Below The Line Associate Professor",
+      "research_areas": [],
+      "email": "dbamman@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/dbamman.html"
+    },
+    {
+      "name": "Brian A. Barsky",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Graphics (GR)",
+        "Biosystems & Computational Biology (BIO)",
+        "Human-Computer Interaction (HCI)",
+        "Signal Processing (SP)"
+      ],
+      "email": "barsky@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/barsky.html"
+    },
+    {
+      "name": "Peter Bartlett",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "peter@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/bartlett.html"
+    },
+    {
+      "name": "Alexandre Bayen",
+      "title": "Professor",
+      "research_areas": [
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Artificial Intelligence (AI)",
+        "Cyber-Physical Systems and Design Automation (CPSDA)"
+      ],
+      "email": "bayen@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/bayen.html"
+    },
+    {
+      "name": "Manuel Blum",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "blum@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/blum.html"
+    },
+    {
+      "name": "Christian Borgs",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Theory (THY)"
+      ],
+      "email": "borgs@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/borgs.html"
+    },
+    {
+      "name": "Eric Brewer",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Power and Energy (ENE)",
+        "Security (SEC)"
+      ],
+      "email": "brewer@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/brewer.html"
+    },
+    {
+      "name": "Aydin Buluç",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Scientific Computing (SCI)",
+        "Programming Systems (PS)",
+        "Biosystems & Computational Biology (BIO)",
+        "Computer Architecture & Engineering (ARC)"
+      ],
+      "email": "aydin@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/aydin.html"
+    },
+    {
+      "name": "John F. Canny",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Graphics (GR)",
+        "Human-Computer Interaction (HCI)",
+        "Security (SEC)"
+      ],
+      "email": "canny@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/canny.html"
+    },
+    {
+      "name": "Sergey Levine",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/svlevine.html"
+    },
+    {
+      "name": "Jennifer Listgarten",
+      "title": "Professor",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/listgarten.html"
+    },
+    {
+      "name": "Michael Lustig",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "mikilustig@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/mlustig.html"
+    },
+    {
+      "name": "Jitendra Malik",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Signal Processing (SP)"
+      ],
+      "email": "malik@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/malik.html"
+    },
+    {
+      "name": "Sewon Min",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "sewonm@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sewonmin.html"
+    },
+    {
+      "name": "Jelani Nelson",
+      "title": "Professor, Chair",
+      "research_areas": [
+        "Theory (THY)",
+        "Database Management Systems (DBMS)"
+      ],
+      "email": "minilek@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/minilek.html"
+    },
+    {
+      "name": "Ren Ng",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics (GR)",
+        "Signal Processing (SP)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "ren@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html"
+    },
+    {
+      "name": "Narges Norouzi",
+      "title": "Associate Teaching Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Education (EDUC)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "norouzi@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/norouzi.html"
+    },
+    {
+      "name": "Katherine A. Yelick",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Systems (PS)",
+        "Scientific Computing (SCI)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "yelick@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yelick.html"
+    },
+    {
+      "name": "Bin Yu",
+      "title": "Professor",
+      "research_areas": [
+        "Signal Processing (SP)"
+      ],
+      "email": "binyu@stat.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/binyu.html"
+    },
+    {
+      "name": "Stella Yu",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Graphics (GR)",
+        "Signal Processing (SP)"
+      ],
+      "email": "stellayu@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/stellayu.html"
+    },
+    {
+      "name": "Matei Zaharia",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Artificial Intelligence (AI)",
+        "Database Management Systems (DBMS)"
+      ],
+      "email": "matei@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/matei.html"
+    },
+    {
+      "name": "Stuart J. Russell",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "russell@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/russell.html"
+    },
+    {
+      "name": "Manuel Sabin",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "msabin@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/msabin.html"
+    },
+    {
+      "name": "Anant Sahai",
+      "title": "Professor",
+      "research_areas": [
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Theory (THY)",
+        "Signal Processing (SP)"
+      ],
+      "email": "sahai@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sahai.html"
+    },
+    {
+      "name": "Niloufar Salehi",
+      "title": "Below The Line Assistant Professor",
+      "research_areas": [
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "nsalehi@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nsalehi.html"
+    },
+    {
+      "name": "Koushik Sen",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Systems (PS)",
+        "Security (SEC)"
+      ],
+      "email": "ksen@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ksen.html"
+    },
+    {
+      "name": "Carlo H. Séquin",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Graphics (GR)",
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "sequin@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sequin.html"
+    },
+    {
+      "name": "Sanjit A. Seshia",
+      "title": "Professor",
+      "research_areas": [
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Programming Systems (PS)",
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Security (SEC)",
+        "Theory (THY)"
+      ],
+      "email": "sseshia@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/seshia.html"
+    },
+    {
+      "name": "Sophia Shao",
+      "title": "未提供",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ysshao.html"
+    },
+    {
+      "name": "Scott Shenker",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "shenker@icsi.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/shenker.html"
+    },
+    {
+      "name": "Jonathan Shewchuk",
+      "title": "Professor",
+      "research_areas": [
+        "Scientific Computing (SCI)",
+        "Theory (THY)",
+        "Graphics (GR)"
+      ],
+      "email": "jrs@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/shewchuk.html"
+    },
+    {
+      "name": "Alistair Sinclair",
+      "title": "Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "sinclair@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sinclair.html"
+    },
+    {
+      "name": "Alan J. Smith",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "smith@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/smith-a.html"
+    },
+    {
+      "name": "Dawn Song",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Operating Systems & Networking (OSNT)",
+        "Security (SEC)",
+        "Programming Systems (PS)"
+      ],
+      "email": "dawnsong@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/song.html"
+    },
+    {
+      "name": "Yun S. Song",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "yss@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yssong.html"
+    },
+    {
+      "name": "Raluca Ada Popa",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Security (SEC)"
+      ],
+      "email": "raluca.popa@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ralucap.html"
+    },
+    {
+      "name": "Prasad Raghavendra",
+      "title": "Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "prasad@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/praghavendra.html"
+    },
+    {
+      "name": "Kannan Ramchandran",
+      "title": "Professor",
+      "research_areas": [
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Signal Processing (SP)",
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)"
+      ],
+      "email": "kannanr@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ramchandran.html"
+    },
+    {
+      "name": "Satish Rao",
+      "title": "Professor",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Theory (THY)"
+      ],
+      "email": "satishr@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/rao.html"
+    },
+    {
+      "name": "Sylvia Ratnasamy",
+      "title": "Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "sylvia@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/ratnasamy.html"
+    },
+    {
+      "name": "Benjamin Recht",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Signal Processing (SP)"
+      ],
+      "email": "brecht@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/brecht.html"
+    },
+    {
+      "name": "Lawrence A. Rowe",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "no_email@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/rowe.html"
+    },
+    {
+      "name": "Jaijeet Roychowdhury",
+      "title": "Professor",
+      "research_areas": [
+        "Cyber-Physical Systems and Design Automation (CPSDA)",
+        "Integrated Circuits (INC)",
+        "Information, Data, Network, and Communication Sciences (IDNCS)",
+        "Computer Architecture & Engineering (ARC)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "jr@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jr.html"
+    },
+    {
+      "name": "Costas J. Spanos",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Power and Energy (ENE)",
+        "Integrated Circuits (INC)",
+        "Physical Electronics (PHY)"
+      ],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/spanos.html"
+    },
+    {
+      "name": "Jacob Steinhardt",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)",
+        "Information, Data, Network, and Communication Sciences (IDNCS)"
+      ],
+      "email": "jsteinhardt@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jsteinhardt.html"
+    },
+    {
+      "name": "Ion Stoica",
+      "title": "Professor",
+      "research_areas": [
+        "Operating Systems & Networking (OSNT)",
+        "Security (SEC)"
+      ],
+      "email": "istoica@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html"
+    },
+    {
+      "name": "Michael Stonebraker",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/stonebraker.html"
+    },
+    {
+      "name": "Jonathan Stray",
+      "title": "Lecturer",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "jonathanstray@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jstray.html"
+    },
+    {
+      "name": "Bernd Sturmfels",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Theory (THY)"
+      ],
+      "email": "no_email@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sturmfels.html"
+    },
+    {
+      "name": "Alane Suhr",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "suhr@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/suhr.html"
+    },
+    {
+      "name": "Avishay Tal",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "atal@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/atal.html"
+    },
+    {
+      "name": "Claire Tomlin",
+      "title": "Professor",
+      "research_areas": [
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Biosystems & Computational Biology (BIO)"
+      ],
+      "email": "tomlin@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/tomlin.html"
+    },
+    {
+      "name": "James O'Brien",
+      "title": "Professor",
+      "research_areas": [
+        "Graphics (GR)",
+        "Artificial Intelligence (AI)",
+        "Human-Computer Interaction (HCI)",
+        "Scientific Computing (SCI)"
+      ],
+      "email": "job@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/obrien.html"
+    },
+    {
+      "name": "Kay Ousterhout",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "keo@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/keo.html"
+    },
+    {
+      "name": "Christos Papadimitriou",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Theory (THY)"
+      ],
+      "email": "christos@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/papadimitriou.html"
+    },
+    {
+      "name": "Aditya Parameswaran",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Database Management Systems (DBMS)",
+        "Human-Computer Interaction (HCI)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "adityagp@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/adityagp.html"
+    },
+    {
+      "name": "Beresford N. Parlett",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/parlett.html"
+    },
+    {
+      "name": "David A. Patterson",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "pattrsn@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html"
+    },
+    {
+      "name": "Eric Paulos",
+      "title": "Professor",
+      "research_areas": [
+        "Human-Computer Interaction (HCI)"
+      ],
+      "email": "paulos@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/paulos.html"
+    },
+    {
+      "name": "Amy Pavel",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "amypavel@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/amypavel.html"
+    },
+    {
+      "name": "Vern Paxson",
+      "title": "Professor Emeritus, Professor in the Graduate School",
+      "research_areas": [
+        "Security (SEC)",
+        "Operating Systems & Networking (OSNT)"
+      ],
+      "email": "vern@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/paxson.html"
+    },
+    {
+      "name": "Emma Pierson",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "emmapierson@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/emmapierson.html"
+    },
+    {
+      "name": "Kristofer Pister",
+      "title": "Professor",
+      "research_areas": [
+        "Micro/Nano Electro Mechanical Systems (MEMS)",
+        "Control, Intelligent Systems, and Robotics (CIR)",
+        "Integrated Circuits (INC)"
+      ],
+      "email": "ksjp@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/pister.html"
+    },
+    {
+      "name": "Umesh Vazirani",
+      "title": "Professor",
+      "research_areas": [
+        "Theory (THY)",
+        "Security (SEC)"
+      ],
+      "email": "vazirani@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/vazirani.html"
+    },
+    {
+      "name": "Allon Wagner",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Biosystems & Computational Biology (BIO)",
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "allonwag@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/allonwag.html"
+    },
+    {
+      "name": "David Wagner",
+      "title": "Professor",
+      "research_areas": [
+        "Security (SEC)"
+      ],
+      "email": "daw@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wagner.html"
+    },
+    {
+      "name": "Laura Waller",
+      "title": "Professor",
+      "research_areas": [
+        "Physical Electronics (PHY)",
+        "Signal Processing (SP)",
+        "Biosystems & Computational Biology (BIO)",
+        "Graphics (GR)"
+      ],
+      "email": "waller@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/waller.html"
+    },
+    {
+      "name": "Jean Walrand",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Information, Data, Network, and Communication Sciences (IDNCS)"
+      ],
+      "email": "wlr@eecs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/walrand.html"
+    },
+    {
+      "name": "John Wawrzynek",
+      "title": "Professor, CS Division Chair",
+      "research_areas": [
+        "Computer Architecture & Engineering (ARC)"
+      ],
+      "email": "johnw@cs.berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wawrzynek.html"
+    },
+    {
+      "name": "Max Willsey",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Programming Systems (PS)"
+      ],
+      "email": "mwillsey@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/mwillsey.html"
+    },
+    {
+      "name": "John Wright",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theory (THY)"
+      ],
+      "email": "jswright@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jswright.html"
+    },
+    {
+      "name": "Adam Yala",
+      "title": "Below The Line Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "email": "yala@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yala.html"
+    },
+    {
+      "name": "Lisa Yan",
+      "title": "Assistant Teaching Professor",
+      "research_areas": [
+        "Education (EDUC)"
+      ],
+      "email": "yanlisa@berkeley.edu",
+      "link": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yanlisa.html"
+    }
+  ]
+}

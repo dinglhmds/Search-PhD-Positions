@@ -1,0 +1,300 @@
+{
+  "faculty": [
+    {
+      "name": "Simran Arora",
+      "title": "教授",
+      "research_areas": [
+        "AI systems",
+        "quality and efficiency trade-offs",
+        "AI capabilities"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kewen Wu",
+      "title": "教授",
+      "research_areas": [
+        "theoretical computer science",
+        "quantum computing",
+        "complexity theory",
+        "Boolean function analysis",
+        "discrete math"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lin Lin",
+      "title": "教授",
+      "research_areas": [
+        "quantum many-body problems",
+        "classical algorithms",
+        "quantum algorithms"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Leonard J. Schulman",
+      "title": "Professor of Computer Science; Graduate Option Representative for Computer Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Stuart",
+      "title": "Bren Professor of Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Joel A. Tropp",
+      "title": "Steele Family Professor of Applied and Computational Mathematics",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher Umans",
+      "title": "Professor of Computer Science; William M. Coughran Jr. Leadership Chair, Department of Computing and Mathematical Sciences; Executive Officer for Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Vanier",
+      "title": "Teaching Professor of Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Adam Wierman",
+      "title": "Carl F Braun Professor of Computing and Mathematical Sciences; Graduate Option Representative for Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Erik Winfree",
+      "title": "Professor of Computer Science, Computation and Neural Systems, and Bioengineering",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yisong Yue",
+      "title": "Professor of Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Konstantin Zuev",
+      "title": "Teaching Professor of Computing and Mathematical Sciences; Undergraduate Option Representative for Information and Data Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yaser S. Abu-Mostafa",
+      "title": "Professor of Electrical Engineering and Computer Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Aaron Ames",
+      "title": "Bren Professor of Mechanical and Civil Engineering, Control and Dynamical Systems, and Aerospace; Booth-Kresa Leadership Chair, Center for Autonomous Systems and Technologies; Director, Center for Autonomous Systems and Technologies",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Animashree (Anima) Anandkumar",
+      "title": "Bren Professor of Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ricardo Baptista",
+      "title": "Visitor in Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan H. Barr",
+      "title": "Professor of Computer Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Adam Blank",
+      "title": "Teaching Professor of Computing and Mathematical Sciences; Academic Consultant, First-Year Success Research Institute; Undergraduate Option Representative for Computer Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Katherine L. (Katie) Bouman",
+      "title": "Professor of Computing and Mathematical Sciences, Electrical Engineering and Astronomy; Rosenberg Scholar; Investigator, Heritage Medical Research Institute",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Oscar P. Bruno",
+      "title": "Professor of Applied and Computational Mathematics",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Joel W. Burdick",
+      "title": "Richard L. and Dorothy M. Hayman Professor of Mechanical Engineering and Bioengineering; Jet Propulsion Laboratory Research Scientist",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jinghao Cao",
+      "title": "von Karman Instructor in Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Elizabeth A. Carlson",
+      "title": "",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Venkat Chandrasekaran",
+      "title": "Kiyo and Eiko Tomiyasu Professor of Computing and Mathematical Sciences and Electrical Engineering; Undergraduate Option Representative for Applied and Computational Mathematics",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Soon-Jo Chung",
+      "title": "Bren Professor of Control and Dynamical Systems; Jet Propulsion Laboratory Senior Research Scientist",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "John Doyle",
+      "title": "Jean-Lou Chameau Professor of Control and Dynamical Systems, Electrical Engineering, and Bioengineering, Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Georgia Gkioxari",
+      "title": "Assistant Professor of Computing and Mathematical Sciences and Electrical Engineering; William H. Hurt Scholar",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Babak Hassibi",
+      "title": "Mose and Lillian S. Bohn Professor of Electrical Engineering and Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Kathrin Hellmuth",
+      "title": "von Karman Instructor in Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Franca Hoffmann",
+      "title": "Assistant Professor of Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gerard Holzmann",
+      "title": "Lecturer in Computing and Mathematics Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Thomas Y. Hou",
+      "title": "Charles Lee Powell Professor of Applied and Computational Mathematics; Graduate Option Representative for Applied and Computational Mathematics",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Victoria Kostina",
+      "title": "Professor of Electrical Engineering and Computing and Mathematical Sciences; Graduate Option Representative for Electrical Engineering",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eugene Lavretsky",
+      "title": "",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Steven Low",
+      "title": "Frank J. Gilloon Professor of Computing and Mathematical Sciences and Electrical Engineering",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Urmila Mahadev",
+      "title": "Assistant Professor of Computing and Mathematical Sciences; Nickerson Scholar",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Matilde Marcolli",
+      "title": "Robert F. Christy Professor of Mathematics and Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eric V. Mazumdar",
+      "title": "Assistant Professor of Computing and Mathematical Sciences and Economics",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Dan Meiron",
+      "title": "Fletcher Jones Professor of Aeronautics and Applied and Computational Mathematics; Graduate Option Representative for Aeronautics and Space Engineering; Undergraduate Option Representative for Aerospace",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Richard M. Murray",
+      "title": "Thomas E. and Doris Everhart Professor of Control and Dynamical Systems and Bioengineering",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ethan Ordentlich",
+      "title": "Teaching Assistant Professor in Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Houman Owhadi",
+      "title": "IBM Professor of Applied and Computational Mathematics and Control and Dynamical Systems",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Lior Pachter",
+      "title": "Bren Professor of Computational Biology and Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Niles A. Pierce",
+      "title": "John D. and Catherine T. MacArthur Professor of Applied and Computational Mathematics and Bioengineering; Executive Officer for Biology and Biological Engineering",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Donnie Pinkston",
+      "title": "Schmidt Academy Instructor - Software Engineer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Claire Ralph",
+      "title": "Director, Career Achievement, Leadership, and Exploration; Lecturer, Computing and Mathematical Sciences",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Peter Schroeder",
+      "title": "Shaler Arthur Hanisch Professor of Computer Science and Applied and Computational Mathematics",
+      "research_areas": [],
+      "email": "未提供"
+    }
+  ]
+}

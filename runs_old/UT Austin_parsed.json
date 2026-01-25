@@ -1,0 +1,1097 @@
+{
+  "faculty": [
+    {
+      "name": "David Wu",
+      "title": "Assistant Professor, Faculty Fellowship #5",
+      "research_areas": [
+        "Security and Privacy",
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Chenfeng Xu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics",
+        "Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "William Young",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuke Zhu",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Intelligent Robotics",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Zuckerman",
+      "title": "Professor, Professorship In Computer Sciences #1",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "George Biros",
+      "title": "W. A. \"Tex\" Moncrief, Jr. Endowment in Simulation-Based Engineering and Sciences Chair No. 2 Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Parallel Computing",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan Bovik",
+      "title": "Cockrell Family Regents Chair in Engineering #3",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Computer Vision"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Constantine Caramanis",
+      "title": "Professor in the in the Department of Electrical & Computer Engineering, William H. Hartwig Fellowship in Electrical Engineering",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Systems and Networking",
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Eunsol Choi",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Greg Durrett",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ron Elber",
+      "title": "W.A. \"Tex\" Moncrief Chair in Computational Life Sciences and Biology Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vijay K Garg",
+      "title": "Cullen Trust for Higher Education Endowed Professorship in Engineering #5",
+      "research_areas": [
+        "Systems and Networking",
+        "Parallel Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Omar Ghattas",
+      "title": "John A. and Katherine G. Jackson Chair in Computational Geosciences Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Graphics and Visualization",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Joydeep Ghosh",
+      "title": "Schlumberger Centennial Chair in Electrical Engineering Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lizy K John",
+      "title": "未提供",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Scott Aaronson",
+      "title": "Professor, David Bruton, Jr. Centennial Professorship in Computer Sciences #2",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sarah Abraham",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [
+        "Graphics and Visualization"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aditya Akella",
+      "title": "Professor, Regents Chair in Computer Sciences #1",
+      "research_areas": [
+        "Computer Architecture",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lorenzo Alvisi",
+      "title": "Professor Emeritus in Computer Sciences #5, Distinguished Teaching Professor Emeritus",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Venkat Arun",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Formal Methods",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Joshua Baer",
+      "title": "Entrepreneur in Residence",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Chandrajit Bajaj",
+      "title": "Professor, Computational Applied Mathematics Chair in Visualization",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Graphics and Visualization",
+        "Machine Learning",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Don Batory",
+      "title": "Professor Emeritus, David Bruton, Jr. Centennial Professorship In Computer Sciences #1",
+      "research_areas": [
+        "Formal Methods",
+        "Programming Languages and Compilers",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Angela Beasley",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Joydeep Biswas",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert Boyer",
+      "title": "Professor Emeritus in Computer Science #4, Professor Emeritus in Computer Science #5",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "William Bulko",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [
+        "Artificial Intelligence"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Siddhartha Chatterjee",
+      "title": "Professor of Instruction",
+      "research_areas": [
+        "Computer Architecture",
+        "Programming Languages and Compilers",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Swarat Chaudhuri",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Formal Methods",
+        "Programming Languages and Compilers",
+        "Security and Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Matthew Lease",
+      "title": "Professor, School of Information",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Rudolf Lioutikov",
+      "title": "Assistant Professor of Practice, College of Natural Sciences",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Zhigang Pan",
+      "title": "Professor, Silicon Laboratories Endowed Chair, Department of Electrical & Computer Engineering",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yale N. Patt",
+      "title": "Professor, Department of Electrical and Computer Engineering",
+      "research_areas": [
+        "Computer Architecture",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amy Pavel",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Graphics and Visualization",
+        "Human-Computer Interaction",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sujay Sanghavi",
+      "title": "Associate Professor, Chandra Department of Electrical and Computer Engineering",
+      "research_areas": [
+        "Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Hovav Shacham",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "Security and Privacy",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ufuk Topcu",
+      "title": "Associate Professor Cockrell Family Dean's Chair for Engineering Excellence",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Formal Methods",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Atlas Wang",
+      "title": "Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "research_areas": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Whinston",
+      "title": "Hugh Roy Cullen Centennial Chair in Business Administration",
+      "research_areas": [
+        "Artificial Intelligence"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Karen E. Willcox",
+      "title": "Director, Oden Institute for Computational Engineering and Sciences, W. A. “Tex” Moncrief, Jr. Chair in Simulation-Based Engineering and Sciences , Peter O'Donnell, Jr. Centennial Chair in Computing Systems",
+      "research_areas": [
+        "Graphics and Visualization",
+        "Systems and Networking",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mikyung Han",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Justin Hart",
+      "title": "Assistant Professor of Practice",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Human-Computer Interaction",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Harwath",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Hintz",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Security and Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Qixing Huang",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Graphics and Visualization"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Warren Hunt Jr.",
+      "title": "Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Computer Architecture",
+        "Formal Methods"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Nick Hunter-Jones",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Volkan Isler",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Prashant D. Joshi",
+      "title": "Lecturer",
+      "research_areas": [
+        "Computer Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amrita Kaur",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Daehyeok Kim",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Adam Klivans",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Brad Knox",
+      "title": "Research Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Human-Computer Interaction",
+        "Intelligent Robotics",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Philipp Krähenbühl",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Graphics and Visualization",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "William Kretschmer",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Benjamin Kuipers",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "J Strother Moore",
+      "title": "Admiral B.R. Inman Centennial Chair Emeritus in Computing Theory",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Dana Moshkovitz",
+      "title": "Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Margaret Myers",
+      "title": "Lecturer",
+      "research_areas": [
+        "Formal Methods",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Shravan Narayan",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Programming Languages and Compilers",
+        "Security and Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alison Norman",
+      "title": "Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gordon Novak",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "J Marcos Palacios",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Devangi Parikh",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Georgios Pavlakos",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Vision"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Arthur Peters",
+      "title": "Research Scientist",
+      "research_areas": [
+        "Programming Languages and Compilers",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tina Peterson",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Keshav Pingali",
+      "title": "Professor, W.A.\"Tex\" Moncrief Chair of Grid and Distributed Computing",
+      "research_areas": [
+        "Parallel Computing",
+        "Programming Languages and Compilers",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Greg Plaxton",
+      "title": "Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bruce Porter",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Bill Press",
+      "title": "Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Eric Price",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lili Qiu",
+      "title": "Professor",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michelann Quimby",
+      "title": "Lecturer",
+      "research_areas": [
+        "Human-Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Arrasy Rahman",
+      "title": "Postdoctoral Research Fellow",
+      "research_areas": [
+        "Artificial Intelligence"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vijaya Ramachandran",
+      "title": "Professor, William Blakemore II Regents Professorship In Computer Sciences",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Carol Ramsey",
+      "title": "",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Veena Ravishankar",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher Rossbach",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Databases",
+        "Systems and Networking",
+        "Parallel Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Scott",
+      "title": "Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sanjay Shakkottai",
+      "title": "Cockrell Family Chair in Engineering, #15",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elias Stengel-Eskin",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Peter Stone",
+      "title": "Department Chair, Professor, Truchard Foundation Chair in Computer Science and University Distinguished Teaching Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dixin Tang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Databases",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Fatma Tarlaci",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kia Teymourian",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Kevin Tian",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning",
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Paul Toprac",
+      "title": "Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Robert van de Geijn",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Etienne Vouga",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Graphics and Visualization",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yizhong Wang",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Garrett Warnell",
+      "title": "Visiting Researcher",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Intelligent Robotics",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Brent Waters",
+      "title": "Professor",
+      "research_areas": [
+        "Security and Privacy",
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Emmett Witchel",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Shuchi Chawla",
+      "title": "Professor, Professorship in Computer Sciences #2",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vijay Chidambaram",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Databases",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan Cline",
+      "title": "David Bruton, Jr. Centennial Professor Emeritus in Computer Sciences #2, Distinguished Teaching Professor Emeritus",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Shirley Cohen",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [
+        "Databases"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Inderjit Dhillon",
+      "title": "Gottesman Family Centennial Professorship In Computer Sciences",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning",
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Daniel Diaz",
+      "title": "Postdoctoral Research Fellow, Leads Deep Proteins Group",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Işıl Dillig",
+      "title": "Vice Chair and Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Databases",
+        "Formal Methods",
+        "Programming Languages and Compilers",
+        "Security and Privacy",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Glenn Downing",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mootaz Elnozahy",
+      "title": "Professor of Instruction",
+      "research_areas": [
+        "Computer Architecture",
+        "Parallel Computing",
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Morgan M. Fong",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Fares Fraij",
+      "title": "Associate Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Don Fussell",
+      "title": "Professor, Trammell Crow Regents Professorship in Computer Science",
+      "research_areas": [
+        "Computer Architecture",
+        "Graphics and Visualization"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Anna Gal",
+      "title": "Professor",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ahmed Gheith",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jesse Goodman",
+      "title": "Postdoctoral Research Fellow",
+      "research_areas": [
+        "Theoretical Computer Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Uli Grasemann",
+      "title": "Research Scientist",
+      "research_areas": [
+        "Artificial Intelligence"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kristen Grauman",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Devdatta Kulkarni",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Simon Lam",
+      "title": "Regents' Chair Emeritus in Computer Sciences #1",
+      "research_areas": [
+        "Systems and Networking",
+        "Security and Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Karen Landolt",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Elad Liebman",
+      "title": "Assistant Professor of Instruction",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Intelligent Robotics",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vladimir Lifschitz",
+      "title": "Professor Emeritus, Professorship in Computer Sciences #2",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Formal Methods"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Calvin Lin",
+      "title": "Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Parallel Computing",
+        "Programming Languages and Compilers",
+        "Security and Privacy"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Qiang Liu",
+      "title": "Associate Professor, Faculty Fellowship #7 in Computer Science",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Shuijing Liu",
+      "title": "Postdoctoral Research Fellow",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Roberto Martin-Martin",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Intelligent Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ken McMillan",
+      "title": "Professor, Admiral B.R. Inman Centennial Chair in Computing Theory",
+      "research_areas": [
+        "Formal Methods",
+        "Programming Languages and Compilers"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Risto Miikkulainen",
+      "title": "Professor",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Daniel P. Miranker",
+      "title": "Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jayadev Misra",
+      "title": "Schlumberger Centennial Chair Emeritus and University Distinguished Teaching Professor Emeritus",
+      "research_areas": [
+        "Formal Methods"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Shyamal Mitra",
+      "title": "Professor of Instruction",
+      "research_areas": [
+        "Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aloysius K. Mok",
+      "title": "Professor, Quincy Lee Centennial Professorship In Computer Science",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Raymond Mooney",
+      "title": "Professor, Professorship In Computer Sciences #3",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    }
+  ]
+}

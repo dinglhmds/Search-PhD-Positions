@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ uni_name }} Faculty Directory</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header-section">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="university-name">{{ uni_name }} Faculty Directory</h1>
+                <p class="lead">Explore our distinguished faculty members and their research areas</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="stats-card">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <div class="stat-number">{{ faculty_count }}</div>
+                            <div class="stat-label">Faculty Members</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-number">{{ unique_titles|length }}</div>
+                            <div class="stat-label">Unique Titles</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-number">{{ unique_research_areas|length }}</div>
+                            <div class="stat-label">Research Areas</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-number">{{ faculty_with_email }}</div>
+                            <div class="stat-label">With Contact</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="search-section">
+                    <input type="text" id="searchInput" class="form-control search-input" placeholder="Search faculty by name, title, or research area...">
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty-grid" id="facultyGrid">
+            {% for faculty in faculty_data %}
+            <div class="faculty-member">
+                <div class="faculty-card">
+                    <div class="faculty-header">
+                        <div class="faculty-name">{{ faculty.name }}</div>
+                        <div class="faculty-title">{{ faculty.title }}</div>
+                    </div>
+                    <div class="faculty-content">
+                        <div class="faculty-email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a>
+                        </div>
+                        <div class="research-areas">
+                            <strong><i class="fas fa-bookmark"></i> Research Areas:</strong>
+                            {% if faculty.research_areas %}
+                                {% for area in faculty.research_areas %}
+                                    {% if area != "未提供" %}
+                                        <span class="research-tag">{{ area }}</span>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                <span class="research-tag">未提供</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2025 {{ uni_name }} Faculty Directory. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const facultyCards = document.querySelectorAll('.faculty-member');
+            
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                facultyCards.forEach(function(card) {
+                    const facultyText = card.textContent.toLowerCase();
+                    if (facultyText.includes(searchTerm)) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeIn 0.5s ease-in';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

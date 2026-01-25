@@ -1,0 +1,1303 @@
+{
+  "faculty": [
+    {
+      "name": "Daniel Abadi",
+      "title": "Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ashok Agrawala",
+      "title": "Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science",
+        "IoT and Wearables Technology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Fardina Alam",
+      "title": "Lecturer",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "John Aloimonos",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bahar Asgari",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Clifford Bakalian",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Calin Belta",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Abhinav Bhatele",
+      "title": "Associate Professor",
+      "research_areas": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Bobby Bhattacharjee",
+      "title": "Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jordan Boyd-Graber",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Nora Burkhauser",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Marine Carpuat",
+      "title": "Associate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yizheng Chen",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Andrew Childs",
+      "title": "Professor",
+      "research_areas": [
+        "Quantum Computing",
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Hal Daumé III",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amol Deshpande",
+      "title": "Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Laxman Dhulipala",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "High Performance and Scientific Computing",
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ramani Duraiswami",
+      "title": "Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Roger Eastman",
+      "title": "Professor of the Practice",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Fawzi Emad",
+      "title": "Principal Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Anna Evtushenko",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Soheil Feizi",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception",
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Can Firtina",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Hervé Franceschi",
+      "title": "未提供",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ruohan Gao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "William Gasarch",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Tom Goldstein",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Evan Golub",
+      "title": "Principal Lecturer",
+      "research_areas": [
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elias Gonzalez",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Daniel Gottesman",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ritwik Gupta",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mohammad Hajiaghayi",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Larry Herman",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jeffrey K. Hollingsworth",
+      "title": "Professor",
+      "research_areas": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Heng Huang",
+      "title": "Professor",
+      "research_areas": [
+        "Machine Learning and Data Science",
+        "Bioinformatics and Computational Biology",
+        "Computer Vision and Machine Perception",
+        "Natural Language Processing",
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Furong Huang",
+      "title": "Associate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jia-Bin Huang",
+      "title": "Associate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dinesh Manocha",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Marsh",
+      "title": "Senior Lecturer",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michelle Mazurek",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher Metzler",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ian Miers",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Stevens Miller",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Erin Molloy",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Maksym Morawski",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "David Mount",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jun Nishida",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Matthew Nolan",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Nelson Padua-Perez",
+      "title": "Principal Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Rob Patro",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology",
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Huaishu Peng",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mihai Pop",
+      "title": "Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Adam Porter",
+      "title": "Professor",
+      "research_areas": [
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "James Purtilo",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mohit Iyyer",
+      "title": "Associate Professor",
+      "research_areas": [
+        "机器学习",
+        "自然语言处理"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Jacobs",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ting Jiang",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gabriel Kaptchuk",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Christopher Kauffman",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Pete Keleher",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sujeong Kim",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Clyde Kruskal",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Leonidas Lampropoulos",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Myungin Lee",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Dave Levin",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ming Lin",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan Zaoxing Liu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "Cybersecurity and Cryptography",
+        "Databases and Big Data",
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Zhicheng Liu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Human Computer Interaction",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ruoshi Liu",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Anwar Mamat",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Samir Khuller",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Databases and Big Data"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dana Nau",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dianne O'Leary",
+      "title": "Professor Emerita",
+      "research_areas": [
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Don Perlis",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jandelyn Plane",
+      "title": "Principal Lecturer Emerita",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "William Pugh",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "James Reggia",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Nicholas Roussopoulos",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "A. Udaya Shankar",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ben Shneiderman",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "G.W. (Pete) Stewart",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "High Performance and Scientific Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Marvin Zelkowitz",
+      "title": "Professor Emeritus",
+      "research_areas": [
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Victor Albert",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Leilani Battle",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aniket Bera",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Graphics Visualization and VR AR",
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Matthew Coudron",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "John Dickerson",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Gorjan Alagic",
+      "title": "Affiliate Associate Research Scientist",
+      "research_areas": [
+        "Quantum Computing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "John Baras",
+      "title": "Affiliate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Alexander Barg",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amrit Singh Bedi",
+      "title": "Affiliate Visiting Assistant Research Scientist",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Shuvra Bhattacharyya",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "IoT and Wearables Technology",
+        "Computer Vision and Machine Perception"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Maria Cameron",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Joel Chan",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eun Kyoung Choe",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michel Cukier",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dana Dachman-Soled",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Leila De Floriani",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yancy Diaz-Mercado",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Tudor Dumitras",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sanghamitra Dutta",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Sheena Erete",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Naomi Feldman",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Vanessa Frias-Martinez",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jennifer Golbeck",
+      "title": "Affiliate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "William Regli",
+      "title": "Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Nirupam Roy",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "IoT and Wearables Technology",
+        "Cybersecurity and Cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Rachel Rudinger",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science",
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Pedram Sadeghian",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Hanan Samet",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Databases and Big Data",
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Han Shao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Machine Learning and Data Science",
+        "Algorithms and Theory",
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Abhinav Shrivastava",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Aravind Srinivasan",
+      "title": "Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Milijana Surbatovich",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan Sussman",
+      "title": "Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Runzhou Tao",
+      "title": "Assistant Professor",
+      "research_areas": [
+        "Quantum Computing",
+        "Programming Languages and Software Engineering",
+        "Algorithms and Theory",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mohammad Nayeem Teli",
+      "title": "Senior Lecturer",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Pratap Tokekar",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "John Horty",
+      "title": "Affiliate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Hernisa Kacorri",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "Natural Language Processing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Yonghwi Kwon",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Amanda Lazar",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ang Li",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Richard Marciano",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Doug Oard",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Human Computer Interaction",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Otte",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Louiqa Raschid",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Philip Resnik",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Uzi Vishkin",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "David Weintrop",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mumu Xu",
+      "title": "Affiliate Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Haizhao Yang",
+      "title": "Affiliate Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Donald Yeung",
+      "title": "Affiliate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Cunxi Yu",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Kaiqing Zhang",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Algorithms and Theory",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Max Ehrlich",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Niklas Elmqvist",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "Human Computer Interaction"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jeffrey Foster",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Lise Getoor",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "AI and Robotics",
+        "Databases and Big Data"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "John Grant",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "AI and Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Michael Gullans",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Iker Leanizbarrutia",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Marc Lichtman",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [
+        "Machine Learning and Data Science",
+        "Systems, Networking, and Architecture"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Mikael Lindvall",
+      "title": "Adjunct Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yi-Kai Liu",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Jennifer Manly",
+      "title": "Adjunct Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Carl Miller",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ani Nenkova",
+      "title": "Adjunct Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Murphy Yuezhen Niu",
+      "title": "Adjunct Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mak Roberts",
+      "title": "Adjunct Lecturer",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "C. Anton Rytting",
+      "title": "Adjunct Lecturer",
+      "research_areas": [
+        "Natural Language Processing"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "S. Cenk Sahinalp",
+      "title": "Adjunct Professor",
+      "research_areas": [
+        "Bioinformatics and Computational Biology",
+        "Algorithms and Theory"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Elaine Shi",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Wei Ai",
+      "title": "Affiliate Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    }
+  ]
+}

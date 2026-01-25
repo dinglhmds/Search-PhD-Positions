@@ -1,0 +1,154 @@
+{
+  "faculty": [
+    {
+      "name": "Acar, Umut",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "umut@cmu.edu"
+    },
+    {
+      "name": "Ada, Anil",
+      "title": "Associate Teaching Professor",
+      "research_areas": [],
+      "email": "aada@cs.cmu.edu"
+    },
+    {
+      "name": "Akoglu, Leman",
+      "title": "Affiliated Faculty",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Aldrich, Jonathan",
+      "title": "Associate Professor, Affiliated Faculty",
+      "research_areas": [],
+      "email": "lemanakoglu@cmu.edu"
+    },
+    {
+      "name": "Amvrosiadis, George",
+      "title": "Professor, Affiliated Faculty",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Andersen, David",
+      "title": "Associate Research Professor, Affiliated Faculty",
+      "research_areas": [],
+      "email": "gamvrosi@cmu.edu"
+    },
+    {
+      "name": "Anderson, Daniel",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "dga@cs.cmu.edu"
+    },
+    {
+      "name": "Balcan, Maria",
+      "title": "Cadence Design Systems Professor",
+      "research_areas": [],
+      "email": "ninamf@cs.cmu.edu"
+    },
+    {
+      "name": "Balzer, Stephanie",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "balzers@cs.cmu.edu"
+    },
+    {
+      "name": "Beckmann, Nathan",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "beckmann@cmu.edu"
+    },
+    {
+      "name": "Berger, Daniel",
+      "title": "Adjunct Scientist",
+      "research_areas": [],
+      "email": "dsberger@cmu.edu"
+    },
+    {
+      "name": "Blelloch, Guy",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "gb1y@andrew.cmu.edu"
+    },
+    {
+      "name": "Blum, Manuel",
+      "title": "University Professor Emeritus",
+      "research_areas": [],
+      "email": "mblum@cs.cmu.edu"
+    },
+    {
+      "name": "Bogart, Christopher",
+      "title": "Senior Systems Scientist",
+      "research_areas": [],
+      "email": "cbogart@cmu.edu"
+    },
+    {
+      "name": "Brookes, Stephen",
+      "title": "Professor Emeritus",
+      "research_areas": [],
+      "email": "sb21@andrew.cmu.edu"
+    },
+    {
+      "name": "Brumley, David",
+      "title": "Professor of ECE, Affiliated Faculty",
+      "research_areas": [],
+      "email": "dbrumley@cmu.edu"
+    },
+    {
+      "name": "Bryant, Randal",
+      "title": "Faculty Emeritus",
+      "research_areas": [],
+      "email": "randy.bryant@cs.cmu.edu"
+    },
+    {
+      "name": "Carrasquel, Jacobo",
+      "title": "Associate Teaching Professor Emeritus",
+      "research_areas": [],
+      "email": "jacobo@andrew.cmu.edu"
+    },
+    {
+      "name": "Cervesato, Iliano",
+      "title": "Teaching Professor",
+      "research_areas": [],
+      "email": "iliano@cmu.edu"
+    },
+    {
+      "name": "Chen, Beidi",
+      "title": "Assistant Professor, Affiliated Faculty",
+      "research_areas": [],
+      "email": "beidic@andrew.cmu.edu"
+    },
+    {
+      "name": "Chen, Tianqi",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "tqchen@cmu.edu"
+    },
+    {
+      "name": "Chrysanthis, Panos",
+      "title": "Adjunct Faculty",
+      "research_areas": [],
+      "email": "panos@cmu.edu"
+    },
+    {
+      "name": "Conitzer, Vincent",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "c@cmu.edu"
+    },
+    {
+      "name": "Cortina, Thomas",
+      "title": "Teaching Professor, Associate Dean for Undergraduate Programs",
+      "research_areas": [],
+      "email": "tcortina@andrew.cmu.edu"
+    },
+    {
+      "name": "Crane, Keenan",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "kmcrane@cs.cmu.edu"
+    }
+  ]
+}

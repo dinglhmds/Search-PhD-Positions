@@ -1,0 +1,922 @@
+{
+  "faculty": [
+    {
+      "name": "Boris Aronov",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [
+        "geometry",
+        "algorithms"
+      ],
+      "email": "ba2008 at nyu.edu"
+    },
+    {
+      "name": "Ainesh Bakshi",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "ab13784 at nyu.edu"
+    },
+    {
+      "name": "Marshall Ball",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [],
+      "email": "marshall.ball at cs.nyu.edu"
+    },
+    {
+      "name": "Rosanna Bellini",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "rfb7709 at nyu.edu"
+    },
+    {
+      "name": "Juan Pablo Bello",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "jb2843 at nyu.edu"
+    },
+    {
+      "name": "Aaron Bernstein",
+      "title": "Charles S. Baylis Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "ab3599 at nyu.edu"
+    },
+    {
+      "name": "Nir Bitansky",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "Foundations of cryptography",
+        "proof systems",
+        "quantum cryptography"
+      ],
+      "email": "nb3873 at nyu.edu"
+    },
+    {
+      "name": "Emily Black",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "eb1850 at nyu.edu"
+    },
+    {
+      "name": "Joseph Bonneau",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "Computer security",
+        "applied cryptography",
+        "cryptocurrencies",
+        "security economics"
+      ],
+      "email": "jcb at cs.nyu.edu"
+    },
+    {
+      "name": "Samuel Bowman",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "research_areas": [
+        "AI evaluations",
+        "AI safety"
+      ],
+      "email": "bowman at nyu dot edu"
+    },
+    {
+      "name": "Joan Bruna",
+      "title": "Professor of Computer Science and Data Science",
+      "research_areas": [
+        "Machine learning",
+        "high-dimensional statistics",
+        "signal processing"
+      ],
+      "email": "bruna at cs.nyu.edu"
+    },
+    {
+      "name": "Benedikt Bünz",
+      "title": "Assistant Professor Computer Science",
+      "research_areas": [
+        "Applied Cryptography",
+        "Blockchains",
+        "Zero-Knowledge Proofs",
+        "Consensus"
+      ],
+      "email": "bkb8156 at nyu.edu"
+    },
+    {
+      "name": "Justin Cappos",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "jc4946 at nyu.edu"
+    },
+    {
+      "name": "Yi-Jen Chiang",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "yjc293 at nyu.edu"
+    },
+    {
+      "name": "Kyunghyun Cho",
+      "title": "Glen de Vries Chaired Professor of Computer Science and Data Science",
+      "research_areas": [
+        "Machine learning",
+        "natural languages",
+        "machine translation",
+        "artificial intelligence"
+      ],
+      "email": "kyunghyun.cho at nyu.edu"
+    },
+    {
+      "name": "Eunsol Choi",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "research_areas": [
+        "natural language processing",
+        "machine learning",
+        "artificial intelligence"
+      ],
+      "email": "ec5413 at nyu.edu"
+    },
+    {
+      "name": "Andrew Gordon Wilson",
+      "title": "Professor of Computer Science and Data Science",
+      "research_areas": [
+        "machine learning",
+        "Bayesian statistics",
+        "numerical linear algebra"
+      ],
+      "email": "andrewgw at cims.nyu.edu"
+    },
+    {
+      "name": "Ed K Wong",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "research_areas": [
+        "program analysis and verification",
+        "automated deduction",
+        "concurrent software",
+        "software productivity"
+      ],
+      "email": "emw334 at nyu.edu"
+    },
+    {
+      "name": "Saining Xie",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Computer Vision",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "email": "saining.xie at nyu.edu"
+    },
+    {
+      "name": "Sherry Yang",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Generative Modeling",
+        "Robot Learning",
+        "AI for Science"
+      ],
+      "email": "my3149 at nyu.edu"
+    },
+    {
+      "name": "Chee Yap",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Computational geometry",
+        "computer algebra",
+        "visualization",
+        "algorithmic robotics",
+        "complexity theory",
+        "numerical robustness issues and exact computation"
+      ],
+      "email": "yap at cs.nyu.edu"
+    },
+    {
+      "name": "Sai Qian Zhang",
+      "title": "Assistant Professor of Electrical and Computer Engineering and Computer Science",
+      "research_areas": [
+        "Efficient AI",
+        "AI Hardware System",
+        "AR/VR Computing"
+      ],
+      "email": "sai.zhang at nyu.edu"
+    },
+    {
+      "name": "Denis Zorin",
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "research_areas": [
+        "Computer graphics",
+        "geometric modeling",
+        "subdivision surfaces",
+        "multiresolution surface representations",
+        "fluid and solid simulation",
+        "perceptually based methods for computer graphics"
+      ],
+      "email": "dzorin at cs.nyu.edu"
+    },
+    {
+      "name": "Nadav Brandes",
+      "title": "Assistant Professor, Department of Biochemistry and Molecular Pharmacology",
+      "research_areas": [],
+      "email": "nadav.brandes at nyulangone.org"
+    },
+    {
+      "name": "Leslie Greengard",
+      "title": "Silver Professor of Mathematics and Computer Science",
+      "research_areas": [],
+      "email": "greengard at cims.nyu.edu"
+    },
+    {
+      "name": "Yanjun Han",
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mark Ho",
+      "title": "Assistant Professor of Psychology",
+      "research_areas": [],
+      "email": "mark.ho at nyu.edu"
+    },
+    {
+      "name": "Zhong-Ping Jiang",
+      "title": "Institute Professor",
+      "research_areas": [],
+      "email": "zpj201 at nyu.edu"
+    },
+    {
+      "name": "Qi Lei",
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "research_areas": [],
+      "email": "ql518 at nyu.edu"
+    },
+    {
+      "name": "Ludovic Righetti",
+      "title": "Professor of Electrical and Computer Engineering, Mechanical and Space Engineering, and Computer Science",
+      "research_areas": [],
+      "email": "ludovic.righetti at nyu.edu"
+    },
+    {
+      "name": "Keith Ross",
+      "title": "Dean of Engineering and Computer Science, NYU Shanghai; Leonard J. Shustek Professor of Computer Science, NYU Tandon",
+      "research_areas": [],
+      "email": "ross at nyu.edu"
+    },
+    {
+      "name": "Tamar Schlick",
+      "title": "Professor of Chemistry, Mathematics and Computer Science",
+      "research_areas": [],
+      "email": "schlick at cims.nyu.edu"
+    },
+    {
+      "name": "Liat Shenhav",
+      "title": "Assistant Professor, Department of Microbiology Assistant Professor, Department of Obstetrics and Gynecology",
+      "research_areas": [],
+      "email": "shenhl01 at nyu.edu"
+    },
+    {
+      "name": "Sandra Siby",
+      "title": "Global Network Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "sandra.siby at nyu.edu"
+    },
+    {
+      "name": "Georg Stadler",
+      "title": "Professor of Mathematics and Computer Science",
+      "research_areas": [],
+      "email": "stadler at cims.nyu.edu"
+    },
+    {
+      "name": "Hao Su",
+      "title": "Associate Professor of Biomedical Engineering",
+      "research_areas": [],
+      "email": "hs5894 at nyu.edu"
+    },
+    {
+      "name": "Sumit Chopra",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [],
+      "email": "sumit at cs.nyu.edu"
+    },
+    {
+      "name": "Rumi Chunara",
+      "title": "Associate Professor of Computer Science and Engineering and Biostatistics",
+      "research_areas": [],
+      "email": "rc167 at nyu.edu"
+    },
+    {
+      "name": "Patrick Cousot",
+      "title": "Silver Professor of Computer Science",
+      "research_areas": [
+        "Abstract interpretation",
+        "semantics",
+        "verification",
+        "static analysis"
+      ],
+      "email": "pcousot at cs.nyu.edu"
+    },
+    {
+      "name": "Thibault Dardinier",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Formal verification",
+        "sound and automated deductive verifiers",
+        "program logics",
+        "separation logic",
+        "hyperproperties"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Ernest Davis",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Artificial intelligence",
+        "knowledge representation",
+        "automated commonsense reasoning"
+      ],
+      "email": "davise at cs.nyu.edu"
+    },
+    {
+      "name": "Juan de Pablo",
+      "title": "Executive Vice President for Global Science and Technology; Executive Dean of the NYU Tandon School of Engineering; Professor of Chemical and Biomolecular Engineering",
+      "research_areas": [],
+      "email": "j.de.pablo at nyu.edu"
+    },
+    {
+      "name": "Yevgeniy Dodis",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Cryptography",
+        "security",
+        "information theory",
+        "complexity theory",
+        "algorithms"
+      ],
+      "email": "dodis at cs.nyu.edu"
+    },
+    {
+      "name": "Greg Durrett",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "research_areas": [
+        "machine learning",
+        "large language models",
+        "natural language processing"
+      ],
+      "email": "gd2691 at nyu.edu"
+    },
+    {
+      "name": "Martin Farach-Colton",
+      "title": "Leonard J. Shustek Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "mlf9579 at nyu.edu"
+    },
+    {
+      "name": "Rob Fergus",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Computer vision",
+        "computational photography"
+      ],
+      "email": "fergus at cs.nyu.edu"
+    },
+    {
+      "name": "David Fouhey",
+      "title": "Institute Associate Professor of Computer Science and Electrical and Computer Engineering",
+      "research_areas": [],
+      "email": "david.fouhey at nyu.edu"
+    },
+    {
+      "name": "Juliana Freire",
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "research_areas": [],
+      "email": "jf1870 at nyu.edu"
+    },
+    {
+      "name": "Davi Geiger",
+      "title": "Associate Professor of Computer Science and Neural Science",
+      "research_areas": [
+        "Computer Vision and Learning",
+        "Group and Quantum methods"
+      ],
+      "email": "dg1 at nyu.edu"
+    },
+    {
+      "name": "Benjamin Goldberg",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "Design and implementation of programming languages",
+        "compiler verification",
+        "compiler optimizations"
+      ],
+      "email": "goldberg at cs.nyu.edu"
+    },
+    {
+      "name": "Rachel Greenstadt",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "rg195 at nyu.edu"
+    },
+    {
+      "name": "Anupam Gupta",
+      "title": "Silver Professor of Computer Science",
+      "research_areas": [
+        "Algorithms",
+        "Theoretical Computer Science",
+        "Metric Embeddings"
+      ],
+      "email": "ag10120 at nyu.edu"
+    },
+    {
+      "name": "Eran Halperin",
+      "title": "Professor of Computer Science; Research Professor of Medicine",
+      "research_areas": [
+        "Computational Genomics",
+        "Machine Learning in Medicine and Healthcare"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "He He",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "research_areas": [
+        "Natural language processing",
+        "machine learning"
+      ],
+      "email": "hehe at cs.nyu.edu"
+    },
+    {
+      "name": "Chinmay Hegde",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "ch3773 at nyu.edu"
+    },
+    {
+      "name": "Lisa Hellerstein",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "lh1143 at nyu.edu"
+    },
+    {
+      "name": "Pavel Izmailov",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "pi390 at nyu.edu"
+    },
+    {
+      "name": "Evan Johnson",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "johnson at nyu.edu"
+    },
+    {
+      "name": "Gautam Kamath",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "privacy",
+        "robustness",
+        "algorithmic statistics",
+        "machine learning"
+      ],
+      "email": "gk2860 at nyu.edu"
+    },
+    {
+      "name": "Julia Kempe",
+      "title": "Silver Professor of Computer Science, Mathematics and Data Science",
+      "research_areas": [
+        "Data Science",
+        "Machine Learning",
+        "Quantum Computing"
+      ],
+      "email": "kempe at nyu.edu"
+    },
+    {
+      "name": "Sanjeev Khanna",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "approximation algorithms",
+        "combinatorial optimization",
+        "graph algorithms",
+        "parallel algorithms",
+        "sublinear algorithms"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Subhash Khot",
+      "title": "Silver Professor of Computer Science",
+      "research_areas": [
+        "algorithms",
+        "computational complexity",
+        "computational intractability"
+      ],
+      "email": "khot at cs.nyu.edu"
+    },
+    {
+      "name": "Robert Krueger",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "rk4815 at nyu.edu"
+    },
+    {
+      "name": "Yann LeCun",
+      "title": "Jacob T. Schwartz Chaired Professor in Computer Science",
+      "research_areas": [
+        "machine learning",
+        "computer vision",
+        "autonomous robotics",
+        "computational neuroscience",
+        "computational statistics",
+        "computational economics",
+        "hardware architectures for vision",
+        "digital libraries",
+        "data compression"
+      ],
+      "email": "yann at cs.nyu.edu"
+    },
+    {
+      "name": "Jinyang Li",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "distributed systems",
+        "operating systems",
+        "wireless networks"
+      ],
+      "email": "jinyang at cs.nyu.edu"
+    },
+    {
+      "name": "Allen Liu",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "machine learning theory",
+        "algorithms",
+        "quantum information"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Romain Lopez",
+      "title": "Assistant Professor of Computer Science and Biology",
+      "research_areas": [
+        "machine learning",
+        "computational biology",
+        "probabilistic and causal inference"
+      ],
+      "email": "na3533 at nyu.edu"
+    },
+    {
+      "name": "Fermi Ma",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "quantum computation",
+        "cryptography"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Damon McCoy",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "dm181 at nyu.edu"
+    },
+    {
+      "name": "Nasir Memon",
+      "title": "Vice Dean for Academics and Student Affairs and Professor of Computer Science and Engineering, NYU Tandon",
+      "research_areas": [],
+      "email": "nm1214 at nyu.edu"
+    },
+    {
+      "name": "Bhubaneswar Mishra",
+      "title": "Professor of Computer Science, Mathematics, and Cell Biology",
+      "research_areas": [
+        "bioinformatics",
+        "algorithmic algebra",
+        "robotics",
+        "computational biology",
+        "computational finance"
+      ],
+      "email": "mishra at cs.nyu.edu"
+    },
+    {
+      "name": "Mehryar Mohri",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "machine learning",
+        "computational biology",
+        "text and speech processing",
+        "algorithms",
+        "theory"
+      ],
+      "email": "mohri at cs.nyu.edu"
+    },
+    {
+      "name": "Christopher Musco",
+      "title": "Institute Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "cmusco at nyu.edu"
+    },
+    {
+      "name": "Daniel Neill",
+      "title": "Professor of Public Service and Computer Science",
+      "research_areas": [
+        "machine learning",
+        "event and pattern detection",
+        "applications for societal good",
+        "public health, safety, and security",
+        "algorithmic fairness",
+        "urban systems"
+      ],
+      "email": "daniel.neill at nyu.edu"
+    },
+    {
+      "name": "Michael Overton",
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "research_areas": [
+        "numerical analysis",
+        "linear algebra",
+        "optimization",
+        "mathematical programming"
+      ],
+      "email": "overton at cs.nyu.edu"
+    },
+    {
+      "name": "Aurojit Panda",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "distributed systems",
+        "systems",
+        "networking"
+      ],
+      "email": "apanda at cs.nyu.edu"
+    },
+    {
+      "name": "Daniele Panozzo",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "geometry processing",
+        "computer graphics",
+        "digital fabrication"
+      ],
+      "email": "panozzo at nyu.edu"
+    },
+    {
+      "name": "Sunoo Park",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [],
+      "email": "sp3217 at nyu.edu"
+    },
+    {
+      "name": "Benjamin Peherstorfer",
+      "title": "Associate Professor of Computer Science and Mathematics",
+      "research_areas": [
+        "computational statistics",
+        "bayesian inference",
+        "model reduction",
+        "high-dimensional approximation",
+        "machine learning",
+        "numerical analysis",
+        "numerical linear algebra"
+      ],
+      "email": "pehersto at cims.nyu.edu"
+    },
+    {
+      "name": "Juan Perdomo Silva",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "research_areas": [],
+      "email": "perdomo at nyu.edu"
+    },
+    {
+      "name": "Kenneth Perlin",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "computer graphics",
+        "simulation",
+        "computer/human interface",
+        "multimedia",
+        "animation"
+      ],
+      "email": "perlin at cs.nyu.edu"
+    },
+    {
+      "name": "Lerrel Pinto",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "robot learning",
+        "robotic manipulation",
+        "reinforcement learning",
+        "machine learning"
+      ],
+      "email": "lerrel at cs.nyu.edu"
+    },
+    {
+      "name": "Rajesh Ranganath",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Rajeshr",
+      "title": "Professor of Electrical and Computer Engineering, Computer Science, and Radiology",
+      "research_areas": [
+        "Machine Learning",
+        "Healthcare",
+        "Probabilistic and Causal Inference"
+      ],
+      "email": "rajeshr at cs.nyu.edu"
+    },
+    {
+      "name": "Theodore Rappaport",
+      "title": "Professor of Electrical and Computer Engineering, Computer Science, and Radiology",
+      "research_areas": [
+        "Wireless communication systems and networks",
+        "compressed sensing for wireless and video applications",
+        "RF/Analog circuit design",
+        "antennas and propagation",
+        "wireless for medical applications"
+      ],
+      "email": "tsr at nyu.edu"
+    },
+    {
+      "name": "Oded Regev",
+      "title": "Silver Professor of Computer Science",
+      "research_areas": [
+        "Lattice-based cryptography",
+        "quantum computation",
+        "mathematical aspects of theoretical computer science"
+      ],
+      "email": "regev at cs.nyu.edu"
+    },
+    {
+      "name": "Mengye Ren",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "research_areas": [
+        "Machine learning",
+        "deep learning",
+        "computer vision",
+        "artificial intelligence"
+      ],
+      "email": "mengye at cs.nyu.edu"
+    },
+    {
+      "name": "Benjamin Riviere",
+      "title": "Assistant Professor of Mechanical and Aerospace Engineering, and Computer Science",
+      "research_areas": [
+        "Space Robotics",
+        "Robotics",
+        "Monte Carlo Tree Search",
+        "Reinforcement Learning",
+        "Dynamical Systems"
+      ],
+      "email": "bpr3966 at nyu.edu"
+    },
+    {
+      "name": "Florian Schaefer",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Scientific Computing",
+        "Numerical Analysis",
+        "Computational Statistics"
+      ],
+      "email": "fs3047 at nyu.edu"
+    },
+    {
+      "name": "Pratyusha Sharma",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "research_areas": [
+        "Machine Learning",
+        "AI for Science",
+        "Science of Deep Learning",
+        "Natural Language Processing",
+        "Robotics"
+      ],
+      "email": "未提供"
+    },
+    {
+      "name": "Dennis Shasha",
+      "title": "Silver Professor of Computer Science",
+      "research_areas": [
+        "Network inference and protein design for biology",
+        "software for searching databases of trees and graphs",
+        "outsourcing data while preserving privacy",
+        "finding patterns in time series",
+        "DNA computing",
+        "puzzles"
+      ],
+      "email": "shasha at cs.nyu.edu"
+    },
+    {
+      "name": "Alan Siegel",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "VLSI design",
+        "analysis of algorithms",
+        "lower bounds",
+        "parallel algorithms",
+        "probability",
+        "combinatorial geometry"
+      ],
+      "email": "siegel at cs.nyu.edu"
+    },
+    {
+      "name": "Claudio Silva",
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "research_areas": [],
+      "email": "cs3026 at nyu.edu"
+    },
+    {
+      "name": "Anirudh Sivaraman",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "Programmable routers",
+        "computer networks",
+        "hardware and software for computer systems"
+      ],
+      "email": "anirudh at cs.nyu.edu"
+    },
+    {
+      "name": "Julia Stoyanovich",
+      "title": "Institute Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "stoyanovich at nyu.edu."
+    },
+    {
+      "name": "Lakshminarayanan Subramanian",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Networks",
+        "distributed systems",
+        "computing for development"
+      ],
+      "email": "lakshmi at cs.nyu.edu"
+    },
+    {
+      "name": "Torsten Suel",
+      "title": "Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "ts1415 at nyu.edu"
+    },
+    {
+      "name": "Qi Sun",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "qs2053 at nyu.edu"
+    },
+    {
+      "name": "Joseph Tassarotti",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Programming languages",
+        "formal verification",
+        "systems"
+      ],
+      "email": "jt4767 at nyu.edu"
+    },
+    {
+      "name": "Matus Telgarsky",
+      "title": "Associate Professor of Computer Science",
+      "research_areas": [
+        "Deep Learning Theory",
+        "Machine Learning Theory"
+      ],
+      "email": "mjt10041 at nyu.edu"
+    },
+    {
+      "name": "Julian Togelius",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "jt125 at nyu.edu"
+    },
+    {
+      "name": "Paul Torrens",
+      "title": "Professor of Computer Science and Engineering; Vice Dean for Faculty Affairs, Tandon School of Engineering",
+      "research_areas": [],
+      "email": "torrens at nyu.edu"
+    },
+    {
+      "name": "Erdem Varol",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "research_areas": [],
+      "email": "ev2240 at nyu.edu"
+    },
+    {
+      "name": "Michael Walfish",
+      "title": "Professor of Computer Science",
+      "research_areas": [
+        "Systems",
+        "security",
+        "networks"
+      ],
+      "email": "mwalfish at cs.nyu.edu"
+    },
+    {
+      "name": "Sam Westrick",
+      "title": "Assistant Professor of Computer Science",
+      "research_areas": [
+        "Programming languages",
+        "compilers and run-time systems",
+        "parallel algorithms"
+      ],
+      "email": "shw8119 at nyu.edu"
+    },
+    {
+      "name": "Thomas Wies",
+      "title": "Professor of Computer Science",
+      "research_areas": [],
+      "email": "wies at cs.nyu.edu"
+    }
+  ]
+}

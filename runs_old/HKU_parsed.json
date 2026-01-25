@@ -1,0 +1,606 @@
+{
+  "faculty": [
+    {
+      "name": "BOONEN, Tim J.",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/tjboonen/"
+    },
+    {
+      "name": "CAO, Yuan",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/yuancao/"
+    },
+    {
+      "name": "CHAN, Hubert T.H.",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/hubert"
+    },
+    {
+      "name": "CHEN, Ho (IDS)",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/people/academic-staff/chenho"
+    },
+    {
+      "name": "CHEN, Yi",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/chenyi"
+    },
+    {
+      "name": "CHENG, Reynold C.K.",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://reynold.hku.hk"
+    },
+    {
+      "name": "CHEUNG, K.C.",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/kccheung/"
+    },
+    {
+      "name": "OLIVEIRA, Bruno",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/bruno"
+    },
+    {
+      "name": "PAN, Jia",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/jpan"
+    },
+    {
+      "name": "PENG, Evan Yifan (EEE)",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/evanpeng/"
+    },
+    {
+      "name": "QI, Xiaojuan (EEE)",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/xjqi/"
+    },
+    {
+      "name": "QIAN, Chenxiong",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/cqian"
+    },
+    {
+      "name": "Qiu Yiming",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/yimingq"
+    },
+    {
+      "name": "QU, Liangqiong",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/liangqqu/"
+    },
+    {
+      "name": "RAMANATHAN, Ravishankar",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/ravi"
+    },
+    {
+      "name": "SCHNIEDERS, Dirk",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/sdirk"
+    },
+    {
+      "name": "SO, Hayden K.H. (EEE)",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/hso/"
+    },
+    {
+      "name": "TAM, Anthony T.C.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/atctam"
+    },
+    {
+      "name": "WANG, Yang",
+      "title": "Chair Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.presidentsoffice.hku.hk/leadership/professor-yang-wang"
+    },
+    {
+      "name": "WANG, Chen",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/stacw/"
+    },
+    {
+      "name": "WANG, Wenping",
+      "title": "Emeritus Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/wenping"
+    },
+    {
+      "name": "WAT, K.P.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/watkp/"
+    },
+    {
+      "name": "WONG, Kenneth K.Y.",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/kykwong"
+    },
+    {
+      "name": "WU, Chenshu",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/chenshu"
+    },
+    {
+      "name": "WU, Chuan",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/cwu"
+    },
+    {
+      "name": "XU, Dong",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/dongxu"
+    },
+    {
+      "name": "WU, Zhenqin",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/zqwu"
+    },
+    {
+      "name": "YANG, Yuxiang",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/yuxiang"
+    },
+    {
+      "name": "YIN, Guosheng",
+      "title": "Patrick S C Poon Professor in Statistics and Actuarial Science, Chair Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/gyin/"
+    },
+    {
+      "name": "YIU, Siu Ming",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/smyiu"
+    },
+    {
+      "name": "YU, Lequan",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://yulequan.github.io/"
+    },
+    {
+      "name": "YU, Tao",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/tyu"
+    },
+    {
+      "name": "YU, Yizhou",
+      "title": "Chair Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/yzyu"
+    },
+    {
+      "name": "YUEN, K.C.",
+      "title": "Emeritus Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/kcyuen/"
+    },
+    {
+      "name": "ZHANG, Chenyang",
+      "title": "Instructor in Statistics",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/zhangcy/"
+    },
+    {
+      "name": "ZHANG, Dora Y.",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/doraz/"
+    },
+    {
+      "name": "ZHANG, Michael M.Y.",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/mzhang/"
+    },
+    {
+      "name": "ZHANG, Zhiqiang",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/zhangz/"
+    },
+    {
+      "name": "ZHAO, Hengshuang",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/hszhao"
+    },
+    {
+      "name": "ZHAO, Qi",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/zhaoqi"
+    },
+    {
+      "name": "ZHU, Michael B.Y.",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/mbzhu/"
+    },
+    {
+      "name": "ZHU, Ke",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/mazhuke/"
+    },
+    {
+      "name": "ZHU, Yichen",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/yczhu/"
+    },
+    {
+      "name": "ZOU, Difan",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/dzou"
+    },
+    {
+      "name": "CHEUNG, Harrison Y.Y.",
+      "title": "Instructor in Statistics",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/hcheung/"
+    },
+    {
+      "name": "CHIM, Tat Wing",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/twchim"
+    },
+    {
+      "name": "CHIN, Francis Y.L",
+      "title": "Emeritus & Honorary Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/chin"
+    },
+    {
+      "name": "CHIRIBELLA, Giulio",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/giulio"
+    },
+    {
+      "name": "CHOI, Olivia T.K.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/ochoi/"
+    },
+    {
+      "name": "CHOI, Yi King",
+      "title": "Senior Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/ykchoi"
+    },
+    {
+      "name": "CHONG, Alfred W.F.",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/chongwf/"
+    },
+    {
+      "name": "CHOW, Ka Ho",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/kachow"
+    },
+    {
+      "name": "CUI, Heming",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/heming"
+    },
+    {
+      "name": "Dougherty, Alan William",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/ougherty"
+    },
+    {
+      "name": "FANG, Juanru",
+      "title": "Assistant Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/jrfang"
+    },
+    {
+      "name": "FENG, Long",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/lfeng/"
+    },
+    {
+      "name": "FENG, Weiming",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/wfeng"
+    },
+    {
+      "name": "FONG, Edwin C.H.",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/chefong/"
+    },
+    {
+      "name": "FUNG, Wing K.",
+      "title": "Emeritus Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/wingfung/"
+    },
+    {
+      "name": "GAO, Shenghua",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/gaosh"
+    },
+    {
+      "name": "GU, Yu",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/yugu/"
+    },
+    {
+      "name": "HAN, Kai",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.kaihan.org/"
+    },
+    {
+      "name": "HOFERT, Marius",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/mhofert/"
+    },
+    {
+      "name": "HUANG, Chao",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/chuang"
+    },
+    {
+      "name": "HUANG, Zhiyi",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/zhiyi"
+    },
+    {
+      "name": "KAO, Benjamin C.M.",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/kao"
+    },
+    {
+      "name": "KOMURA, Taku",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/taku"
+    },
+    {
+      "name": "KONG, Lingpeng",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/lpk"
+    },
+    {
+      "name": "KWAN, C.W.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/cwkwan/"
+    },
+    {
+      "name": "LAM, Edmund Y.M. (EEE)",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/elam/"
+    },
+    {
+      "name": "LAM, Tak-Wah",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/twlam"
+    },
+    {
+      "name": "LAU, Adela S.M.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/adelalau/"
+    },
+    {
+      "name": "LEE, David",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/leedav/"
+    },
+    {
+      "name": "LEE, Stephen M.S.",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/smslee/"
+    },
+    {
+      "name": "LI, Eric A.L.",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/ericli/"
+    },
+    {
+      "name": "LI, Guodong",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/gdli/"
+    },
+    {
+      "name": "LI, W.K.",
+      "title": "Emeritus Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/hrntlwk/"
+    },
+    {
+      "name": "LI, Wenyuan",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://saasweb.hku.hk/staff/wylsaas/"
+    },
+    {
+      "name": "LIANG, Yingyu (IDS)",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/yingyul"
+    },
+    {
+      "name": "LIU, Chi Man",
+      "title": "Lecturer",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/cmliu"
+    },
+    {
+      "name": "LIU, Qi",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/liuqi"
+    },
+    {
+      "name": "LIU, Xihui (EEE)",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/xihui-liu/"
+    },
+    {
+      "name": "LUO, Ping",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/pluo"
+    },
+    {
+      "name": "LUO, Ruibang",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/rbluo"
+    },
+    {
+      "name": "MA, Yi",
+      "title": "Chair Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.cs.hku.hk/index.php/people/academic-staff/mayi"
+    },
+    {
+      "name": "NGAI, Edith C.H. (EEE)",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供",
+      "link": "https://www.eee.hku.hk/people/echngai/"
+    }
+  ]
+}

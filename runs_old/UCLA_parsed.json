@@ -1,0 +1,358 @@
+{
+  "faculty": [
+    {
+      "name": "John Junghoo Cho",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jason Jingsheng Cong",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Adnan Y. Darwiche",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jason Ernst",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eleazar Eskin",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Miryung Kim",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Songwu Lu",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Raghu Meka",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Todd D. Millstein",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Stanley J. Osher",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Rafail Ostrovsky",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jens Palsberg",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Miodrag Potkonjak",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Glenn D. Reinman",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Amit Sahai",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sriram Sankararaman",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Majid Sarrafzadeh",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Alexander Sherstov",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Stefano Soatto",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Mani B. Srivastava",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yizhou Sun",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Demetri Terzopoulos",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Guy Van den Broeck",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "George Varghese",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Wei Wang",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Harry G. Xu",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Lixia Zhang",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Omid Abari",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Xiang Anthony Chen",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Quanquan Gu",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Choi-Jui Hsieh",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Achuta Kadambi",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Jonathan C. Kao",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Anthony J. Nowatzki",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Violet Nanyun Peng",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuval Tamir",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuan Tian",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Bolei Zhou",
+      "title": "Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Yuchen Cui",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Saadia Gabriel",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Aditya Grover",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eunice Jun",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Konstantinos Kallas",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sam Kumar",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Baharan Mirzasoleiman",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Harold Pimentel",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Blaise-Pascal Tine",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Remy Wang",
+      "title": "Assistant Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Paul R. Eggert",
+      "title": "Professor of Teaching",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "David A. Smallberg",
+      "title": "Professor of Teaching",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Sandra Batista",
+      "title": "Assistant Professor of Teaching",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Tobias Dürschmid",
+      "title": "Assistant Professor of Teaching",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Eran Halperin",
+      "title": "Adjunct Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Alan C. Kay",
+      "title": "Adjunct Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Carey S. Nachenberg",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Giovanni Pau",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Ramin Ramezani",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Fabien Scalzo",
+      "title": "Adjunct Associate Professor",
+      "research_areas": [],
+      "email": "未提供"
+    }
+  ]
+}

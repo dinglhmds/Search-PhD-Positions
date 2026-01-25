@@ -1,0 +1,823 @@
+# universities.yaml
+- name: "Stanford University"
+  domain: "stanford.edu"
+  aliases: ["Stanford", "Stanford CS"]
+- name: "Massachusetts Institute of Technology"
+  domain: "mit.edu"
+  aliases: ["MIT", "MIT CS"]
+- name: "Carnegie Mellon University"
+  domain: "cmu.edu"
+  aliases: ["CMU", "CMU CS"]
+- name: "University of California, Berkeley"
+  domain: "berkeley.edu"
+  aliases: ["UC Berkeley", "UCB", "Berkeley CS"]
+- name: "University of Washington"
+  domain: "uw.edu"
+  aliases: ["UW", "Washington", "UW CS"]
+- name: "University of Illinois at Urbana-Champaign"
+  domain: "illinois.edu"
+  aliases: ["UIUC", "Illinois", "UIUC CS"]
+- name: "University of Texas at Austin"
+  domain: "utexas.edu"
+  aliases: ["UT Austin", "Texas", "UT CS"]
+- name: "California Institute of Technology"
+  domain: "caltech.edu"
+  aliases: ["Caltech", "Caltech CS"]
+- name: "University of Maryland, College Park"
+  domain: "umd.edu"
+  aliases: ["UMD", "Maryland", "UMD CS"]
+- name: "Georgia Institute of Technology"
+  domain: "gatech.edu"
+  aliases: ["Georgia Tech", "GIT", "Georgia Tech CS"]
+- name: "University of California, Los Angeles"
+  domain: "ucla.edu"
+  aliases: ["UCLA", "Cal Los Angeles", "UCLA CS"]
+- name: "Princeton University"
+  domain: "princeton.edu"
+  aliases: ["Princeton", "Princeton CS"]
+- name: "University of California, San Diego"
+  domain: "ucsd.edu"
+  aliases: ["UCSD", "Cal San Diego", "UCSD CS"]
+- name: "Cornell University"
+  domain: "cornell.edu"
+  aliases: ["Cornell", "Cornell CS"]
+- name: "University of Michigan"
+  domain: "umich.edu"
+  aliases: ["UMich", "Michigan", "UMich CS"]
+- name: "Purdue University"
+  domain: "purdue.edu"
+  aliases: ["Purdue", "Purdue CS"]
+- name: "University of Pennsylvania"
+  domain: "upenn.edu"
+  aliases: ["UPenn", "Penn", "UPenn CS"]
+- name: "Columbia University"
+  domain: "columbia.edu"
+  aliases: ["Columbia", "Columbia CS"]
+- name: "Harvard University"
+  domain: "harvard.edu"
+  aliases: ["Harvard", "Harvard CS"]
+- name: "University of Wisconsin-Madison"
+  domain: "wisc.edu"
+  aliases: ["UW Madison", "Wisconsin", "UW CS"]
+- name: "New York University"
+  domain: "nyu.edu"
+  aliases: ["NYU", "NYU CS"]
+- name: "University of Massachusetts Amherst"
+  domain: "umass.edu"
+  aliases: ["UMass", "Massachusetts", "UMass CS"]
+- name: "Yale University"
+  domain: "yale.edu"
+  aliases: ["Yale", "Yale CS"]
+- name: "University of Southern California"
+  domain: "usc.edu"
+  aliases: ["USC", "Southern California", "USC CS"]
+- name: "University of Toronto"
+  domain: "utoronto.ca"
+  aliases: ["U of T", "Toronto", "U of T CS"]
+- name: "University of California, Santa Barbara"
+  domain: "ucsb.edu"
+  aliases: ["UCSB", "Cal Santa Barbara", "UCSB CS"]
+- name: "University of California, Irvine"
+  domain: "uci.edu"
+  aliases: ["UCI", "Cal Irvine", "UCI CS"]
+- name: "Ohio State University"
+  domain: "osu.edu"
+  aliases: ["OSU", "Ohio State", "OSU CS"]
+- name: "University of Illinois at Chicago"
+  domain: "uic.edu"
+  aliases: ["UIC", "Illinois Chicago", "UIC CS"]
+- name: "Rutgers University"
+  domain: "rutgers.edu"
+  aliases: ["Rutgers", "Rutgers CS"]
+- name: "Pennsylvania State University"
+  domain: "psu.edu"
+  aliases: ["Penn State", "PSU", "PSU CS"]
+- name: "University of North Carolina at Chapel Hill"
+  domain: "unc.edu"
+  aliases: ["UNC", "North Carolina", "UNC CS"]
+- name: "University of Minnesota"
+  domain: "umn.edu"
+  aliases: ["UMN", "Minnesota", "UMN CS"]
+- name: "University of Virginia"
+  domain: "virginia.edu"
+  aliases: ["UVA", "Virginia", "UVa CS"]
+- name: "Johns Hopkins University"
+  domain: "jhu.edu"
+  aliases: ["JHU", "Johns Hopkins", "JHU CS"]
+- name: "Duke University"
+  domain: "duke.edu"
+  aliases: ["Duke", "Duke CS"]
+- name: "Northeastern University"
+  domain: "northeastern.edu"
+  aliases: ["Northeastern", "Northeastern CS"]
+- name: "University of California, Davis"
+  domain: "ucdavis.edu"
+  aliases: ["UC Davis", "Cal Davis", "UC Davis CS"]
+- name: "Brown University"
+  domain: "brown.edu"
+  aliases: ["Brown", "Brown CS"]
+- name: "Dartmouth College"
+  domain: "dartmouth.edu"
+  aliases: ["Dartmouth", "Dartmouth CS"]
+- name: "University of Colorado Boulder"
+  domain: "colorado.edu"
+  aliases: ["CU Boulder", "Colorado", "CU CS"]
+- name: "Arizona State University"
+  domain: "asu.edu"
+  aliases: ["ASU", "Arizona State", "ASU CS"]
+- name: "University of Arizona"
+  domain: "arizona.edu"
+  aliases: ["U of A", "Arizona", "Arizona CS"]
+- name: "Northwestern University"
+  domain: "northwestern.edu"
+  aliases: ["Northwestern", "Northwestern CS"]
+- name: "University of Florida"
+  domain: "ufl.edu"
+  aliases: ["UF", "Florida", "UF CS"]
+- name: "University of Utah"
+  domain: "utah.edu"
+  aliases: ["Utah", "Utah CS"]
+- name: "Washington University in St. Louis"
+  domain: "wustl.edu"
+  aliases: ["WashU", "WashU CS"]
+- name: "University of Notre Dame"
+  domain: "nd.edu"
+  aliases: ["Notre Dame", "Notre Dame CS"]
+- name: "Vanderbilt University"
+  domain: "vanderbilt.edu"
+  aliases: ["Vanderbilt", "Vanderbilt CS"]
+- name: "University of Rochester"
+  domain: "rochester.edu"
+  aliases: ["Rochester", "Rochester CS"]
+- name: "Boston University"
+  domain: "bu.edu"
+  aliases: ["BU", "Boston", "BU CS"]
+- name: "Rice University"
+  domain: "rice.edu"
+  aliases: ["Rice", "Rice CS"]
+- name: "Tufts University"
+  domain: "tufts.edu"
+  aliases: ["Tufts", "Tufts CS"]
+- name: "University of California, Santa Cruz"
+  domain: "ucsc.edu"
+  aliases: ["UCSC", "Cal Santa Cruz", "UCSC CS"]
+- name: "University of Pittsburgh"
+  domain: "pitt.edu"
+  aliases: ["Pitt", "Pittsburgh", "Pitt CS"]
+- name: "University of Delaware"
+  domain: "udel.edu"
+  aliases: ["UD", "Delaware", "UD CS"]
+- name: "University of Iowa"
+  domain: "uiowa.edu"
+  aliases: ["UI", "Iowa", "Iowa CS"]
+- name: "University of Connecticut"
+  domain: "uconn.edu"
+  aliases: ["UConn", "Connecticut", "UConn CS"]
+- name: "Virginia Tech"
+  domain: "vt.edu"
+  aliases: ["VT", "Virginia Tech", "VT CS"]
+- name: "University of California, Merced"
+  domain: "ucmerced.edu"
+  aliases: ["UC Merced", "Cal Merced", "UC Merced CS"]
+- name: "University of New Mexico"
+  domain: "unm.edu"
+  aliases: ["UNM", "New Mexico", "UNM CS"]
+- name: "University of Nebraska-Lincoln"
+  domain: "unl.edu"
+  aliases: ["UNL", "Nebraska", "UNL CS"]
+- name: "Iowa State University"
+  domain: "iastate.edu"
+  aliases: ["ISU", "Iowa State", "ISU CS"]
+- name: "Washington State University"
+  domain: "wsu.edu"
+  aliases: ["WSU", "Washington State", "WSU CS"]
+- name: "Oregon State University"
+  domain: "oregonstate.edu"
+  aliases: ["OSU", "Oregon State", "OSU CS"]
+- name: "University of Oregon"
+  domain: "uoregon.edu"
+  aliases: ["UO", "Oregon", "Oregon CS"]
+- name: "University of Hawaii at Manoa"
+  domain: "hawaii.edu"
+  aliases: ["UH Manoa", "Hawaii", "Hawaii CS"]
+- name: "University of Kentucky"
+  domain: "uky.edu"
+  aliases: ["UK", "Kentucky", "UK CS"]
+- name: "University of Louisville"
+  domain: "louisville.edu"
+  aliases: ["U of L", "Louisville", "Louisville CS"]
+- name: "University of Tennessee"
+  domain: "utk.edu"
+  aliases: ["UTK", "Tennessee", "UTK CS"]
+- name: "University of Missouri"
+  domain: "missouri.edu"
+  aliases: ["Mizzou", "Missouri", "Mizzou CS"]
+- name: "Michigan State University"
+  domain: "msu.edu"
+  aliases: ["MSU", "Michigan State", "MSU CS"]
+- name: "University of Georgia"
+  domain: "uga.edu"
+  aliases: ["UGA", "Georgia", "UGA CS"]
+- name: "Florida State University"
+  domain: "fsu.edu"
+  aliases: ["FSU", "Florida State", "FSU CS"]
+- name: "Florida International University"
+  domain: "fiu.edu"
+  aliases: ["FIU", "Florida International", "FIU CS"]
+- name: "University of Miami"
+  domain: "miami.edu"
+  aliases: ["UM", "Miami", "Miami CS"]
+- name: "University of Texas at Dallas"
+  domain: "utdallas.edu"
+  aliases: ["UTD", "Texas Dallas", "UTD CS"]
+- name: "University of Texas at Arlington"
+  domain: "uta.edu"
+  aliases: ["UTA", "Texas Arlington", "UTA CS"]
+- name: "Texas A&M University"
+  domain: "tamu.edu"
+  aliases: ["TAMU", "Texas A&M", "TAMU CS"]
+- name: "University of North Texas"
+  domain: "unt.edu"
+  aliases: ["UNT", "North Texas", "UNT CS"]
+- name: "University of Oklahoma"
+  domain: "ou.edu"
+  aliases: ["OU", "Oklahoma", "OU CS"]
+- name: "University of Kansas"
+  domain: "ku.edu"
+  aliases: ["KU", "Kansas", "KU CS"]
+- name: "University of Nebraska"
+  domain: "nebraska.edu"
+  aliases: ["NU", "Nebraska", "NU CS"]
+- name: "University of South Carolina"
+  domain: "sc.edu"
+  aliases: ["USC", "South Carolina", "SC CS"]
+- name: "University of Alabama"
+  domain: "ua.edu"
+  aliases: ["UA", "Alabama", "UA CS"]
+- name: "University of Mississippi"
+  domain: "olemiss.edu"
+  aliases: ["Ole Miss", "Mississippi", "Ole Miss CS"]
+- name: "Auburn University"
+  domain: "auburn.edu"
+  aliases: ["Auburn", "Auburn CS"]
+- name: "Louisiana State University"
+  domain: "lsu.edu"
+  aliases: ["LSU", "Louisiana State", "LSU CS"]
+- name: "University of Arkansas"
+  domain: "uark.edu"
+  aliases: ["U of A", "Arkansas", "Arkansas CS"]
+- name: "Rochester Institute of Technology"
+  domain: "rit.edu"
+  aliases: ["RIT", "Rochester Tech", "RIT CS"]
+- name: "Syracuse University"
+  domain: "syr.edu"
+  aliases: ["Syracuse", "Syracuse CS"]
+- name: "Stony Brook University"
+  domain: "stonybrook.edu"
+  aliases: ["SBU", "Stony Brook", "SBU CS"]
+- name: "University at Buffalo"
+  domain: "buffalo.edu"
+  aliases: ["UB", "Buffalo", "UB CS"]
+- name: "Rensselaer Polytechnic Institute"
+  domain: "rpi.edu"
+  aliases: ["RPI", "Rensselaer", "RPI CS"]
+- name: "University of Vermont"
+  domain: "uvm.edu"
+  aliases: ["UVM", "Vermont", "UVM CS"]
+- name: "College of William & Mary"
+  domain: "wm.edu"
+  aliases: ["William & Mary", "W&M", "W&M CS"]
+- name: "Wake Forest University"
+  domain: "wfu.edu"
+  aliases: ["Wake Forest", "WFU CS"]
+- name: "Brandeis University"
+  domain: "brandeis.edu"
+  aliases: ["Brandeis", "Brandeis CS"]
+- name: "Case Western Reserve University"
+  domain: "case.edu"
+  aliases: ["CWRU", "Case Western", "CWRU CS"]
+- name: "University of California, Riverside"
+  domain: "ucr.edu"
+  aliases: ["UCR", "Cal Riverside", "UCR CS"]
+- name: "University of California, San Francisco"
+  domain: "ucsf.edu"
+  aliases: ["UCSF", "Cal San Francisco", "UCSF CS"]
+- name: "University of Chicago"
+  domain: "uchicago.edu"
+  aliases: ["UChicago", "Chicago", "UChicago CS"]
+- name: "University of Central Florida"
+  domain: "ucf.edu"
+  aliases: ["UCF", "Central Florida", "UCF CS"]
+- name: "University of New Hampshire"
+  domain: "unh.edu"
+  aliases: ["UNH", "New Hampshire", "UNH CS"]
+- name: "University of Maine"
+  domain: "maine.edu"
+  aliases: ["UMaine", "Maine", "Maine CS"]
+- name: "University of Rhode Island"
+  domain: "uri.edu"
+  aliases: ["URI", "Rhode Island", "URI CS"]
+- name: "University of Alaska Fairbanks"
+  domain: "alaska.edu"
+  aliases: ["UAF", "Alaska", "UAF CS"]
+- name: "University of Nevada, Reno"
+  domain: "unr.edu"
+  aliases: ["UNR", "Nevada Reno", "UNR CS"]
+- name: "University of Nevada, Las Vegas"
+  domain: "unlv.edu"
+  aliases: ["UNLV", "Nevada Las Vegas", "UNLV CS"]
+- name: "Utah State University"
+  domain: "usu.edu"
+  aliases: ["USU", "Utah State", "USU CS"]
+- name: "University of New Orleans"
+  domain: "uno.edu"
+  aliases: ["UNO", "New Orleans", "UNO CS"]
+- name: "Middle Tennessee State University"
+  domain: "mtsu.edu"
+  aliases: ["MTSU", "Middle Tennessee", "MTSU CS"]
+- name: "University of Memphis"
+  domain: "memphis.edu"
+  aliases: ["Memphis", "Memphis CS"]
+- name: "Kennesaw State University"
+  domain: "kennesaw.edu"
+  aliases: ["KSU", "Kennesaw State", "KSU CS"]
+- name: "Georgia State University"
+  domain: "gsu.edu"
+  aliases: ["GSU", "Georgia State", "GSU CS"]
+- name: "Clemson University"
+  domain: "clemson.edu"
+  aliases: ["Clemson", "Clemson CS"]
+- name: "College of Charleston"
+  domain: "cofc.edu"
+  aliases: ["CofC", "Charleston", "Charleston CS"]
+- name: "North Carolina State University"
+  domain: "ncsu.edu"
+  aliases: ["NCSU", "NC State", "NCSU CS"]
+- name: "University of North Carolina at Charlotte"
+  domain: "uncc.edu"
+  aliases: ["UNCC", "UNC Charlotte", "UNCC CS"]
+- name: "East Carolina University"
+  domain: "ecu.edu"
+  aliases: ["ECU", "East Carolina", "ECU CS"]
+- name: "University of Louisiana at Lafayette"
+  domain: "louisiana.edu"
+  aliases: ["ULL", "Louisiana Lafayette", "ULL CS"]
+- name: "Utah Valley University"
+  domain: "uvu.edu"
+  aliases: ["UVU", "Utah Valley", "UVU CS"]
+- name: "Brigham Young University"
+  domain: "byu.edu"
+  aliases: ["BYU", "Brigham Young", "BYU CS"]
+- name: "University of Houston"
+  domain: "uh.edu"
+  aliases: ["UH", "Houston", "UH CS"]
+- name: "Texas Tech University"
+  domain: "ttu.edu"
+  aliases: ["TTU", "Texas Tech", "TTU CS"]
+- name: "Oklahoma State University"
+  domain: "okstate.edu"
+  aliases: ["OSU", "Oklahoma State", "OSU CS"]
+- name: "University of Denver"
+  domain: "du.edu"
+  aliases: ["DU", "Denver", "DU CS"]
+- name: "University of New Mexico Health Sciences Center"
+  domain: "salud.unm.edu"
+  aliases: ["UNM HSC", "New Mexico Health Sciences", "UNM HSC CS"]
+- name: "Southern Methodist University"
+  domain: "smu.edu"
+  aliases: ["SMU", "SMU CS"]
+- name: "Baylor University"
+  domain: "baylor.edu"
+  aliases: ["Baylor", "Baylor CS"]
+- name: "University of Tulsa"
+  domain: "utulsa.edu"
+  aliases: ["UTulsa", "Tulsa", "Tulsa CS"]
+- name: "Illinois Institute of Technology"
+  domain: "iit.edu"
+  aliases: ["IIT", "Illinois Tech", "IIT CS"]
+- name: "DePaul University"
+  domain: "depaul.edu"
+  aliases: ["DePaul", "DePaul CS"]
+- name: "Loyola University Chicago"
+  domain: "luc.edu"
+  aliases: ["Loyola Chicago", "LUC", "Loyola Chicago CS"]
+- name: "Illinois State University"
+  domain: "ilstu.edu"
+  aliases: ["ISU", "Illinois State", "ISU CS"]
+- name: "University of Northern Iowa"
+  domain: "uni.edu"
+  aliases: ["UNI", "Northern Iowa", "UNI CS"]
+- name: "Drake University"
+  domain: "drake.edu"
+  aliases: ["Drake", "Drake CS"]
+- name: "Creighton University"
+  domain: "creighton.edu"
+  aliases: ["Creighton", "Creighton CS"]
+- name: "Colorado School of Mines"
+  domain: "mines.edu"
+  aliases: ["CSM", "Colorado Mines", "CSM CS"]
+- name: "Colorado State University"
+  domain: "colostate.edu"
+  aliases: ["CSU", "Colorado State", "CSU CS"]
+- name: "University of Colorado Colorado Springs"
+  domain: "uccs.edu"
+  aliases: ["UCCS", "Colorado Springs", "UCCS CS"]
+- name: "Regis University"
+  domain: "regis.edu"
+  aliases: ["Regis", "Regis CS"]
+- name: "University of Wyoming"
+  domain: "uwyo.edu"
+  aliases: ["UW", "Wyoming", "UW CS"]
+- name: "Montana State University"
+  domain: "montana.edu"
+  aliases: ["MSU", "Montana State", "MSU CS"]
+- name: "University of Montana"
+  domain: "umontana.edu"
+  aliases: ["UM", "Montana", "UM CS"]
+- name: "Montana Tech"
+  domain: "mtech.edu"
+  aliases: ["Montana Tech", "MTech", "MTech CS"]
+- name: "University of Idaho"
+  domain: "uidaho.edu"
+  aliases: ["UI", "Idaho", "Idaho CS"]
+- name: "Boise State University"
+  domain: "boisestate.edu"
+  aliases: ["BSU", "Boise State", "BSU CS"]
+- name: "Idaho State University"
+  domain: "isu.edu"
+  aliases: ["ISU", "Idaho State", "ISU CS"]
+- name: "Weber State University"
+  domain: "weber.edu"
+  aliases: ["WSU", "Weber State", "WSU CS"]
+- name: "Southern Utah University"
+  domain: "suu.edu"
+  aliases: ["SUU", "Southern Utah", "SUU CS"]
+- name: "University of Virginia"
+  domain: "virginia.edu"
+  aliases: ["UVA", "UVa", "UVA CS"]
+- name: "Virginia Commonwealth University"
+  domain: "vcu.edu"
+  aliases: ["VCU", "Virginia Commonwealth", "VCU CS"]
+- name: "George Mason University"
+  domain: "gmu.edu"
+  aliases: ["GMU", "George Mason", "GMU CS"]
+- name: "Old Dominion University"
+  domain: "odu.edu"
+  aliases: ["ODU", "Old Dominion", "ODU CS"]
+- name: "Virginia State University"
+  domain: "vsu.edu"
+  aliases: ["VSU", "Virginia State", "VSU CS"]
+- name: "Longwood University"
+  domain: "longwood.edu"
+  aliases: ["Longwood", "Longwood CS"]
+- name: "Radford University"
+  domain: "radford.edu"
+  aliases: ["Radford", "Radford CS"]
+- name: "James Madison University"
+  domain: "jmu.edu"
+  aliases: ["JMU", "James Madison", "JMU CS"]
+- name: "University of Mary Washington"
+  domain: "umw.edu"
+  aliases: ["UMW", "Mary Washington", "UMW CS"]
+- name: "Washington and Lee University"
+  domain: "wlu.edu"
+  aliases: ["W&L", "Washington and Lee", "W&L CS"]
+- name: "Liberty University"
+  domain: "liberty.edu"
+  aliases: ["Liberty", "Liberty CS"]
+- name: "Regent University"
+  domain: "regent.edu"
+  aliases: ["Regent", "Regent CS"]
+- name: "Virginia Union University"
+  domain: "vuu.edu"
+  aliases: ["VUU", "Virginia Union", "VUU CS"]
+- name: "Norfolk State University"
+  domain: "nsc.edu"
+  aliases: ["NSU", "Norfolk State", "NSU CS"]
+- name: "Christopher Newport University"
+  domain: "cnu.edu"
+  aliases: ["CNU", "Christopher Newport", "CNU CS"]
+- name: "Hampton University"
+  domain: "hampton.edu"
+  aliases: ["Hampton", "Hampton CS"]
+- name: "Shenandoah University"
+  domain: "su.edu"
+  aliases: ["SU", "Shenandoah", "SU CS"]
+- name: "North Carolina A&T State University"
+  domain: "ncat.edu"
+  aliases: ["NC A&T", "NC A&T CS"]
+- name: "North Carolina Central University"
+  domain: "nccu.edu"
+  aliases: ["NCCU", "NC Central", "NCCU CS"]
+- name: "Fayetteville State University"
+  domain: "uncfsu.edu"
+  aliases: ["FSU", "Fayetteville State", "FSU CS"]
+- name: "Elizabeth City State University"
+  domain: "ecsu.edu"
+  aliases: ["ECSU", "Elizabeth City State", "ECSU CS"]
+- name: "Winston-Salem State University"
+  domain: "wssu.edu"
+  aliases: ["WSSU", "Winston-Salem State", "WSSU CS"]
+- name: "Medical University of South Carolina"
+  domain: "musc.edu"
+  aliases: ["MUSC", "Medical Carolina", "MUSC CS"]
+- name: "Coastal Carolina University"
+  domain: "coastal.edu"
+  aliases: ["CCU", "Coastal Carolina", "CCU CS"]
+- name: "Furman University"
+  domain: "furman.edu"
+  aliases: ["Furman", "Furman CS"]
+- name: "Wofford College"
+  domain: "wofford.edu"
+  aliases: ["Wofford", "Wofford CS"]
+- name: "The Citadel"
+  domain: "citadel.edu"
+  aliases: ["Citadel", "Citadel CS"]
+- name: "Lander University"
+  domain: "lander.edu"
+  aliases: ["Lander", "Lander CS"]
+- name: "Presbyterian College"
+  domain: "presby.edu"
+  aliases: ["Presbyterian", "Presbyterian CS"]
+- name: "University of South Carolina Upstate"
+  domain: "uscupstate.edu"
+  aliases: ["USC Upstate", "USC Upstate CS"]
+- name: "South Carolina State University"
+  domain: "scsu.edu"
+  aliases: ["SCSU", "SC State", "SCSU CS"]
+- name: "Allen University"
+  domain: "allenuniversity.edu"
+  aliases: ["Allen", "Allen CS"]
+- name: "Benedict College"
+  domain: "benedict.edu"
+  aliases: ["Benedict", "Benedict CS"]
+- name: "Claflin University"
+  domain: "claflin.edu"
+  aliases: ["Claflin", "Claflin CS"]
+- name: "Morris College"
+  domain: "morris.edu"
+  aliases: ["Morris", "Morris CS"]
+- name: "Morehouse School of Medicine"
+  domain: "msm.edu"
+  aliases: ["MSM", "Morehouse Medicine", "MSM CS"]
+- name: "Emory University"
+  domain: "emory.edu"
+  aliases: ["Emory", "Emory CS"]
+- name: "Georgia Southern University"
+  domain: "georgiasouthern.edu"
+  aliases: ["GSU", "Georgia Southern", "GSU CS"]
+- name: "Fort Valley State University"
+  domain: "fvsu.edu"
+  aliases: ["FVSU", "Fort Valley State", "FVSU CS"]
+- name: "Savannah State University"
+  domain: "ssu.edu"
+  aliases: ["SSU", "Savannah State", "SSU CS"]
+- name: "Albany State University"
+  domain: "asurams.edu"
+  aliases: ["ASU", "Albany State", "ASU CS"]
+- name: "Georgia Southwestern State University"
+  domain: "gsw.edu"
+  aliases: ["GSU", "Georgia Southwestern", "GSW CS"]
+- name: "Paine College"
+  domain: "paine.edu"
+  aliases: ["Paine", "Paine CS"]
+- name: "Valdosta State University"
+  domain: "valdosta.edu"
+  aliases: ["VSU", "Valdosta State", "VSU CS"]
+- name: "Middle Georgia State University"
+  domain: "mga.edu"
+  aliases: ["MGA", "Middle Georgia State", "MGA CS"]
+- name: "Berry College"
+  domain: "berry.edu"
+  aliases: ["Berry", "Berry CS"]
+- name: "Agnes Scott College"
+  domain: "agnesscott.edu"
+  aliases: ["Agnes Scott", "Agnes Scott CS"]
+- name: "Oglethorpe University"
+  domain: "oglethorpe.edu"
+  aliases: ["Oglethorpe", "Oglethorpe CS"]
+- name: "Reinhardt University"
+  domain: "reinhardt.edu"
+  aliases: ["Reinhardt", "Reinhardt CS"]
+- name: "University of Alabama at Birmingham"
+  domain: "uab.edu"
+  aliases: ["UAB", "Alabama Birmingham", "UAB CS"]
+- name: "University of Alabama in Huntsville"
+  domain: "uah.edu"
+  aliases: ["UAH", "Alabama Huntsville", "UAH CS"]
+- name: "Jacksonville State University"
+  domain: "jsu.edu"
+  aliases: ["JSU", "Jacksonville State", "JSU CS"]
+- name: "University of South Alabama"
+  domain: "southalabama.edu"
+  aliases: ["USA", "South Alabama", "USA CS"]
+- name: "University of North Alabama"
+  domain: "una.edu"
+  aliases: ["UNA", "North Alabama", "UNA CS"]
+- name: "Troy University"
+  domain: "troy.edu"
+  aliases: ["Troy", "Troy CS"]
+- name: "Stillman College"
+  domain: "stillman.edu"
+  aliases: ["Stillman", "Stillman CS"]
+- name: "Miles College"
+  domain: "miles.edu"
+  aliases: ["Miles", "Miles CS"]
+- name: "Oakwood University"
+  domain: "oakwood.edu"
+  aliases: ["Oakwood", "Oakwood CS"]
+- name: "Spring Hill College"
+  domain: "shc.edu"
+  aliases: ["SHC", "Spring Hill", "SHC CS"]
+- name: "Huntingdon College"
+  domain: "huntingdon.edu"
+  aliases: ["Huntingdon", "Huntingdon CS"]
+- name: "University of Tennessee Health Science Center"
+  domain: "uthsc.edu"
+  aliases: ["UTHSC", "UT Health", "UTHSC CS"]
+- name: "Tennessee State University"
+  domain: "tnstate.edu"
+  aliases: ["TSU", "Tennessee State", "TSU CS"]
+- name: "Tennessee Technological University"
+  domain: "tntech.edu"
+  aliases: ["TTU", "Tennessee Tech", "TTU CS"]
+- name: "University of Tennessee at Chattanooga"
+  domain: "utc.edu"
+  aliases: ["UTC", "Tennessee Chattanooga", "UTC CS"]
+- name: "Austin Peay State University"
+  domain: "apsu.edu"
+  aliases: ["APSU", "Austin Peay", "APSU CS"]
+- name: "Lipscomb University"
+  domain: "lipscomb.edu"
+  aliases: ["Lipscomb", "Lipscomb CS"]
+- name: "King University"
+  domain: "king.edu"
+  aliases: ["King", "King CS"]
+- name: "Tennessee Wesleyan University"
+  domain: "twu.edu"
+  aliases: ["TWU", "Tennessee Wesleyan", "TWU CS"]
+- name: "Fisk University"
+  domain: "fisk.edu"
+  aliases: ["Fisk", "Fisk CS"]
+- name: "Sewanee: The University of the South"
+  domain: "sewanee.edu"
+  aliases: ["Sewanee", "Sewanee CS"]
+- name: "Rhodes College"
+  domain: "rhodes.edu"
+  aliases: ["Rhodes", "Rhodes CS"]
+- name: "Christian Brothers University"
+  domain: "cbu.edu"
+  aliases: ["CBU", "Christian Brothers", "CBU CS"]
+- name: "Western Kentucky University"
+  domain: "wku.edu"
+  aliases: ["WKU", "Western Kentucky", "WKU CS"]
+- name: "Murray State University"
+  domain: "moreheadstate.edu"
+  aliases: ["Murray State", "Murray State CS"]
+- name: "Eastern Kentucky University"
+  domain: "eku.edu"
+  aliases: ["EKU", "Eastern Kentucky", "EKU CS"]
+- name: "Morehead State University"
+  domain: "moreheadstate.edu"
+  aliases: ["MSU", "Morehead State", "MSU CS"]
+- name: "Northern Kentucky University"
+  domain: "nku.edu"
+  aliases: ["NKU", "Northern Kentucky", "NKU CS"]
+- name: "Centre College"
+  domain: "centre.edu"
+  aliases: ["Centre", "Centre CS"]
+- name: "Transylvania University"
+  domain: "transy.edu"
+  aliases: ["Transy", "Transylvania", "Transy CS"]
+- name: "Berea College"
+  domain: "berea.edu"
+  aliases: ["Berea", "Berea CS"]
+- name: "Georgetown College"
+  domain: "georgetowncollege.edu"
+  aliases: ["Georgetown KY", "Georgetown KY CS"]
+- name: "Sullivan University"
+  domain: "sullivan.edu"
+  aliases: ["Sullivan", "Sullivan CS"]
+- name: "Kentucky State University"
+  domain: "kysu.edu"
+  aliases: ["KSU", "Kentucky State", "KSU CS"]
+- name: "Tulane University"
+  domain: "tulane.edu"
+  aliases: ["Tulane", "Tulane CS"]
+- name: "Southeastern Louisiana University"
+  domain: "slu.la"
+  aliases: ["SLU", "Southeastern Louisiana", "SLU CS"]
+- name: "Nicholls State University"
+  domain: "nicholls.edu"
+  aliases: ["Nicholls", "Nicholls State", "Nicholls CS"]
+- name: "University of Louisiana at Monroe"
+  domain: "ulm.edu"
+  aliases: ["ULM", "Louisiana Monroe", "ULM CS"]
+- name: "Xavier University of Louisiana"
+  domain: "xula.edu"
+  aliases: ["XULA", "Xavier LA", "XULA CS"]
+- name: "Centenary College of Louisiana"
+  domain: "centenary.edu"
+  aliases: ["Centenary", "Centenary CS"]
+- name: "Louisiana Tech University"
+  domain: "latech.edu"
+  aliases: ["LTU", "Louisiana Tech", "LTU CS"]
+- name: "Arkansas State University"
+  domain: "astate.edu"
+  aliases: ["ASU", "Arkansas State", "ASU CS"]
+- name: "University of Arkansas"
+  domain: "uark.edu"
+  aliases: ["U of A", "Arkansas", "Arkansas CS"]
+- name: "University of Arkansas at Little Rock"
+  domain: "ualr.edu"
+  aliases: ["UALR", "Arkansas Little Rock", "UALR CS"]
+- name: "University of Arkansas at Monticello"
+  domain: "uam.edu"
+  aliases: ["UAM", "Arkansas Monticello", "UAM CS"]
+- name: "University of Arkansas for Medical Sciences"
+  domain: "uams.edu"
+  aliases: ["UAMS", "Arkansas Medical", "UAMS CS"]
+- name: "University of Central Arkansas"
+  domain: "uca.edu"
+  aliases: ["UCA", "Central Arkansas", "UCA CS"]
+- name: "Henderson State University"
+  domain: "hsu.edu"
+  aliases: ["HSU", "Henderson State", "HSU CS"]
+- name: "Harding University"
+  domain: "harding.edu"
+  aliases: ["Harding", "Harding CS"]
+- name: "Arkansas Tech University"
+  domain: "atu.edu"
+  aliases: ["ATU", "Arkansas Tech", "ATU CS"]
+- name: "Hendrix College"
+  domain: "hendrix.edu"
+  aliases: ["Hendrix", "Hendrix CS"]
+- name: "Ouachita Baptist University"
+  domain: "obu.edu"
+  aliases: ["OBU", "Ouachita Baptist", "OBU CS"]
+- name: "Philander Smith University"
+  domain: "philander.edu"
+  aliases: ["Philander Smith", "Philander Smith CS"]
+- name: "Portland State University"
+  domain: "pdx.edu"
+  aliases: ["PSU", "Portland State", "PSU CS"]
+- name: "Oregon Health & Science University"
+  domain: "ohsu.edu"
+  aliases: ["OHSU", "Oregon Health", "OHSU CS"]
+- name: "University of Portland"
+  domain: "up.edu"
+  aliases: ["UP", "Portland", "UP CS"]
+- name: "Warner Pacific University"
+  domain: "warnerpacific.edu"
+  aliases: ["WPU", "Warner Pacific", "WPU CS"]
+- name: "George Fox University"
+  domain: "georgefox.edu"
+  aliases: ["GFU", "George Fox", "GFU CS"]
+- name: "Corban University"
+  domain: "corban.edu"
+  aliases: ["Corban", "Corban CS"]
+- name: "Eastern Washington University"
+  domain: "ewu.edu"
+  aliases: ["EWU", "Eastern Washington", "EWU CS"]
+- name: "Central Washington University"
+  domain: "cwu.edu"
+  aliases: ["CWU", "Central Washington", "CWU CS"]
+- name: "Western Washington University"
+  domain: "wwu.edu"
+  aliases: ["WWU", "Western Washington", "WWU CS"]
+- name: "Whitworth University"
+  domain: "whitworth.edu"
+  aliases: ["Whitworth", "Whitworth CS"]
+- name: "Gonzaga University"
+  domain: "gonzaga.edu"
+  aliases: ["Gonzaga", "Gonzaga CS"]
+- name: "Seattle University"
+  domain: "seattleu.edu"
+  aliases: ["SU", "Seattle University", "SU CS"]
+- name: "Seattle Pacific University"
+  domain: "spu.edu"
+  aliases: ["SPU", "Seattle Pacific", "SPU CS"]
+- name: "University of Puget Sound"
+  domain: "ups.edu"
+  aliases: ["UPS", "Puget Sound", "UPS CS"]
+- name: "Pacific Lutheran University"
+  domain: "plu.edu"
+  aliases: ["PLU", "Pacific Lutheran", "PLU CS"]
+- name: "Saint Martin's University"
+  domain: "stmartin.edu"
+  aliases: ["SMU", "Saint Martin's", "SMU CS"]
+- name: "Alaska Pacific University"
+  domain: "alaskapacific.edu"
+  aliases: ["APU", "Alaska Pacific", "APU CS"]
+- name: "Grand Canyon University"
+  domain: "gcu.edu"
+  aliases: ["GCU", "Grand Canyon", "GCU CS"]
+- name: "Northern Arizona University"
+  domain: "nau.edu"
+  aliases: ["NAU", "Northern Arizona", "NAU CS"]
+- name: "Arizona Christian University"
+  domain: "arizonachristian.edu"
+  aliases: ["ACU", "Arizona Christian", "ACU CS"]
+- name: "Prescott College"
+  domain: "prescott.edu"
+  aliases: ["Prescott", "Prescott CS"]

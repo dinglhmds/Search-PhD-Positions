@@ -1,0 +1,784 @@
+{
+  "faculty": [
+    {
+      "name": "Hal Abelson",
+      "title": "Class of 1922 Professor, CS and AI+D",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Educational Technology"
+      ],
+      "email": "hal@mit.edu"
+    },
+    {
+      "name": "Fadel Adib",
+      "title": "Associate Professor, Media Lab; Joint appointment in EECS, CS",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "fadel@mit.edu"
+    },
+    {
+      "name": "Anant Agarwal",
+      "title": "CEO, edX; Professor Post-Tenure CS and EE",
+      "research_areas": [
+        "Computer Architecture",
+        "Programming Languages and Software Engineering",
+        "Systems and Networking"
+      ],
+      "email": "agarwal@mit.edu"
+    },
+    {
+      "name": "Pulkit Agrawal",
+      "title": "Associate Professor AI+D and CS",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Graphics and Vision",
+        "Robotics"
+      ],
+      "email": "pulkitag@mit.edu"
+    },
+    {
+      "name": "Mohammad Alizadeh",
+      "title": "Professor, CS and AI+D; Industry Officer; Director, 6-A MEng Thesis Program",
+      "research_areas": [
+        "Security and Cryptography",
+        "Systems and Networking",
+        "Theory of Computation"
+      ],
+      "email": "alizadeh@mit.edu"
+    },
+    {
+      "name": "Saman Amarasinghe",
+      "title": "Professor of EECS, CS",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Computer Architecture",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "samana@mit.edu"
+    },
+    {
+      "name": "Hari Balakrishnan",
+      "title": "Fujitsu Professor in Electrical Engineering and Computer Science, CS and AI+D",
+      "research_areas": [
+        "Security and Cryptography",
+        "Systems and Networking"
+      ],
+      "email": "hari@csail.mit.edu"
+    },
+    {
+      "name": "Adam Belay",
+      "title": "Associate Professor, CS",
+      "research_areas": [
+        "Computer Architecture",
+        "Systems and Networking"
+      ],
+      "email": "abelay@csail.mit.edu"
+    },
+    {
+      "name": "Robert Berwick",
+      "title": "Professor of CS and Engineering and Computational Linguistics (Post-Tenure), AI+D and CS",
+      "research_areas": [
+        "AI for Healthcare and Life Sciences",
+        "Artificial Intelligence + Machine Learning",
+        "Natural Language and Speech Processing"
+      ],
+      "email": "berwick@csail.mit.edu"
+    },
+    {
+      "name": "Michael Carbin",
+      "title": "Associate Professor, CS and AI+D",
+      "research_areas": [
+        "Energy",
+        "Programming Languages and Software Engineering",
+        "Security and Cryptography"
+      ],
+      "email": "mcarbin@csail.mit.edu"
+    },
+    {
+      "name": "Anantha Chandrakasan",
+      "title": "Provost; Vannevar Bush Professor of Electrical Engineering and Computer Science EE and CS",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Communications Systems",
+        "Electronic, Magnetic, Optical and Quantum Materials and Devices"
+      ],
+      "email": "provost-reply@mit.edu"
+    },
+    {
+      "name": "Dina Katabi",
+      "title": "Thuan (1990) and Nicole Pham Professor, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "dina@csail.mit.edu"
+    },
+    {
+      "name": "Manolis Kellis",
+      "title": "Professor of CS, [AI+D and CS]",
+      "research_areas": [
+        "AI for Healthcare and Life Sciences",
+        "Graphics and Vision",
+        "Systems and Networking"
+      ],
+      "email": "manoli@mit.edu"
+    },
+    {
+      "name": "Omar Khattab",
+      "title": "Assistant Professor, TIBCO Founders’ Career Development Professor [AI+D, CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Natural Language and Speech Processing",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "okhattab@mit.edu"
+    },
+    {
+      "name": "Tim Kraska",
+      "title": "Associate Professor, [CS and AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "kraska@mit.edu"
+    },
+    {
+      "name": "Steven Leeb",
+      "title": "Emanuel E. Landsman (1958) Professor, [EE and CS]",
+      "research_areas": [
+        "Electronic, Magnetic, Optical and Quantum Materials and Devices",
+        "Energy"
+      ],
+      "email": "sbleeb@mit.edu"
+    },
+    {
+      "name": "Charles Leiserson",
+      "title": "Edwin Sibley Webster Professor; [CS]",
+      "research_areas": [
+        "Computer Architecture",
+        "Systems and Networking",
+        "Theory of Computation"
+      ],
+      "email": "cel@mit.edu"
+    },
+    {
+      "name": "Ben Lindquist",
+      "title": "Assistant Professor, Leo Marx Career Development Professor in the History and Culture of Science and Technology, shared appointment with Department of History, [CS]",
+      "research_areas": [
+        "AI and Society",
+        "Human-Computer Interaction",
+        "Natural Language and Speech Processing"
+      ],
+      "email": "bclind@mit.edu"
+    },
+    {
+      "name": "Barbara Liskov",
+      "title": "Institute Professor (post tenure)",
+      "research_areas": [
+        "Programming Languages and Software Engineering",
+        "Systems and Networking"
+      ],
+      "email": "liskov@csail.mit.edu"
+    },
+    {
+      "name": "Kuikui Liu",
+      "title": "Elting Morison Career Development Professor, Assistant professor, [CS]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "liukui@mit.edu"
+    },
+    {
+      "name": "Andrew Lo",
+      "title": "Charles E. and Susan T. Harris Professor and the Director of the Laboratory for Financial Engineering in the Sloan School of Management; joint appointment in EECS, [CS]",
+      "research_areas": [
+        "AI for Healthcare and Life Sciences",
+        "Artificial Intelligence + Machine Learning",
+        "Human-Computer Interaction"
+      ],
+      "email": "alo-admin@mit.edu"
+    },
+    {
+      "name": "Nancy Lynch",
+      "title": "NEC Professor of Software Science and Engineering (Post-Tenure), [CS]",
+      "research_areas": [
+        "Communications Systems",
+        "Systems and Networking",
+        "Theory of Computation"
+      ],
+      "email": "lynch@csail.mit.edu"
+    },
+    {
+      "name": "Samuel Madden",
+      "title": "Faculty Head, CS; Distinguished College of Computing Professor, [CS and AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Systems and Networking"
+      ],
+      "email": "madden@csail.mit.edu"
+    },
+    {
+      "name": "Brynmor Chapman",
+      "title": "Lecturer",
+      "research_areas": [
+        "CS"
+      ],
+      "email": "brynmor@mit.edu"
+    },
+    {
+      "name": "Adam Chlipala",
+      "title": "Arthur J. Conner (1888) Professor",
+      "research_areas": [
+        "Programming Languages and Software Engineering",
+        "Security and Cryptography",
+        "Systems and Networking"
+      ],
+      "email": "adamc@csail.mit.edu"
+    },
+    {
+      "name": "Isaac Chuang",
+      "title": "Julius A. Stratton Professor in Electrical Engineering and Physics",
+      "research_areas": [
+        "Electronic, Magnetic, Optical and Quantum Materials and Devices",
+        "Information Science and Systems",
+        "Nanoscale Materials, Devices, and Systems"
+      ],
+      "email": "ichuang@mit.edu"
+    },
+    {
+      "name": "Henry Corrigan-Gibbs",
+      "title": "Douglas Ross (1954) Career Development Professor of Software Technology; Associate Professor",
+      "research_areas": [
+        "Security and Cryptography",
+        "Systems and Networking"
+      ],
+      "email": "henrycg@csail.mit.edu"
+    },
+    {
+      "name": "Constantinos Daskalakis",
+      "title": "Armen Avanessians (1982) Professor",
+      "research_areas": [
+        "AI and Society",
+        "AI for Healthcare and Life Sciences",
+        "Optimization and Game Theory"
+      ],
+      "email": "costis@csail.mit.edu"
+    },
+    {
+      "name": "Christina Delimitrou",
+      "title": "KDD Career Development Professor in Communications and Technology; Associate Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Theory of Computation"
+      ],
+      "email": "delimitrou@csail.mit.edu"
+    },
+    {
+      "name": "Erik Demaine",
+      "title": "Professor",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "edemaine@mit.edu"
+    },
+    {
+      "name": "Srini Devadas",
+      "title": "Edwin Sibley Webster Professor",
+      "research_areas": [
+        "Computer Architecture",
+        "Integrated Circuits and Systems",
+        "Security and Cryptography"
+      ],
+      "email": "devadas@mit.edu"
+    },
+    {
+      "name": "Frederic Durand",
+      "title": "Amar Bose Professor of Computing",
+      "research_areas": [
+        "Educational Technology",
+        "Graphics and Vision"
+      ],
+      "email": "fredo@mit.edu"
+    },
+    {
+      "name": "Joel Emer",
+      "title": "Professor of the Practice in EECS",
+      "research_areas": [
+        "Computer Architecture",
+        "Integrated Circuits and Systems",
+        "Systems and Networking"
+      ],
+      "email": "emer@csail.mit.edu"
+    },
+    {
+      "name": "Bailey Flanigan",
+      "title": "Assistant Professor, shared appointment with Political Science, Theodore T. Miller (1922) Career Development Professor",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Optimization and Game Theory"
+      ],
+      "email": "baileyf@mit.edu"
+    },
+    {
+      "name": "Mohsen Ghaffari",
+      "title": "Steven and Renee Finn Career Development Professor; Associate Professor",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "ghaffari@mit.edu"
+    },
+    {
+      "name": "Manya Ghobadi",
+      "title": "Associate Professor",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Communications Systems",
+        "Systems and Networking"
+      ],
+      "email": "ghobadi@mit.edu"
+    },
+    {
+      "name": "David Gifford",
+      "title": "Professor",
+      "research_areas": [],
+      "email": "未提供"
+    },
+    {
+      "name": "Shafrira Goldwasser",
+      "title": "RSA Professor (Post-Tenure), [CS]",
+      "research_areas": [
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "shafi@csail.mit.edu"
+    },
+    {
+      "name": "Mitchell Gordon",
+      "title": "KDD Career Development Professor in Communications and Technology, Assistant Professor [CS]",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Human-Computer Interaction"
+      ],
+      "email": "mlgordon@mit.edu"
+    },
+    {
+      "name": "W. Eric L Grimson",
+      "title": "Chancellor for Academic Advancement; Interim Vice President for Open Learning; Bernard M. Gordon Professor in Medical Engineering; Professor of Computer Science and Engineering, [CS and AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Biological and Medical Devices and Systems",
+        "Graphics and Vision"
+      ],
+      "email": "egrimson@mit.edu"
+    },
+    {
+      "name": "John Guttag",
+      "title": "Dugald C. Jackson Professor in Electrical Engineering, [CS]",
+      "research_areas": [
+        "AI for Healthcare and Life Sciences",
+        "Biological and Medical Devices and Systems",
+        "Graphics and Vision"
+      ],
+      "email": "guttag@mit.edu"
+    },
+    {
+      "name": "Song Han",
+      "title": "Associate Professor, [EE and CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Computer Architecture",
+        "Integrated Circuits and Systems"
+      ],
+      "email": "songhan@mit.edu"
+    },
+    {
+      "name": "Sam Hopkins",
+      "title": "Jamieson Career Development Professor in Electrical Engineering and Computer Science; Assistant Professor, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "samhop@mit.edu"
+    },
+    {
+      "name": "Daniel Huttenlocher",
+      "title": "Dean, MIT Stephen A. Schwarzman College of Computing; Henry Ellis Warren (1894) Professor, [CS and AI+D]",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Graphics and Vision"
+      ],
+      "email": "huttenlocher@mit.edu"
+    },
+    {
+      "name": "Piotr Indyk",
+      "title": "Thomas D. and Virginia W. Cabot Professor, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "indyk@csail.mit.edu"
+    },
+    {
+      "name": "Daniel Jackson",
+      "title": "Professor of CS and Engineering, [CS]",
+      "research_areas": [
+        "Human-Computer Interaction",
+        "Programming Languages and Software Engineering",
+        "Systems and Networking"
+      ],
+      "email": "dnj@csail.mit.edu"
+    },
+    {
+      "name": "M. Frans Kaashoek",
+      "title": "Charles A. Piper (1935) Professor, [CS]",
+      "research_areas": [
+        "Computer Architecture",
+        "Security and Cryptography",
+        "Systems and Networking"
+      ],
+      "email": "kaashoek@csail.mit.edu"
+    },
+    {
+      "name": "Yael Kalai",
+      "title": "Ellen Swallow Richards (1873) Professor; Professor of EECS, [CS]",
+      "research_areas": [
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "tauman@mit.edu"
+    },
+    {
+      "name": "David Karger",
+      "title": "Professor, [CS]",
+      "research_areas": [
+        "Educational Technology",
+        "Human-Computer Interaction"
+      ],
+      "email": "karger@csail.mit.edu"
+    },
+    {
+      "name": "Aleksander Mądry",
+      "title": "Cadence Design Systems Professor, [AI+D and CS]",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Theory of Computation"
+      ],
+      "email": "madry@mit.edu"
+    },
+    {
+      "name": "Wojciech Matusik",
+      "title": "Cadence Design Systems Professor, [CS and AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Computational Fabrication and Manufacturing",
+        "Graphics and Vision"
+      ],
+      "email": "wojciech@csail.mit.edu"
+    },
+    {
+      "name": "Muriel Médard",
+      "title": "NEC Professor of Software Science and Engineering, [EE and CS, AI+D]",
+      "research_areas": [
+        "Communications Systems",
+        "Electronic, Magnetic, Optical and Quantum Materials and Devices",
+        "Information Science and Systems"
+      ],
+      "email": "medard@mit.edu"
+    },
+    {
+      "name": "Silvio Micali",
+      "title": "Ford Foundation Professor of Engineering (Post-Tenure), [CS]",
+      "research_areas": [
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "silvio@csail.mit.edu"
+    },
+    {
+      "name": "Robert Miller",
+      "title": "Education Officer for EECS, Distinguished Professor in EECS, [CS]",
+      "research_areas": [
+        "Human-Computer Interaction",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "rcm@mit.edu"
+    },
+    {
+      "name": "Ankur Moitra",
+      "title": "Associate Director of the Institute for Data Systems & Society; Norbert Wiener Professor of Mathematics; joint appointment in EECS, [CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Theory of Computation"
+      ],
+      "email": "moitra@mit.edu"
+    },
+    {
+      "name": "Robert Morris",
+      "title": "Professor of CS and Engineering, [CS]",
+      "research_areas": [
+        "Systems and Networking"
+      ],
+      "email": "rtm@csail.mit.edu"
+    },
+    {
+      "name": "Stefanie Mueller",
+      "title": "TIBCO Founders Professor; Associate Professor [CS and EE]",
+      "research_areas": [
+        "Computational Fabrication and Manufacturing",
+        "Human-Computer Interaction",
+        "Robotics"
+      ],
+      "email": "stefanie.mueller@mit.edu"
+    },
+    {
+      "name": "Anand V Natarajan",
+      "title": "ITT Career Development Professor in Computer Technology; Associate Professor, [CS]",
+      "research_areas": [
+        "Electronic, Magnetic, Optical and Quantum Materials and Devices",
+        "Theory of Computation"
+      ],
+      "email": "anandn@mit.edu"
+    },
+    {
+      "name": "Alan Oppenheim",
+      "title": "Ford Professor of Engineering (Post-Tenure), [EE and CS, AI+D]",
+      "research_areas": [
+        "Quantum Computing, Communication, and Sensing",
+        "Signal Processing",
+        "Systems Theory, Control, and Autonomy"
+      ],
+      "email": "avo@mit.edu"
+    },
+    {
+      "name": "Asu Ozdaglar",
+      "title": "EECS Department Head; MIT Schwarzman College of Computing Deputy Dean of Academics; MathWorks Professor, [AI+D and EE, CS]",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Optimization and Game Theory"
+      ],
+      "email": "asuman@mit.edu"
+    },
+    {
+      "name": "Jonathan Ragan-Kelley",
+      "title": "Associate Professor, [CS and AI+D]",
+      "research_areas": [
+        "Graphics and Vision",
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "jrk@mit.edu"
+    },
+    {
+      "name": "Gerald Sussman",
+      "title": "Panasonic Professor, [CS and EE, AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning"
+      ],
+      "email": "gjs@mit.edu"
+    },
+    {
+      "name": "Vivienne Sze",
+      "title": "Professor, [EE and CS, AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Computer Architecture",
+        "Energy"
+      ],
+      "email": "sze@mit.edu"
+    },
+    {
+      "name": "Peter Szolovits",
+      "title": "Professor of Computer Science and Engineering (Post-Tenure); [AI+D and CS]",
+      "research_areas": [
+        "AI for Healthcare and Life Sciences",
+        "Artificial Intelligence + Machine Learning",
+        "Biological and Medical Devices and Systems"
+      ],
+      "email": "psz@mit.edu"
+    },
+    {
+      "name": "Vinod Vaikuntanathan",
+      "title": "Ford Foundation Professor of Engineering, [CS and AI+D]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "vinodv@csail.mit.edu"
+    },
+    {
+      "name": "Andrew Wang",
+      "title": "Lecturer, [CS]",
+      "research_areas": [],
+      "email": "wangaj@mit.edu"
+    },
+    {
+      "name": "Ryan Williams",
+      "title": "Professor of EECS, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "rrw@mit.edu"
+    },
+    {
+      "name": "Virginia Vassilevska Williams",
+      "title": "Professor, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "virgi@mit.edu"
+    },
+    {
+      "name": "Mengjia Yan",
+      "title": "Associate Professor, [CS]",
+      "research_areas": [
+        "Computer Architecture",
+        "Security and Cryptography"
+      ],
+      "email": "mengjiay@mit.edu"
+    },
+    {
+      "name": "Nickolai Zeldovich",
+      "title": "Joan and Irwin M. (1957) Jacobs Professor, [CS]",
+      "research_areas": [
+        "Programming Languages and Software Engineering",
+        "Security and Cryptography",
+        "Systems and Networking"
+      ],
+      "email": "nickolai@csail.mit.edu"
+    },
+    {
+      "name": "Victor Zue",
+      "title": "Delta Electronics Professor of EECS (Post-Tenure), [AI+D and CS]",
+      "research_areas": [
+        "Educational Technology",
+        "Human-Computer Interaction",
+        "Natural Language and Speech Processing"
+      ],
+      "email": "zue@csail.mit.edu"
+    },
+    {
+      "name": "Manish Raghavan",
+      "title": "Drew Houston (2005) Professorship; Assistant Professor / Shared Appointment in Sloan School of Management, [CS]",
+      "research_areas": [
+        "AI and Society",
+        "Artificial Intelligence + Machine Learning",
+        "Optimization and Game Theory"
+      ],
+      "email": "mragh@mit.edu"
+    },
+    {
+      "name": "Srini Raghuraman",
+      "title": "Lecturer, [CS]",
+      "research_areas": [
+        "Educational Technology",
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "srirag@mit.edu"
+    },
+    {
+      "name": "Martin Rinard",
+      "title": "Professor of CS and Engineering, [CS and AI+D]",
+      "research_areas": [
+        "Programming Languages and Software Engineering"
+      ],
+      "email": "rinard@csail.mit.edu"
+    },
+    {
+      "name": "Ronald Rivest",
+      "title": "Institute Professor (Post-Tenure); Professor Post-Tenure of Computer Science and Engineering, [CS]",
+      "research_areas": [
+        "Security and Cryptography",
+        "Theory of Computation"
+      ],
+      "email": "rivest@mit.edu"
+    },
+    {
+      "name": "Ronitt Rubinfeld",
+      "title": "Edwin Sibley Webster Professor, [CS and AI+D]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "ronitt@csail.mit.edu"
+    },
+    {
+      "name": "Daniela Rus",
+      "title": "Director, CSAIL; MIT Schwarzman College of Computing Deputy Dean of Research; Panasonic Professor, [AI+D and CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Robotics"
+      ],
+      "email": "rus@csail.mit.edu"
+    },
+    {
+      "name": "Daniel Sanchez",
+      "title": "Professor of EECS, [CS and EE]",
+      "research_areas": [
+        "Computer Architecture",
+        "Integrated Circuits and Systems",
+        "Systems and Networking"
+      ],
+      "email": "sanchez@csail.mit.edu"
+    },
+    {
+      "name": "Arvind Satyanarayan",
+      "title": "Associate Professor, [CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Human-Computer Interaction"
+      ],
+      "email": "arvindsatya@mit.edu"
+    },
+    {
+      "name": "Nir Shavit",
+      "title": "Professor of EECS, [CS]",
+      "research_areas": [
+        "Theory of Computation"
+      ],
+      "email": "shanir@csail.mit.edu"
+    },
+    {
+      "name": "Julian Shun",
+      "title": "Associate Professor, [CS]",
+      "research_areas": [
+        "Computer Architecture",
+        "Programming Languages and Software Engineering",
+        "Theory of Computation"
+      ],
+      "email": "jshun@mit.edu"
+    },
+    {
+      "name": "Armando Solar-Lezama",
+      "title": "Distinguished Professor of Computing, MIT Schwarzman College of Computing; Professor of EECS, [CS and AI+D]",
+      "research_areas": [
+        "Programming Languages and Software Engineering",
+        "Systems and Networking"
+      ],
+      "email": "asolar@csail.mit.edu"
+    },
+    {
+      "name": "Justin Solomon",
+      "title": "Associate Professor of EECS, [AI+D and CS]",
+      "research_areas": [
+        "Artificial Intelligence + Machine Learning",
+        "Graphics and Vision",
+        "Robotics"
+      ],
+      "email": "jsolomon@mit.edu"
+    },
+    {
+      "name": "Alfred Spector",
+      "title": "Professor of Practice, [AI+D and CS]",
+      "research_areas": [
+        "AI and Society",
+        "Information Science and Systems",
+        "Systems and Networking"
+      ],
+      "email": "alfreds@mit.edu"
+    }
+  ]
+}

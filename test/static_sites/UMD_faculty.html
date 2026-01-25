@@ -1,0 +1,3482 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>UMD Faculty Directory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        body {
+            background: #0f0c29;
+            background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 3.2rem;
+            margin-bottom: 12px;
+            background: linear-gradient(90deg, #00dbde, #fc00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.85;
+            margin-bottom: 20px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin: 25px 0;
+        }
+        .stat-box {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 20px 25px;
+            text-align: center;
+            min-width: 140px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #00c9ff, #92fe9d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .stat-label {
+            font-size: 0.95rem;
+            opacity: 0.8;
+            margin-top: 6px;
+        }
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 16px 20px 16px 50px;
+            border-radius: 50px;
+            border: none;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            font-size: 1.1rem;
+            outline: none;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        .search-box input::placeholder {
+            color: rgba(255,255,255,0.5);
+        }
+        .search-box input:focus {
+            background: rgba(255,255,255,0.15);
+            box-shadow: 0 0 0 3px rgba(0, 201, 255, 0.4);
+        }
+        .search-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255,255,255,0.7);
+            font-size: 1.3rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            padding: 10px;
+        }
+        .card {
+            perspective: 1000px;
+        }
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 320px;
+            transform-style: preserve-3d;
+            transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+        }
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .card-front {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card-back {
+            background: linear-gradient(135deg, #0f3460, #1a1a2e);
+            transform: rotateY(180deg);
+            justify-content: space-between;
+        }
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #00c9ff, #92fe9d);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #0f0c29;
+            margin-bottom: 20px;
+        }
+        .card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .title {
+            font-size: 1.05rem;
+            opacity: 0.85;
+            margin-bottom: 20px;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        .tag {
+            background: rgba(0, 201, 255, 0.2);
+            color: #00c9ff;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(0, 201, 255, 0.3);
+        }
+        .tag.disabled {
+            background: rgba(100,100,100,0.2);
+            color: #aaa;
+            border-color: rgba(100,100,100,0.3);
+        }
+        .email {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .email a {
+            color: #92fe9d;
+            text-decoration: none;
+        }
+        .email a:hover {
+            text-decoration: underline;
+        }
+        .back-btn {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        .back-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.95rem;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UMD Faculty Directory</h1>
+            <p class="subtitle">Explore our world-class researchers and educators</p>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-number">154</div>
+                    <div class="stat-label">Faculty</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">19</div>
+                    <div class="stat-label">Titles</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Research Areas</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">With Email</div>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search by name, title, or research area..." />
+            </div>
+        </header>
+
+        <div class="grid" id="facultyGrid">
+
+                <div class="card" data-name="daniel abadi" data-title="professor" data-research="databases and big data systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Daniel Abadi</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ashok agrawala" data-title="professor" data-research="systems, networking, and architecture machine learning and data science iot and wearables technology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Ashok Agrawala</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">IoT and Wearables Technology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="fardina alam" data-title="lecturer" data-research="bioinformatics and computational biology machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">F</div>
+                            <h3>Fardina Alam</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="john aloimonos" data-title="professor" data-research="ai and robotics computer vision and machine perception graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>John Aloimonos</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="bahar asgari" data-title="assistant professor" data-research="systems, networking, and architecture high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">B</div>
+                            <h3>Bahar Asgari</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="clifford bakalian" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Clifford Bakalian</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="calin belta" data-title="professor" data-research="ai and robotics bioinformatics and computational biology machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Calin Belta</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="abhinav bhatele" data-title="associate professor" data-research="high performance and scientific computing systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Abhinav Bhatele</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="bobby bhattacharjee" data-title="professor" data-research="cybersecurity and cryptography systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">B</div>
+                            <h3>Bobby Bhattacharjee</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jordan boyd-graber" data-title="professor" data-research="ai and robotics information retrieval and geographic information systems (gis) machine learning and data science natural language processing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jordan Boyd-Graber</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="nora burkhauser" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Nora Burkhauser</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="marine carpuat" data-title="associate professor" data-research="ai and robotics machine learning and data science natural language processing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Marine Carpuat</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="yizheng chen" data-title="assistant professor" data-research="cybersecurity and cryptography machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">Y</div>
+                            <h3>Yizheng Chen</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="andrew childs" data-title="professor" data-research="quantum computing algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Andrew Childs</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Quantum Computing</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="hal daumé iii" data-title="professor" data-research="ai and robotics machine learning and data science natural language processing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Hal Daumé III</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="amol deshpande" data-title="professor" data-research="databases and big data machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Amol Deshpande</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="laxman dhulipala" data-title="assistant professor" data-research="algorithms and theory high performance and scientific computing databases and big data systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Laxman Dhulipala</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ramani duraiswami" data-title="professor" data-research="computer vision and machine perception high performance and scientific computing information retrieval and geographic information systems (gis)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Ramani Duraiswami</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="roger eastman" data-title="professor of the practice" data-research="ai and robotics computer vision and machine perception graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Roger Eastman</h3>
+                            <p class="title">Professor of the Practice</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="fawzi emad" data-title="principal lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">F</div>
+                            <h3>Fawzi Emad</h3>
+                            <p class="title">Principal Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="anna evtushenko" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Anna Evtushenko</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="soheil feizi" data-title="associate professor" data-research="machine learning and data science computer vision and machine perception ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Soheil Feizi</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="can firtina" data-title="assistant professor" data-research="bioinformatics and computational biology systems, networking, and architecture machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Can Firtina</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="hervé franceschi" data-title="未提供" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Hervé Franceschi</h3>
+                            <p class="title">未提供</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ruohan gao" data-title="assistant professor" data-research="computer vision and machine perception ai and robotics machine learning and data science graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Ruohan Gao</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="william gasarch" data-title="professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">W</div>
+                            <h3>William Gasarch</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="tom goldstein" data-title="professor" data-research="ai and robotics computer vision and machine perception high performance and scientific computing machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">T</div>
+                            <h3>Tom Goldstein</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="evan golub" data-title="principal lecturer" data-research="human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">E</div>
+                            <h3>Evan Golub</h3>
+                            <p class="title">Principal Lecturer</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="elias gonzalez" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">E</div>
+                            <h3>Elias Gonzalez</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="daniel gottesman" data-title="professor" data-research="algorithms and theory quantum computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Daniel Gottesman</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Quantum Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ritwik gupta" data-title="assistant professor" data-research="computer vision and machine perception machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Ritwik Gupta</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mohammad hajiaghayi" data-title="professor" data-research="algorithms and theory databases and big data machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mohammad Hajiaghayi</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="larry herman" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Larry Herman</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jeffrey k. hollingsworth" data-title="professor" data-research="high performance and scientific computing systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jeffrey K. Hollingsworth</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="heng huang" data-title="professor" data-research="machine learning and data science bioinformatics and computational biology computer vision and machine perception natural language processing ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Heng Huang</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Natural Language Processing</span>
+                        <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="furong huang" data-title="associate professor" data-research="ai and robotics machine learning and data science natural language processing computer vision and machine perception high performance and scientific computing algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">F</div>
+                            <h3>Furong Huang</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jia-bin huang" data-title="associate professor" data-research="ai and robotics computer vision and machine perception graphics visualization and vr ar machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jia-Bin Huang</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="dinesh manocha" data-title="professor" data-research="ai and robotics graphics visualization and vr ar high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Dinesh Manocha</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="michael marsh" data-title="senior lecturer" data-research="cybersecurity and cryptography systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Michael Marsh</h3>
+                            <p class="title">Senior Lecturer</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="michelle mazurek" data-title="associate professor" data-research="cybersecurity and cryptography human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Michelle Mazurek</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="christopher metzler" data-title="assistant professor" data-research="computer vision and machine perception ai and robotics machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Christopher Metzler</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ian miers" data-title="assistant professor" data-research="cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">I</div>
+                            <h3>Ian Miers</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="stevens miller" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Stevens Miller</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="erin molloy" data-title="assistant professor" data-research="bioinformatics and computational biology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">E</div>
+                            <h3>Erin Molloy</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Bioinformatics and Computational Biology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="maksym morawski" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Maksym Morawski</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="david mount" data-title="professor" data-research="algorithms and theory information retrieval and geographic information systems (gis)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>David Mount</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jun nishida" data-title="assistant professor" data-research="human computer interaction iot and wearables technology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jun Nishida</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">IoT and Wearables Technology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="matthew nolan" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Matthew Nolan</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="nelson padua-perez" data-title="principal lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Nelson Padua-Perez</h3>
+                            <p class="title">Principal Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="rob patro" data-title="associate professor" data-research="algorithms and theory bioinformatics and computational biology high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Rob Patro</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="huaishu peng" data-title="assistant professor" data-research="human computer interaction iot and wearables technology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Huaishu Peng</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">IoT and Wearables Technology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mihai pop" data-title="professor" data-research="bioinformatics and computational biology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mihai Pop</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Bioinformatics and Computational Biology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="adam porter" data-title="professor" data-research="programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Adam Porter</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="james purtilo" data-title="associate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>James Purtilo</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mohit iyyer" data-title="associate professor" data-research="机器学习 自然语言处理">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mohit Iyyer</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">机器学习</span>
+                        <span class="tag">自然语言处理</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="david jacobs" data-title="professor" data-research="ai and robotics computer vision and machine perception">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>David Jacobs</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ting jiang" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">T</div>
+                            <h3>Ting Jiang</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="gabriel kaptchuk" data-title="assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">G</div>
+                            <h3>Gabriel Kaptchuk</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="christopher kauffman" data-title="senior lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Christopher Kauffman</h3>
+                            <p class="title">Senior Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="pete keleher" data-title="associate professor" data-research="systems, networking, and architecture cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">P</div>
+                            <h3>Pete Keleher</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="sujeong kim" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Sujeong Kim</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="clyde kruskal" data-title="associate professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Clyde Kruskal</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="leonidas lampropoulos" data-title="assistant professor" data-research="programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Leonidas Lampropoulos</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="myungin lee" data-title="lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Myungin Lee</h3>
+                            <p class="title">Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="dave levin" data-title="associate professor" data-research="cybersecurity and cryptography systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Dave Levin</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ming lin" data-title="professor" data-research="ai and robotics computer vision and machine perception graphics visualization and vr ar high performance and scientific computing human computer interaction machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Ming Lin</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="alan zaoxing liu" data-title="assistant professor" data-research="systems, networking, and architecture cybersecurity and cryptography databases and big data high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Alan Zaoxing Liu</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Databases and Big Data</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="zhicheng liu" data-title="assistant professor" data-research="human computer interaction graphics visualization and vr ar machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">Z</div>
+                            <h3>Zhicheng Liu</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ruoshi liu" data-title="assistant professor" data-research="ai and robotics computer vision and machine perception machine learning and data science graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Ruoshi Liu</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="anwar mamat" data-title="senior lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Anwar Mamat</h3>
+                            <p class="title">Senior Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="samir khuller" data-title="professor emeritus" data-research="algorithms and theory databases and big data">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Samir Khuller</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Databases and Big Data</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="dana nau" data-title="professor emeritus" data-research="ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Dana Nau</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="dianne o'leary" data-title="professor emerita" data-research="high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Dianne O'Leary</h3>
+                            <p class="title">Professor Emerita</p>
+                            <div class="tags">
+                                <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="don perlis" data-title="professor emeritus" data-research="ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Don Perlis</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jandelyn plane" data-title="principal lecturer emerita" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jandelyn Plane</h3>
+                            <p class="title">Principal Lecturer Emerita</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="william pugh" data-title="professor emeritus" data-research="programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">W</div>
+                            <h3>William Pugh</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="james reggia" data-title="professor emeritus" data-research="ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>James Reggia</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="nicholas roussopoulos" data-title="professor emeritus" data-research="databases and big data information retrieval and geographic information systems (gis)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Nicholas Roussopoulos</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="a. udaya shankar" data-title="professor emeritus" data-research="systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>A. Udaya Shankar</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ben shneiderman" data-title="professor emeritus" data-research="human computer interaction machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">B</div>
+                            <h3>Ben Shneiderman</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="g.w. (pete) stewart" data-title="professor emeritus" data-research="high performance and scientific computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">G</div>
+                            <h3>G.W. (Pete) Stewart</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">High Performance and Scientific Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="marvin zelkowitz" data-title="professor emeritus" data-research="programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Marvin Zelkowitz</h3>
+                            <p class="title">Professor Emeritus</p>
+                            <div class="tags">
+                                <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="victor albert" data-title="adjunct assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">V</div>
+                            <h3>Victor Albert</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="leilani battle" data-title="adjunct assistant professor" data-research="databases and big data human computer interaction machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Leilani Battle</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="aniket bera" data-title="adjunct associate professor" data-research="graphics visualization and vr ar ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Aniket Bera</h3>
+                            <p class="title">Adjunct Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="matthew coudron" data-title="adjunct assistant professor" data-research="algorithms and theory quantum computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Matthew Coudron</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Quantum Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="john dickerson" data-title="adjunct associate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>John Dickerson</h3>
+                            <p class="title">Adjunct Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="gorjan alagic" data-title="affiliate associate research scientist" data-research="quantum computing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">G</div>
+                            <h3>Gorjan Alagic</h3>
+                            <p class="title">Affiliate Associate Research Scientist</p>
+                            <div class="tags">
+                                <span class="tag">Quantum Computing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="john baras" data-title="affiliate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>John Baras</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="alexander barg" data-title="affiliate professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Alexander Barg</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="amrit singh bedi" data-title="affiliate visiting assistant research scientist" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Amrit Singh Bedi</h3>
+                            <p class="title">Affiliate Visiting Assistant Research Scientist</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="shuvra bhattacharyya" data-title="affiliate professor" data-research="ai and robotics iot and wearables technology computer vision and machine perception">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Shuvra Bhattacharyya</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">IoT and Wearables Technology</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="maria cameron" data-title="affiliate associate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Maria Cameron</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="joel chan" data-title="affiliate assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Joel Chan</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="eun kyoung choe" data-title="affiliate associate professor" data-research="human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">E</div>
+                            <h3>Eun Kyoung Choe</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="michel cukier" data-title="affiliate professor" data-research="cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Michel Cukier</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="dana dachman-soled" data-title="affiliate associate professor" data-research="algorithms and theory cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Dana Dachman-Soled</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="leila de floriani" data-title="affiliate professor" data-research="graphics visualization and vr ar information retrieval and geographic information systems (gis) machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Leila De Floriani</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="yancy diaz-mercado" data-title="affiliate assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">Y</div>
+                            <h3>Yancy Diaz-Mercado</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="tudor dumitras" data-title="affiliate associate professor" data-research="cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">T</div>
+                            <h3>Tudor Dumitras</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="sanghamitra dutta" data-title="affiliate assistant professor" data-research="algorithms and theory machine learning and data science computer vision and machine perception">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Sanghamitra Dutta</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="sheena erete" data-title="affiliate associate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>Sheena Erete</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="naomi feldman" data-title="affiliate associate professor" data-research="natural language processing machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Naomi Feldman</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Natural Language Processing</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="vanessa frias-martinez" data-title="affiliate associate professor" data-research="databases and big data information retrieval and geographic information systems (gis) machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">V</div>
+                            <h3>Vanessa Frias-Martinez</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jennifer golbeck" data-title="affiliate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jennifer Golbeck</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="william regli" data-title="professor" data-research="ai and robotics graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">W</div>
+                            <h3>William Regli</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="nirupam roy" data-title="associate professor" data-research="systems, networking, and architecture iot and wearables technology cybersecurity and cryptography">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Nirupam Roy</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">IoT and Wearables Technology</span>
+                        <span class="tag">Cybersecurity and Cryptography</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="rachel rudinger" data-title="assistant professor" data-research="natural language processing machine learning and data science ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Rachel Rudinger</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Natural Language Processing</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="pedram sadeghian" data-title="senior lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">P</div>
+                            <h3>Pedram Sadeghian</h3>
+                            <p class="title">Senior Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="hanan samet" data-title="professor" data-research="algorithms and theory ai and robotics computer vision and machine perception databases and big data graphics visualization and vr ar information retrieval and geographic information systems (gis) human computer interaction machine learning and data science natural language processing programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Hanan Samet</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">AI and Robotics</span>
+                        <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="han shao" data-title="assistant professor" data-research="machine learning and data science algorithms and theory ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Han Shao</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="abhinav shrivastava" data-title="associate professor" data-research="computer vision and machine perception ai and robotics machine learning and data science graphics visualization and vr ar">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Abhinav Shrivastava</h3>
+                            <p class="title">Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Graphics Visualization and VR AR</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="aravind srinivasan" data-title="professor" data-research="algorithms and theory bioinformatics and computational biology">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Aravind Srinivasan</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Bioinformatics and Computational Biology</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="milijana surbatovich" data-title="assistant professor" data-research="programming languages and software engineering systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Milijana Surbatovich</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Programming Languages and Software Engineering</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="alan sussman" data-title="professor" data-research="databases and big data high performance and scientific computing systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Alan Sussman</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="runzhou tao" data-title="assistant professor" data-research="quantum computing programming languages and software engineering algorithms and theory systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Runzhou Tao</h3>
+                            <p class="title">Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Quantum Computing</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mohammad nayeem teli" data-title="senior lecturer" data-research="computer vision and machine perception machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mohammad Nayeem Teli</h3>
+                            <p class="title">Senior Lecturer</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="pratap tokekar" data-title="professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">P</div>
+                            <h3>Pratap Tokekar</h3>
+                            <p class="title">Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="john horty" data-title="affiliate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>John Horty</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="hernisa kacorri" data-title="affiliate assistant professor" data-research="natural language processing human computer interaction machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Hernisa Kacorri</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Natural Language Processing</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="yonghwi kwon" data-title="affiliate assistant professor" data-research="cybersecurity and cryptography programming languages and software engineering systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">Y</div>
+                            <h3>Yonghwi Kwon</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="amanda lazar" data-title="affiliate assistant professor" data-research="human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Amanda Lazar</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ang li" data-title="affiliate assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Ang Li</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="richard marciano" data-title="affiliate professor" data-research="databases and big data information retrieval and geographic information systems (gis) machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">R</div>
+                            <h3>Richard Marciano</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="doug oard" data-title="affiliate professor" data-research="ai and robotics human computer interaction information retrieval and geographic information systems (gis)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Doug Oard</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Human Computer Interaction</span>
+                        <span class="tag">Information Retrieval and Geographic Information Systems (GIS)</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="michael otte" data-title="affiliate assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Michael Otte</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="louiqa raschid" data-title="affiliate professor" data-research="databases and big data machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Louiqa Raschid</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Databases and Big Data</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="philip resnik" data-title="affiliate professor" data-research="ai and robotics machine learning and data science natural language processing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">P</div>
+                            <h3>Philip Resnik</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Natural Language Processing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="uzi vishkin" data-title="affiliate professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">U</div>
+                            <h3>Uzi Vishkin</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="david weintrop" data-title="affiliate associate professor" data-research="human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>David Weintrop</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mumu xu" data-title="affiliate professor" data-research="ai and robotics programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mumu Xu</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="haizhao yang" data-title="affiliate associate professor" data-research="algorithms and theory ai and robotics high performance and scientific computing machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">H</div>
+                            <h3>Haizhao Yang</h3>
+                            <p class="title">Affiliate Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">AI and Robotics</span>
+                        <span class="tag">High Performance and Scientific Computing</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="donald yeung" data-title="affiliate professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">D</div>
+                            <h3>Donald Yeung</h3>
+                            <p class="title">Affiliate Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="cunxi yu" data-title="affiliate assistant professor" data-research="systems, networking, and architecture machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Cunxi Yu</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Systems, Networking, and Architecture</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="kaiqing zhang" data-title="affiliate assistant professor" data-research="ai and robotics algorithms and theory machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">K</div>
+                            <h3>Kaiqing Zhang</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="max ehrlich" data-title="adjunct assistant professor" data-research="computer vision and machine perception machine learning and data science">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Max Ehrlich</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Computer Vision and Machine Perception</span>
+                        <span class="tag">Machine Learning and Data Science</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="niklas elmqvist" data-title="adjunct professor" data-research="human computer interaction">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">N</div>
+                            <h3>Niklas Elmqvist</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag">Human Computer Interaction</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jeffrey foster" data-title="adjunct professor" data-research="cybersecurity and cryptography programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jeffrey Foster</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="lise getoor" data-title="adjunct professor" data-research="ai and robotics databases and big data">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">L</div>
+                            <h3>Lise Getoor</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        <span class="tag">Databases and Big Data</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="john grant" data-title="adjunct professor" data-research="ai and robotics">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>John Grant</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag">AI and Robotics</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="michael gullans" data-title="adjunct assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Michael Gullans</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="iker leanizbarrutia" data-title="adjunct assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">I</div>
+                            <h3>Iker Leanizbarrutia</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="marc lichtman" data-title="adjunct assistant professor" data-research="machine learning and data science systems, networking, and architecture">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Marc Lichtman</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag">Machine Learning and Data Science</span>
+                        <span class="tag">Systems, Networking, and Architecture</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mikael lindvall" data-title="adjunct professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mikael Lindvall</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="yi-kai liu" data-title="adjunct associate professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">Y</div>
+                            <h3>Yi-Kai Liu</h3>
+                            <p class="title">Adjunct Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="jennifer manly" data-title="adjunct lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">J</div>
+                            <h3>Jennifer Manly</h3>
+                            <p class="title">Adjunct Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="carl miller" data-title="adjunct associate professor" data-research="algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>Carl Miller</h3>
+                            <p class="title">Adjunct Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="ani nenkova" data-title="adjunct professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">A</div>
+                            <h3>Ani Nenkova</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="murphy yuezhen niu" data-title="adjunct assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Murphy Yuezhen Niu</h3>
+                            <p class="title">Adjunct Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="mak roberts" data-title="adjunct lecturer" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">M</div>
+                            <h3>Mak Roberts</h3>
+                            <p class="title">Adjunct Lecturer</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="c. anton rytting" data-title="adjunct lecturer" data-research="natural language processing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">C</div>
+                            <h3>C. Anton Rytting</h3>
+                            <p class="title">Adjunct Lecturer</p>
+                            <div class="tags">
+                                <span class="tag">Natural Language Processing</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="s. cenk sahinalp" data-title="adjunct professor" data-research="bioinformatics and computational biology algorithms and theory">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">S</div>
+                            <h3>S. Cenk Sahinalp</h3>
+                            <p class="title">Adjunct Professor</p>
+                            <div class="tags">
+                                <span class="tag">Bioinformatics and Computational Biology</span>
+                        <span class="tag">Algorithms and Theory</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="elaine shi" data-title="adjunct associate professor" data-research="cybersecurity and cryptography programming languages and software engineering">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">E</div>
+                            <h3>Elaine Shi</h3>
+                            <p class="title">Adjunct Associate Professor</p>
+                            <div class="tags">
+                                <span class="tag">Cybersecurity and Cryptography</span>
+                        <span class="tag">Programming Languages and Software Engineering</span>
+                        
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-name="wei ai" data-title="affiliate assistant professor" data-research="">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="avatar">W</div>
+                            <h3>Wei Ai</h3>
+                            <p class="title">Affiliate Assistant Professor</p>
+                            <div class="tags">
+                                <span class="tag disabled">未提供</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:未提供">未提供</a>
+                            </div>
+                            <button class="back-btn" onclick="flipBack(this)">← Back</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 UMD Faculty Directory. All rights reserved.
+    </footer>
+
+    <script>
+        function flipBack(btn) {
+            const card = btn.closest('.card');
+            card.querySelector('.card-inner').style.transform = 'rotateY(0deg)';
+        }
+
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const term = this.value.trim().toLowerCase();
+            const cards = document.querySelectorAll('.card');
+
+            cards.forEach(card => {
+                const name = card.dataset.name || '';
+                const title = card.dataset.title || '';
+                const research = card.dataset.research || '';
+
+                const match = name.includes(term) || title.includes(term) || research.includes(term);
+                card.style.display = match ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
