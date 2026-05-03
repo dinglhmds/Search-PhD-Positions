@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="background:white; padding:30px; border-radius:12px; margin-bottom:30px;">
+    <h2 style="margin-bottom: 20px;">🔍 抓取新院校</h2>
+    <form method="POST" action="/scrape" style="display:flex; gap:10px;">
+        <input type="text" name="uni" class="form-input" style="flex:1;" placeholder="输入学校名称 (例如: UMD Caltech)" required>
+        <button type="submit" class="btn"><i class="fas fa-robot"></i> 开始抓取</button>
+    </form>
+</div>
+<h2 style="margin-bottom: 20px;">🏫 已抓取院校</h2>
+<div class="grid">
+    {% for u in unis %}
+    <div class="card" style="cursor: pointer;" onclick="location.href='{{ u.path }}'">
+        <div class="card-header"><h3 class="card-title">{{ u.uni }}</h3></div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; text-align: center; margin-top:10px;">
+            <div><strong style="color:var(--primary); font-size:1.2rem;">{{ u.count }}</strong><div style="font-size:0.75rem;">Faculty</div></div>
+            <div><strong style="color:var(--primary); font-size:1.2rem;">{{ u.titles_count }}</strong><div style="font-size:0.75rem;">Titles</div></div>
+            <div><strong style="color:var(--primary); font-size:1.2rem;">{{ u.areas_count }}</strong><div style="font-size:0.75rem;">Areas</div></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

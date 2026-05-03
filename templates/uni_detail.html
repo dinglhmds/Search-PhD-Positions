@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <a href="/" style="display:inline-flex; align-items:center; gap:5px; color:#64748b; text-decoration:none; margin-bottom:20px; font-weight:500;"><i class="fas fa-arrow-left"></i> 返回首页</a>
+
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+        <h1 style="margin:0;">{{ uni_name }} Faculty List</h1>
+        <span class="badge" style="font-size: 1rem; padding: 8px 15px;">共 {{ faculty_list|length }} 位</span>
+    </div>
+
+    <div class="search-hero">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="搜索导师姓名、职称或研究方向..." onkeyup="filterFaculty()">
+    </div>
+
+    <div class="grid">
+        {% for prof in faculty_list %}
+        <div class="card search-item" data-search="{{ prof.search_text }}">
+            <div class="card-header">
+                <h3 class="card-title">
+                    {% if prof.link and prof.link != '未提供' and prof.link.startswith('http') %}
+                    <a href="{{ prof.link }}" target="_blank" style="color:#0f172a; text-decoration:none; border-bottom: 1px dotted #0f172a; transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.borderBottomColor='var(--primary)'" onmouseout="this.style.color='#0f172a';this.style.borderBottomColor='#0f172a'">
+                        {{ prof.name }} <i class="fas fa-external-link-alt" style="font-size:0.7em; opacity:0.6; margin-left:4px;"></i>
+                    </a>
+                    {% else %}
+                    {{ prof.name }}
+                    {% endif %}
+                </h3>
+                <span class="card-subtitle">{{ prof.title }}</span>
+            </div>
+            <div style="flex:1; margin-bottom:15px; font-size:0.9rem; color:#475569;">
+                <p><i class="fas fa-envelope"></i> {{ prof.email }}</p>
+                <p><i class="fas fa-microscope"></i> {{ prof.areas_display }}</p>
+            </div>
+            <div style="display:flex; gap:10px;">
+                <button class="btn" id="btn-add-{{ prof.id_hash }}" onclick="addToTargets('{{ prof.id_hash }}', event)" style="flex:1;">
+                    <i class="fas fa-star"></i> 收藏
+                </button>
+                <button class="btn btn-secondary" onclick="openEmailModal('{{ prof.id_hash }}', event)">
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+        {% endfor %}
+        <div id="noResult" class="no-result"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    {% for line in js_data_map_lines %}
+    {{ line|safe }}
+    {% endfor %}
+
+    function filterFaculty() {
+        const input = document.getElementById('searchInput').value.toLowerCase();
+        const cards = document.getElementsByClassName('search-item');
+        let visibleCount = 0;
+
+        for (let card of cards) {
+            const text = card.getAttribute('data-search');
+            if (text.includes(input)) {
+                card.style.display = "";
+                visibleCount++;
+            } else {
+                card.style.display = "none";
+            }
+        }
+
+        const noRes = document.getElementById('noResult');
+        if (visibleCount === 0) {
+            noRes.style.display = 'block';
+            noRes.innerHTML = '未找到匹配 "' + document.getElementById('searchInput').value + '" 的导师';
+        } else {
+            noRes.style.display = 'none';
+        }
+    }
+</script>
+{% endblock %}

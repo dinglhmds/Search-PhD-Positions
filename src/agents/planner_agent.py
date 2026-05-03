@@ -83,9 +83,13 @@ class PlannerAgent:
             }
         
 async def main():
-    API_KEY = "sk-rcbqhobnnnytzvyvqxcfsiaejkaoxmyfsenxpakjbimtegrp"
+    import os
+    api_key = os.getenv("LLM_API_KEY", "")
+    if not api_key:
+        print("❌ 请先设置 LLM_API_KEY 环境变量")
+        return
 
-    agent = PlannerAgent(api_key=API_KEY, model="Qwen/Qwen2-7B-Instruct")
+    agent = PlannerAgent(api_key=api_key, model="Qwen/Qwen2-7B-Instruct")
 
     test_cases = [
         "UNC",

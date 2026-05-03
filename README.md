@@ -30,26 +30,21 @@ git clone <repository-url>
 cd PhD-App
 ```
 
-### 2. Create a virtual environment
+### 2. Install dependencies (using uv)
+
+This project uses [uv](https://docs.astral.sh/uv/) to manage the virtual environment and dependencies.
 
 ```bash
-# Create virtual environment
-python -m venv venv
+# Install project dependencies (automatically creates .venv)
+uv sync
 
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
+# Or sync production dependencies only
+uv sync --no-dev
 ```
 
-### 3. Install dependencies
+If you haven't installed uv yet, please refer to the [official documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure environment variables
+### 3. Configure environment variables
 
 Create a `.env` file and add the following configurations:
 
@@ -59,15 +54,15 @@ LLM_API_KEY=your_siliconflow_api_key_here
 RUNS_DIR=./runs
 ```
 
-### 5. API service setup
+### 4. API service setup
 
 - **SerpApi**: Obtain a Google Search API key for searching faculty pages  
 - **SiliconFlow**: Obtain an AI model API key for parsing and content generation  
 
-### 6. Launch the application
+### 5. Launch the application
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 The application will run at `http://127.0.0.1:8000`
@@ -85,7 +80,8 @@ The application will run at `http://127.0.0.1:8000`
 ```
 PhD-App/
 ├── main.py              # Main application file
-├── requirements.txt     # Dependency list
+├── pyproject.toml       # Project config and dependencies (managed by uv)
+├── .python-version      # Python version lock
 ├── .env                 # Environment variable configuration
 ├── configs/
 │   └── universities.yaml # University name mapping configuration
@@ -98,7 +94,7 @@ PhD-App/
 │       ├── parser_agent.py    # Parser agent
 │       └── email_agent.py     # Email agent
 ├── static/             # Static assets
-└── venv/               # Virtual environment
+└── .venv/              # Virtual environment (auto-created by uv)
 ```
 
 ## Notes

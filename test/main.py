@@ -6,8 +6,11 @@ from src.agents.crawler_agent import CrawlerAgent
 from src.agents.parser_agent import ParserAgent
 
 async def main():
-    SEARCH_API_KEY = "2899dff16c4f3007ab17f00bb2c87f87975d09165e13f295baf928e696dbdc83"
-    LLM_API_KEY = "sk-rcbqhobnnnytzvyvqxcfsiaejkaoxmyfsenxpakjbimtegrp"
+    SEARCH_API_KEY = os.getenv("SEARCH_API_KEY", "")
+    LLM_API_KEY = os.getenv("LLM_API_KEY", "")
+    if not SEARCH_API_KEY or not LLM_API_KEY:
+        print("❌ 请先设置 SEARCH_API_KEY 和 LLM_API_KEY 环境变量")
+        return
 
     uni = "GMU"
 

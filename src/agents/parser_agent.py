@@ -5,8 +5,8 @@ import time
 from typing import List, Dict, Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# 硅基流动API配置（请确保此处或环境变量中有你的API Key）
-SILICON_FLOW_API_KEY = os.getenv("SILICON_FLOW_API_KEY", "sk-rcbqhobnnnytzvyvqxcfsiaejkaoxmyfsenxpakjbimtegrp")
+# 硅基流动API配置（请确保环境变量中有你的API Key）
+SILICON_FLOW_API_KEY = os.getenv("SILICON_FLOW_API_KEY", "")
 SILICON_FLOW_BASE_URL = "https://api.siliconflow.cn/v1"
 
 class ParserAgent:

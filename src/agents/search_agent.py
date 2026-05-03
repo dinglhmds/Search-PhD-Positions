@@ -51,7 +51,12 @@ class SearchAgent:
         return results
     
 async def main():
-    agent = SearchAgent(serpapi_key="2899dff16c4f3007ab17f00bb2c87f87975d09165e13f295baf928e696dbdc83", top_k=10)
+    import os
+    api_key = os.getenv("SEARCH_API_KEY", "")
+    if not api_key:
+        print("❌ 请先设置 SEARCH_API_KEY 环境变量")
+        return
+    agent = SearchAgent(serpapi_key=api_key, top_k=10)
     results = await agent.search_faculty_pages("uncc.edu")
     for r in results:
         print(f"Title: {r['title']}\nURL: {r['url']}\nSnippet: {r['snippet']}\n")

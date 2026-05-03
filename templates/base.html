@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"><i class="fas fa-graduation-cap"></i> PhD-App</div>
+        <a href="/" class="nav-item {% if active_tab == 'search' %}active{% endif %}"><i class="fas fa-search"></i> 院校检索</a>
+        <a href="/targets" class="nav-item {% if active_tab == 'targets' %}active{% endif %}"><i class="fas fa-star"></i> 意向导师</a>
+        <a href="/profile" class="nav-item {% if active_tab == 'profile' %}active{% endif %}"><i class="fas fa-user-circle"></i> 个人档案</a>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="emailModal">
+        <div class="modal">
+            <div class="modal-header" style="display:flex; justify-content:space-between; align-items:center;">
+                <h3 style="margin:0;"><i class="fas fa-envelope-open-text"></i> 生成套磁信</h3>
+                <button onclick="closeModal()" style="background:none; border:none; cursor:pointer; font-size:1.5rem; color:#64748b;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modalLoading" style="text-align:center; padding: 50px; display:none;">
+                    <div class="spinner"></div>
+                    <p style="margin-top:15px; color:#64748b;">正在分析导师研究方向并结合您的背景撰写邮件...</p>
+                </div>
+                <div id="modalContent" style="display:none;">
+                    <textarea id="emailResult" readonly></textarea>
+                </div>
+                <div id="modalError" style="color:#ef4444; text-align:center; padding:20px; display:none;"></div>
+            </div>
+            <div class="modal-footer" style="text-align: right; display: flex; gap: 10px; justify-content: flex-end;">
+                <button class="btn btn-secondary" onclick="closeModal()">取消</button>
+                <button class="btn" onclick="copyEmail()" id="copyBtn" style="display:none;"><i class="fas fa-copy"></i> 一键复制</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast">操作成功</div>
+
+    <script src="/static/app.js"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
